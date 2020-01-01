@@ -1,0 +1,239 @@
+
+ACER@DESKTOP-E1E9EHH MINGW64 /e/Jiten newPractice/Seleniumdemo
+$ git init
+Initialized empty Git repository in E:/Jiten newPractice/Seleniumdemo/.git/
+
+ACER@DESKTOP-E1E9EHH MINGW64 /e/Jiten newPractice/Seleniumdemo (master)
+$ git branch -a
+
+ACER@DESKTOP-E1E9EHH MINGW64 /e/Jiten newPractice/Seleniumdemo (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        .classpath
+        .gitignore
+        .gitignore.txt
+        .project
+        .settings/
+        Screenshots/
+        lib/
+        run.bat
+        src/
+        test-output/
+        testNG XML/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+ACER@DESKTOP-E1E9EHH MINGW64 /e/Jiten newPractice/Seleniumdemo (master)
+$ git add .
+warning: LF will be replaced by CRLF in .classpath.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in .gitignore.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in .project.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in .settings/org.eclipse.jdt.core.prefs.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/functionlibrary/Reusablefunctions.java.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/practicejava/AutoITimplement.java.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/practicejava/Bootstrapdropdown.java.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/practicejava/Calendarcode.java.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/practicejava/FluentWait.java.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/practicejava/SeleniumPractice.java.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in src/practicejava/Testyoutube.java.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in test-output/Default suite/Default test.html.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in test-output/Default suite/Default test.xml.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in test-output/Default suite/testng-failed.xml.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in test-output/Suite/Test.html.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in test-output/Suite/Test.xml.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in test-output/emailable-report.html.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in test-output/index.html.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in test-output/jquery-1.7.1.min.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in test-output/junitreports/TEST-practicejava.Bootstrapdropdown.xml.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in test-output/junitreports/TEST-practicejava.Calendarcode.xml.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in test-output/junitreports/TEST-practicejava.FluentWait.xml.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in test-output/junitreports/TEST-practicejava.SeleniumPractice.xml.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in test-output/junitreports/TEST-practicejava.Testyoutube.xml.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in test-output/old/Default suite/classes.html.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in test-output/old/Default suite/index.html.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in test-output/old/Default suite/main.html.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in test-output/old/Default suite/methods-alphabetical.html.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in test-output/old/Default suite/methods-not-run.html.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in test-output/old/Default suite/methods.html.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in test-output/old/Default suite/toc.html.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in test-output/old/Suite/classes.html.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in test-output/old/Suite/index.html.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in test-output/old/Suite/main.html.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in test-output/old/Suite/methods-alphabetical.html.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in test-output/old/Suite/methods-not-run.html.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in test-output/old/Suite/methods.html.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in test-output/old/Suite/toc.html.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in test-output/old/index.html.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in test-output/testng-failed.xml.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in test-output/testng-reports.css.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in test-output/testng-reports.js.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in test-output/testng-results.xml.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in test-output/testng.css.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in testNG XML/testng.xml.
+The file will have its original line endings in your working directory
+
+ACER@DESKTOP-E1E9EHH MINGW64 /e/Jiten newPractice/Seleniumdemo (master)
+$ git add README.md
+fatal: pathspec 'README.md' did not match any files
+
+ACER@DESKTOP-E1E9EHH MINGW64 /e/Jiten newPractice/Seleniumdemo (master)
+$ git commit -m "new updated changes"
+[master (root-commit) a54eac2] new updated changes
+ 88 files changed, 1605 insertions(+)
+ create mode 100644 .classpath
+ create mode 100644 .gitignore
+ create mode 100644 .gitignore.txt
+ create mode 100644 .project
+ create mode 100644 .settings/org.eclipse.jdt.core.prefs
+ create mode 100644 Screenshots/+ Googlepageopened.png
+ create mode 100644 Screenshots/+ Testing text typed.png
+ create mode 100644 Screenshots/+ click date successfull.png
+ create mode 100644 Screenshots/+ click done successfully.png
+ create mode 100644 Screenshots/+ dropdownboxclicked.png
+ create mode 100644 lib/byte-buddy-1.8.15.jar
+ create mode 100644 lib/client-combined-3.141.59-sources.jar
+ create mode 100644 lib/client-combined-3.141.59.jar
+ create mode 100644 lib/commons-codec-1.10.jar
+ create mode 100644 lib/commons-collections4-4.1.jar
+ create mode 100644 lib/commons-exec-1.3.jar
+ create mode 100644 lib/commons-logging-1.2.jar
+ create mode 100644 lib/curvesapi-1.04.jar
+ create mode 100644 lib/guava-25.0-jre.jar
+ create mode 100644 lib/junit-4.12.jar
+ create mode 100644 lib/log4j-1.2.17.jar
+ create mode 100644 lib/okhttp-3.11.0.jar
+ create mode 100644 lib/okio-1.14.0.jar
+ create mode 100644 lib/poi-3.16.jar
+ create mode 100644 lib/poi-examples-3.16.jar
+ create mode 100644 lib/poi-excelant-3.16.jar
+ create mode 100644 lib/poi-ooxml-3.16.jar
+ create mode 100644 lib/poi-ooxml-schemas-3.16.jar
+ create mode 100644 lib/poi-scratchpad-3.16.jar
+ create mode 100644 lib/selenium-html-runner-3.141.59.jar
+ create mode 100644 lib/selenium-server-standalone-3.141.59.jar
+ create mode 100644 lib/xmlbeans-2.6.0.jar
+ create mode 100644 run.bat
+ create mode 100644 src/functionlibrary/Reusablefunctions.java
+ create mode 100644 src/practicejava/AutoITimplement.java
+ create mode 100644 src/practicejava/Bootstrapdropdown.java
+ create mode 100644 src/practicejava/Calendarcode.java
+ create mode 100644 src/practicejava/FluentWait.java
+ create mode 100644 src/practicejava/SeleniumPractice.java
+ create mode 100644 src/practicejava/Testyoutube.java
+ create mode 100644 test-output/Default suite/Default test.html
+ create mode 100644 test-output/Default suite/Default test.xml
+ create mode 100644 test-output/Default suite/testng-failed.xml
+ create mode 100644 test-output/Suite/Test.html
+ create mode 100644 test-output/Suite/Test.xml
+ create mode 100644 test-output/bullet_point.png
+ create mode 100644 test-output/collapseall.gif
+ create mode 100644 test-output/emailable-report.html
+ create mode 100644 test-output/failed.png
+ create mode 100644 test-output/index.html
+ create mode 100644 test-output/jquery-1.7.1.min.js
+ create mode 100644 test-output/junitreports/TEST-practicejava.Bootstrapdropdown.xml
+ create mode 100644 test-output/junitreports/TEST-practicejava.Calendarcode.xml
+ create mode 100644 test-output/junitreports/TEST-practicejava.FluentWait.xml
+ create mode 100644 test-output/junitreports/TEST-practicejava.SeleniumPractice.xml
+ create mode 100644 test-output/junitreports/TEST-practicejava.Testyoutube.xml
+ create mode 100644 test-output/navigator-bullet.png
+ create mode 100644 test-output/old/Default suite/Default test.properties
+ create mode 100644 test-output/old/Default suite/classes.html
+ create mode 100644 test-output/old/Default suite/groups.html
+ create mode 100644 test-output/old/Default suite/index.html
+ create mode 100644 test-output/old/Default suite/main.html
+ create mode 100644 test-output/old/Default suite/methods-alphabetical.html
+ create mode 100644 test-output/old/Default suite/methods-not-run.html
+ create mode 100644 test-output/old/Default suite/methods.html
+ create mode 100644 test-output/old/Default suite/reporter-output.html
+ create mode 100644 test-output/old/Default suite/testng.xml.html
+ create mode 100644 test-output/old/Default suite/toc.html
+ create mode 100644 test-output/old/Suite/Test.properties
+ create mode 100644 test-output/old/Suite/classes.html
+ create mode 100644 test-output/old/Suite/groups.html
+ create mode 100644 test-output/old/Suite/index.html
+ create mode 100644 test-output/old/Suite/main.html
+ create mode 100644 test-output/old/Suite/methods-alphabetical.html
+ create mode 100644 test-output/old/Suite/methods-not-run.html
+ create mode 100644 test-output/old/Suite/methods.html
+ create mode 100644 test-output/old/Suite/reporter-output.html
+ create mode 100644 test-output/old/Suite/testng.xml.html
+ create mode 100644 test-output/old/Suite/toc.html
+ create mode 100644 test-output/old/index.html
+ create mode 100644 test-output/passed.png
+ create mode 100644 test-output/skipped.png
+ create mode 100644 test-output/testng-failed.xml
+ create mode 100644 test-output/testng-reports.css
+ create mode 100644 test-output/testng-reports.js
+ create mode 100644 test-output/testng-results.xml
+ create mode 100644 test-output/testng.css
+ create mode 100644 testNG XML/testng.xml
+
+ACER@DESKTOP-E1E9EHH MINGW64 /e/Jiten newPractice/Seleniumdemo (master)
+$ git remote add origin git@github.com:log2jiten24/Seleniumscripts.git
+
+ACER@DESKTOP-E1E9EHH MINGW64 /e/Jiten newPractice/Seleniumdemo (master)
+$ git push -u origin master
+Enumerating objects: 100, done.
+Counting objects: 100% (100/100), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (92/92), done.
+Writing objects: 100% (100/100), 30.00 MiB | 60.00 KiB/s, done.
+Total 100 (delta 19), reused 0 (delta 0)
+remote: Resolving deltas: 100% (19/19), done.
+To github.com:log2jiten24/Seleniumscripts.git
+ * [new branch]      master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+
+ACER@DESKTOP-E1E9EHH MINGW64 /e/Jiten newPractice/Seleniumdemo (master)
+$

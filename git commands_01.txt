@@ -1,0 +1,371 @@
+
+ACER@DESKTOP-E1E9EHH MINGW64 /e/Jiten newPractice/Seleniumdemo
+$ git branch -a
+fatal: not a git repository (or any of the parent directories): .git
+
+ACER@DESKTOP-E1E9EHH MINGW64 /e/Jiten newPractice/Seleniumdemo
+$ git init
+Initialized empty Git repository in E:/Jiten newPractice/Seleniumdemo/.git/
+
+ACER@DESKTOP-E1E9EHH MINGW64 /e/Jiten newPractice/Seleniumdemo (master)
+$ git checkout -b
+error: switch `b' requires a value
+
+ACER@DESKTOP-E1E9EHH MINGW64 /e/Jiten newPractice/Seleniumdemo (master)
+$ git checkout -b newprojectbranch
+Switched to a new branch 'newprojectbranch'
+
+ACER@DESKTOP-E1E9EHH MINGW64 /e/Jiten newPractice/Seleniumdemo (newprojectbranch)
+$ git staus
+git: 'staus' is not a git command. See 'git --help'.
+
+The most similar command is
+        status
+
+ACER@DESKTOP-E1E9EHH MINGW64 /e/Jiten newPractice/Seleniumdemo (newprojectbranch)
+$ git status
+On branch newprojectbranch
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        .classpath
+        .project
+        .settings/
+        Screenshots/
+        bin/
+        lib/
+        run.bat
+        src/
+        test-output/
+        testNG XML/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+ACER@DESKTOP-E1E9EHH MINGW64 /e/Jiten newPractice/Seleniumdemo (newprojectbranch)
+$ git status
+On branch newprojectbranch
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        .classpath
+        .gitignore.txt
+        .project
+        .settings/
+        Screenshots/
+        bin/
+        lib/
+        run.bat
+        src/
+        test-output/
+        testNG XML/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+ACER@DESKTOP-E1E9EHH MINGW64 /e/Jiten newPractice/Seleniumdemo (newprojectbranch)
+$ git add .
+warning: LF will be replaced by CRLF in test-output/Default suite/Default test.html.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in test-output/Default suite/Default test.xml.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in test-output/Suite/Test.html.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in test-output/Suite/Test.xml.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in test-output/index.html.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in test-output/junitreports/TEST-practicejava.Bootstrapdropdown.xml.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in test-output/junitreports/TEST-practicejava.Calendarcode.xml.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in test-output/junitreports/TEST-practicejava.FluentWait.xml.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in test-output/junitreports/TEST-practicejava.SeleniumPractice.xml.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in test-output/junitreports/TEST-practicejava.Testyoutube.xml.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in test-output/old/Default suite/classes.html.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in test-output/old/Default suite/index.html.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in test-output/old/Default suite/main.html.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in test-output/old/Default suite/methods-alphabetical.html.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in test-output/old/Default suite/methods-not-run.html.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in test-output/old/Default suite/methods.html.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in test-output/old/Default suite/toc.html.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in test-output/old/Suite/classes.html.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in test-output/old/Suite/index.html.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in test-output/old/Suite/main.html.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in test-output/old/Suite/methods-alphabetical.html.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in test-output/old/Suite/methods-not-run.html.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in test-output/old/Suite/methods.html.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in test-output/old/Suite/toc.html.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in test-output/old/index.html.
+The file will have its original line endings in your working directory
+
+ACER@DESKTOP-E1E9EHH MINGW64 /e/Jiten newPractice/Seleniumdemo (newprojectbranch)
+$ git commit -m "updated changes"
+[newprojectbranch (root-commit) 8938896] updated changes
+ 95 files changed, 1604 insertions(+)
+ create mode 100644 .classpath
+ create mode 100644 .gitignore.txt
+ create mode 100644 .project
+ create mode 100644 .settings/org.eclipse.jdt.core.prefs
+ create mode 100644 Screenshots/+ Googlepageopened.png
+ create mode 100644 Screenshots/+ Testing text typed.png
+ create mode 100644 Screenshots/+ click date successfull.png
+ create mode 100644 Screenshots/+ click done successfully.png
+ create mode 100644 Screenshots/+ dropdownboxclicked.png
+ create mode 100644 bin/functionlibrary/Reusablefunctions.class
+ create mode 100644 bin/practicejava/AutoITimplement.class
+ create mode 100644 bin/practicejava/Bootstrapdropdown.class
+ create mode 100644 bin/practicejava/Calendarcode.class
+ create mode 100644 bin/practicejava/FluentWait$1.class
+ create mode 100644 bin/practicejava/FluentWait.class
+ create mode 100644 bin/practicejava/SeleniumPractice.class
+ create mode 100644 bin/practicejava/Testyoutube.class
+ create mode 100644 lib/byte-buddy-1.8.15.jar
+ create mode 100644 lib/client-combined-3.141.59-sources.jar
+ create mode 100644 lib/client-combined-3.141.59.jar
+ create mode 100644 lib/commons-codec-1.10.jar
+ create mode 100644 lib/commons-collections4-4.1.jar
+ create mode 100644 lib/commons-exec-1.3.jar
+ create mode 100644 lib/commons-logging-1.2.jar
+ create mode 100644 lib/curvesapi-1.04.jar
+ create mode 100644 lib/guava-25.0-jre.jar
+ create mode 100644 lib/junit-4.12.jar
+ create mode 100644 lib/log4j-1.2.17.jar
+ create mode 100644 lib/okhttp-3.11.0.jar
+ create mode 100644 lib/okio-1.14.0.jar
+ create mode 100644 lib/poi-3.16.jar
+ create mode 100644 lib/poi-examples-3.16.jar
+ create mode 100644 lib/poi-excelant-3.16.jar
+ create mode 100644 lib/poi-ooxml-3.16.jar
+ create mode 100644 lib/poi-ooxml-schemas-3.16.jar
+ create mode 100644 lib/poi-scratchpad-3.16.jar
+ create mode 100644 lib/selenium-html-runner-3.141.59.jar
+ create mode 100644 lib/selenium-server-standalone-3.141.59.jar
+ create mode 100644 lib/xmlbeans-2.6.0.jar
+ create mode 100644 run.bat
+ create mode 100644 src/functionlibrary/Reusablefunctions.java
+ create mode 100644 src/practicejava/AutoITimplement.java
+ create mode 100644 src/practicejava/Bootstrapdropdown.java
+ create mode 100644 src/practicejava/Calendarcode.java
+ create mode 100644 src/practicejava/FluentWait.java
+ create mode 100644 src/practicejava/SeleniumPractice.java
+ create mode 100644 src/practicejava/Testyoutube.java
+ create mode 100644 test-output/Default suite/Default test.html
+ create mode 100644 test-output/Default suite/Default test.xml
+ create mode 100644 test-output/Default suite/testng-failed.xml
+ create mode 100644 test-output/Suite/Test.html
+ create mode 100644 test-output/Suite/Test.xml
+ create mode 100644 test-output/bullet_point.png
+ create mode 100644 test-output/collapseall.gif
+ create mode 100644 test-output/emailable-report.html
+ create mode 100644 test-output/failed.png
+ create mode 100644 test-output/index.html
+ create mode 100644 test-output/jquery-1.7.1.min.js
+ create mode 100644 test-output/junitreports/TEST-practicejava.Bootstrapdropdown.xml
+ create mode 100644 test-output/junitreports/TEST-practicejava.Calendarcode.xml
+ create mode 100644 test-output/junitreports/TEST-practicejava.FluentWait.xml
+ create mode 100644 test-output/junitreports/TEST-practicejava.SeleniumPractice.xml
+ create mode 100644 test-output/junitreports/TEST-practicejava.Testyoutube.xml
+ create mode 100644 test-output/navigator-bullet.png
+ create mode 100644 test-output/old/Default suite/Default test.properties
+ create mode 100644 test-output/old/Default suite/classes.html
+ create mode 100644 test-output/old/Default suite/groups.html
+ create mode 100644 test-output/old/Default suite/index.html
+ create mode 100644 test-output/old/Default suite/main.html
+ create mode 100644 test-output/old/Default suite/methods-alphabetical.html
+ create mode 100644 test-output/old/Default suite/methods-not-run.html
+ create mode 100644 test-output/old/Default suite/methods.html
+ create mode 100644 test-output/old/Default suite/reporter-output.html
+ create mode 100644 test-output/old/Default suite/testng.xml.html
+ create mode 100644 test-output/old/Default suite/toc.html
+ create mode 100644 test-output/old/Suite/Test.properties
+ create mode 100644 test-output/old/Suite/classes.html
+ create mode 100644 test-output/old/Suite/groups.html
+ create mode 100644 test-output/old/Suite/index.html
+ create mode 100644 test-output/old/Suite/main.html
+ create mode 100644 test-output/old/Suite/methods-alphabetical.html
+ create mode 100644 test-output/old/Suite/methods-not-run.html
+ create mode 100644 test-output/old/Suite/methods.html
+ create mode 100644 test-output/old/Suite/reporter-output.html
+ create mode 100644 test-output/old/Suite/testng.xml.html
+ create mode 100644 test-output/old/Suite/toc.html
+ create mode 100644 test-output/old/index.html
+ create mode 100644 test-output/passed.png
+ create mode 100644 test-output/skipped.png
+ create mode 100644 test-output/testng-failed.xml
+ create mode 100644 test-output/testng-reports.css
+ create mode 100644 test-output/testng-reports.js
+ create mode 100644 test-output/testng-results.xml
+ create mode 100644 test-output/testng.css
+ create mode 100644 testNG XML/testng.xml
+
+ACER@DESKTOP-E1E9EHH MINGW64 /e/Jiten newPractice/Seleniumdemo (newprojectbranch)
+$ git status
+On branch newprojectbranch
+nothing to commit, working tree clean
+
+ACER@DESKTOP-E1E9EHH MINGW64 /e/Jiten newPractice/Seleniumdemo (newprojectbranch)
+$ git remote add origin git@github.com:log2jiten24/Testjitenobject.git
+
+ACER@DESKTOP-E1E9EHH MINGW64 /e/Jiten newPractice/Seleniumdemo (newprojectbranch)
+$ git push origin newprojectbranch
+The authenticity of host 'github.com (192.30.255.112)' can't be established.
+RSA key fingerprint is SHA256:nThbg6kXUpJWGl7E1IGOCspRomTxdCARLviKw6E5SY8.
+Are you sure you want to continue connecting (yes/no)? yes
+Warning: Permanently added 'github.com,192.30.255.112' (RSA) to the list of known hosts.
+Enumerating objects: 110, done.
+Counting objects: 100% (110/110), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (103/103), done.
+Writing objects: 100% (110/110), 32.45 MiB | 66.00 KiB/s, done.
+Total 110 (delta 19), reused 0 (delta 0)
+remote: Resolving deltas: 100% (19/19), done.
+remote:
+remote: Create a pull request for 'newprojectbranch' on GitHub by visiting:
+remote:      https://github.com/log2jiten24/Testjitenobject/pull/new/newprojectbranch
+remote:
+To github.com:log2jiten24/Testjitenobject.git
+ * [new branch]      newprojectbranch -> newprojectbranch
+
+ACER@DESKTOP-E1E9EHH MINGW64 /e/Jiten newPractice/Seleniumdemo (newprojectbranch)
+$ git checkout master
+error: pathspec 'master' did not match any file(s) known to git
+
+ACER@DESKTOP-E1E9EHH MINGW64 /e/Jiten newPractice/Seleniumdemo (newprojectbranch)
+$ git branch -b
+error: unknown switch `b'
+usage: git branch [<options>] [-r | -a] [--merged | --no-merged]
+   or: git branch [<options>] [-l] [-f] <branch-name> [<start-point>]
+   or: git branch [<options>] [-r] (-d | -D) <branch-name>...
+   or: git branch [<options>] (-m | -M) [<old-branch>] <new-branch>
+   or: git branch [<options>] (-c | -C) [<old-branch>] <new-branch>
+   or: git branch [<options>] [-r | -a] [--points-at]
+   or: git branch [<options>] [-r | -a] [--format]
+
+Generic options
+    -v, --verbose         show hash and subject, give twice for upstream branch
+    -q, --quiet           suppress informational messages
+    -t, --track           set up tracking mode (see git-pull(1))
+    -u, --set-upstream-to <upstream>
+                          change the upstream info
+    --unset-upstream      Unset the upstream info
+    --color[=<when>]      use colored output
+    -r, --remotes         act on remote-tracking branches
+    --contains <commit>   print only branches that contain the commit
+    --no-contains <commit>
+                          print only branches that don't contain the commit
+    --abbrev[=<n>]        use <n> digits to display SHA-1s
+
+Specific git-branch actions:
+    -a, --all             list both remote-tracking and local branches
+    -d, --delete          delete fully merged branch
+    -D                    delete branch (even if not merged)
+    -m, --move            move/rename a branch and its reflog
+    -M                    move/rename a branch, even if target exists
+    -c, --copy            copy a branch and its reflog
+    -C                    copy a branch, even if target exists
+    -l, --list            list branch names
+    --create-reflog       create the branch's reflog
+    --edit-description    edit the description for the branch
+    -f, --force           force creation, move/rename, deletion
+    --merged <commit>     print only branches that are merged
+    --no-merged <commit>  print only branches that are not merged
+    --column[=<style>]    list branches in columns
+    --sort <key>          field name to sort on
+    --points-at <object>  print only branches of the object
+    -i, --ignore-case     sorting and filtering are case insensitive
+    --format <format>     format to use for the output
+
+
+ACER@DESKTOP-E1E9EHH MINGW64 /e/Jiten newPractice/Seleniumdemo (newprojectbranch)
+$ git checkout
+
+ACER@DESKTOP-E1E9EHH MINGW64 /e/Jiten newPractice/Seleniumdemo (newprojectbranch)
+$ git checkout master
+error: pathspec 'master' did not match any file(s) known to git
+
+ACER@DESKTOP-E1E9EHH MINGW64 /e/Jiten newPractice/Seleniumdemo (newprojectbranch)
+$ git checkout master
+error: pathspec 'master' did not match any file(s) known to git
+
+ACER@DESKTOP-E1E9EHH MINGW64 /e/Jiten newPractice/Seleniumdemo (newprojectbranch)
+$ git status
+On branch newprojectbranch
+nothing to commit, working tree clean
+
+ACER@DESKTOP-E1E9EHH MINGW64 /e/Jiten newPractice/Seleniumdemo (newprojectbranch)
+$ git pull
+remote: Enumerating objects: 416, done.
+remote: Counting objects: 100% (416/416), done.
+remote: Compressing objects: 100% (175/175), done.
+remote: Total 416 (delta 220), reused 416 (delta 220), pack-reused 0
+Receiving objects: 100% (416/416), 54.05 MiB | 847.00 KiB/s, done.
+Resolving deltas: 100% (220/220), done.
+From github.com:log2jiten24/Testjitenobject
+ * [new branch]      master     -> origin/master
+There is no tracking information for the current branch.
+Please specify which branch you want to merge with.
+See git-pull(1) for details.
+
+    git pull <remote> <branch>
+
+If you wish to set tracking information for this branch you can do so with:
+
+    git branch --set-upstream-to=origin/<branch> newprojectbranch
+
+
+ACER@DESKTOP-E1E9EHH MINGW64 /e/Jiten newPractice/Seleniumdemo (newprojectbranch)
+$ git checkout master
+Checking out files: 100% (292/292), done.
+Switched to a new branch 'master'
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+
+ACER@DESKTOP-E1E9EHH MINGW64 /e/Jiten newPractice/Seleniumdemo (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
+
+ACER@DESKTOP-E1E9EHH MINGW64 /e/Jiten newPractice/Seleniumdemo (master)
+$ git push origin master
+Warning: Permanently added the RSA host key for IP address '192.30.255.113' to the list of known hosts.
+Everything up-to-date
+
+ACER@DESKTOP-E1E9EHH MINGW64 /e/Jiten newPractice/Seleniumdemo (master)
+$ git pull
+Already up to date.
+
+ACER@DESKTOP-E1E9EHH MINGW64 /e/Jiten newPractice/Seleniumdemo (master)
+$ git checkout newprojectbranch
+Checking out files: 100% (292/292), done.
+Switched to branch 'newprojectbranch'
+
+ACER@DESKTOP-E1E9EHH MINGW64 /e/Jiten newPractice/Seleniumdemo (newprojectbranch)
+$ git status
+On branch newprojectbranch
+nothing to commit, working tree clean
+
+ACER@DESKTOP-E1E9EHH MINGW64 /e/Jiten newPractice/Seleniumdemo (newprojectbranch)
+$

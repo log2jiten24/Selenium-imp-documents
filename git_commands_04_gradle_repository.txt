@@ -1,0 +1,68 @@
+
+ACER@DESKTOP-E1E9EHH MINGW64 /e/Jiten newPractice/SeleniumGradle (master)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        modified:   src/test/java/Inheritanceconcept/Childclass.java
+        modified:   src/test/java/Inheritanceconcept/Parentclass.java
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        src/test/java/javaconcepts/Constructorconcepts.java
+        src/test/java/javaconcepts/Constructorwiththiskeyword.java
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+ACER@DESKTOP-E1E9EHH MINGW64 /e/Jiten newPractice/SeleniumGradle (master)
+$ git add .
+
+ACER@DESKTOP-E1E9EHH MINGW64 /e/Jiten newPractice/SeleniumGradle (master)
+$ git staus
+git: 'staus' is not a git command. See 'git --help'.
+
+Did you mean this?
+        status
+
+ACER@DESKTOP-E1E9EHH MINGW64 /e/Jiten newPractice/SeleniumGradle (master)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        modified:   src/test/java/Inheritanceconcept/Childclass.java
+        modified:   src/test/java/Inheritanceconcept/Parentclass.java
+        new file:   src/test/java/javaconcepts/Constructorconcepts.java
+        new file:   src/test/java/javaconcepts/Constructorwiththiskeyword.java
+
+
+ACER@DESKTOP-E1E9EHH MINGW64 /e/Jiten newPractice/SeleniumGradle (master)
+$ git commit -m "Constructor code changes"
+[master d9b8658] Constructor code changes
+ 4 files changed, 203 insertions(+), 72 deletions(-)
+ rewrite src/test/java/Inheritanceconcept/Childclass.java (90%)
+ create mode 100644 src/test/java/javaconcepts/Constructorconcepts.java
+ create mode 100644 src/test/java/javaconcepts/Constructorwiththiskeyword.java
+
+ACER@DESKTOP-E1E9EHH MINGW64 /e/Jiten newPractice/SeleniumGradle (master)
+$ git push origin master
+Warning: Permanently added the RSA host key for IP address '64:ff9b::dea:b066' t                                                                                                                                  o the list of known hosts.
+Counting objects: 11, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (10/10), done.
+Writing objects: 100% (11/11), 2.74 KiB | 0 bytes/s, done.
+Total 11 (delta 5), reused 0 (delta 0)
+remote: Resolving deltas: 100% (5/5), completed with 5 local objects.
+To git@github.com:log2jiten24/Gradle-Repository.git
+   d253abe..d9b8658  master -> master
+
+ACER@DESKTOP-E1E9EHH MINGW64 /e/Jiten newPractice/SeleniumGradle (master)
+$ ^C
+
+ACER@DESKTOP-E1E9EHH MINGW64 /e/Jiten newPractice/SeleniumGradle (master)
+$

@@ -1,0 +1,178 @@
+
+
+                        ##         .
+                  ## ## ##        ==
+               ## ## ## ## ##    ===
+           /"""""""""""""""""\___/ ===
+      ~~~ {~~ ~~~~ ~~~ ~~~~ ~~~ ~ /  ===- ~~~
+           \______ o           __/
+             \    \         __/
+              \____\_______/
+
+docker is configured to use the default machine with IP 192.168.99.100
+For help getting started, check out the docs at https://docs.docker.com
+
+
+Start interactive shell
+
+ACER@DESKTOP-E1E9EHH MINGW64 /c/Program Files/Docker Toolbox
+$ docker --version
+Docker version 19.03.1, build 74b1e89e8a
+
+ACER@DESKTOP-E1E9EHH MINGW64 /c/Program Files/Docker Toolbox
+$ docker images
+REPOSITORY                   TAG                 IMAGE ID            CREATED             SIZE
+selenium/node-chrome-debug   latest              1a195a0706de        2 months ago        871MB
+selenium/hub                 latest              4d13e18756fe        2 months ago        263MB
+hello-world                  latest              fce289e99eb9        9 months ago        1.84kB
+
+ACER@DESKTOP-E1E9EHH MINGW64 /c/Program Files/Docker Toolbox
+$ docker pull selenium/standalone-chrome
+Using default tag: latest
+latest: Pulling from selenium/standalone-chrome
+5b7339215d1d: Already exists
+14ca88e9f672: Already exists
+a31c3b1caad4: Already exists
+b054a26005b7: Already exists
+f4ee793585d1: Pulling fs layer
+f88156d53957: Pulling fs layer
+90667e71acb1: Pulling fs layer
+21fff62cdce8: Pulling fs layer
+20283162a476: Pulling fs layer
+73314505cc4f: Pulling fs layer
+f55a6b51dfad: Pulling fs layer
+6f0e7652e1df: Pulling fs layer
+4463719e9917: Pulling fs layer
+1e559f5c4736: Pulling fs layer
+358596d15fa4: Pulling fs layer
+4903af95b352: Pulling fs layer
+424941093c20: Pulling fs layer
+b7fbd3e0b7e2: Pulling fs layer
+3fe3ffb4dba5: Pulling fs layer
+13c4e6fe3e17: Pulling fs layer
+6bf4f5463d75: Pulling fs layer
+08fb574153e2: Pulling fs layer
+22a648d0f0b9: Pulling fs layer
+f0a0b48f4450: Pulling fs layer
+bb019cc37fdf: Pulling fs layer
+21fff62cdce8: Waiting
+20283162a476: Waiting
+73314505cc4f: Waiting
+f55a6b51dfad: Waiting
+6f0e7652e1df: Waiting
+4463719e9917: Waiting
+1e559f5c4736: Waiting
+358596d15fa4: Waiting
+4903af95b352: Waiting
+424941093c20: Waiting
+b7fbd3e0b7e2: Waiting
+3fe3ffb4dba5: Waiting
+13c4e6fe3e17: Waiting
+6bf4f5463d75: Waiting
+08fb574153e2: Waiting
+22a648d0f0b9: Waiting
+f0a0b48f4450: Waiting
+bb019cc37fdf: Waiting
+f4ee793585d1: Verifying Checksum
+f4ee793585d1: Download complete
+f4ee793585d1: Pull complete
+21fff62cdce8: Verifying Checksum
+21fff62cdce8: Download complete
+90667e71acb1: Verifying Checksum
+90667e71acb1: Download complete
+20283162a476: Verifying Checksum
+20283162a476: Download complete
+73314505cc4f: Verifying Checksum
+73314505cc4f: Download complete
+f55a6b51dfad: Verifying Checksum
+f55a6b51dfad: Download complete
+88156d53957: Verifying Checksum
+f88156d53957: Download complete
+4463719e9917: Verifying Checksum
+4463719e9917: Download complete
+6f0e7652e1df: Verifying Checksum
+6f0e7652e1df: Download complete
+358596d15fa4: Verifying Checksum
+358596d15fa4: Download complete
+f88156d53957: Pull complete
+90667e71acb1: Pull complete
+4903af95b352: Verifying Checksum
+4903af95b352: Download complete
+21fff62cdce8: Pull complete
+20283162a476: Pull complete
+73314505cc4f: Pull complete
+f55a6b51dfad: Pull complete
+424941093c20: Verifying Checksum
+424941093c20: Download complete
+6f0e7652e1df: Pull complete
+3fe3ffb4dba5: Verifying Checksum
+3fe3ffb4dba5: Download complete
+4463719e9917: Pull complete
+13c4e6fe3e17: Verifying Checksum
+13c4e6fe3e17: Download complete
+6bf4f5463d75: Verifying Checksum
+6bf4f5463d75: Download complete
+08fb574153e2: Verifying Checksum
+08fb574153e2: Download complete
+22a648d0f0b9: Verifying Checksum
+22a648d0f0b9: Download complete
+1e559f5c4736: Verifying Checksum
+1e559f5c4736: Download complete
+f0a0b48f4450: Verifying Checksum
+f0a0b48f4450: Download complete
+1e559f5c4736: Pull complete
+358596d15fa4: Pull complete
+4903af95b352: Pull complete
+424941093c20: Pull complete
+bb019cc37fdf: Verifying Checksum
+bb019cc37fdf: Download complete
+b7fbd3e0b7e2: Verifying Checksum
+b7fbd3e0b7e2: Download complete
+b7fbd3e0b7e2: Pull complete
+3fe3ffb4dba5: Pull complete
+13c4e6fe3e17: Pull complete
+6bf4f5463d75: Pull complete
+08fb574153e2: Pull complete
+22a648d0f0b9: Pull complete
+f0a0b48f4450: Pull complete
+bb019cc37fdf: Pull complete
+Digest: sha256:d0ed6e04a4b87850beb023e3693c453b825b938af48733c1c56fc671cd41fe51
+Status: Downloaded newer image for selenium/standalone-chrome:latest
+docker.io/selenium/standalone-chrome:latest
+
+ACER@DESKTOP-E1E9EHH MINGW64 /c/Program Files/Docker Toolbox
+$ docker images
+REPOSITORY                   TAG                 IMAGE ID            CREATED             SIZE
+selenium/standalone-chrome   latest              da74f3fdcfe2        24 hours ago        852MB
+selenium/node-chrome-debug   latest              1a195a0706de        2 months ago        871MB
+selenium/hub                 latest              4d13e18756fe        2 months ago        263MB
+hello-world                  latest              fce289e99eb9        9 months ago        1.84kB
+
+ACER@DESKTOP-E1E9EHH MINGW64 /c/Program Files/Docker Toolbox
+$ docker images --help
+
+Usage:  docker images [OPTIONS] [REPOSITORY[:TAG]]
+
+List images
+
+Options:
+  -a, --all             Show all images (default hides intermediate images)
+      --digests         Show digests
+  -f, --filter filter   Filter output based on conditions provided
+      --format string   Pretty-print images using a Go template
+      --no-trunc        Don't truncate output
+  -q, --quiet           Only show numeric IDs
+
+ACER@DESKTOP-E1E9EHH MINGW64 /c/Program Files/Docker Toolbox
+$ docker run selenium/standalone-chrome
+2019-10-24 18:35:46,890 INFO Included extra file "/etc/supervisor/conf.d/selenium.conf" during parsing
+2019-10-24 18:35:46,893 INFO supervisord started with pid 7
+2019-10-24 18:35:47,899 INFO spawned: 'xvfb' with pid 10
+2019-10-24 18:35:47,910 INFO spawned: 'selenium-standalone' with pid 11
+18:35:48.600 INFO [GridLauncherV3.parse] - Selenium server version: 3.141.59, revision: e82be7d358
+2019-10-24 18:35:48,602 INFO success: xvfb entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+2019-10-24 18:35:48,603 INFO success: selenium-standalone entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+18:35:48.818 INFO [GridLauncherV3.lambda$buildLaunchers$3] - Launching a standalone Selenium Server on port 4444
+2019-10-24 18:35:48.945:INFO::main: Logging initialized @964ms to org.seleniumhq.jetty9.util.log.StdErrLog
+18:35:49.440 INFO [WebDriverServlet.<init>] - Initialising WebDriverServlet
+18:35:49.628 INFO [SeleniumServer.boot] - Selenium Server is up and running on port 4444

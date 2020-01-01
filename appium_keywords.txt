@@ -1,0 +1,1155 @@
+Microsoft Windows [Version 10.0.17134.1006]
+(c) 2018 Microsoft Corporation. All rights reserved.
+
+C:\Users\ACER>appium --address localhost --port 4730
+[Appium] Welcome to Appium v1.14.2
+[Appium] Non-default server args:
+[Appium]   address: localhost
+[Appium]   port: 4730
+[Appium] Appium REST http interface listener started on localhost:4730
+[HTTP] --> POST /wd/hub/session
+[HTTP] {"desiredCapabilities":{"app":"E:\\jar_files_selenium\\Mobile Automation_appium\\EriBank.apk","appActivity":".LoginActivity","appPackage":"com.experitest.ExperiBank","automationName":"UiAutomator2","platformName":"Android","deviceName":"AndroidOnePlus"},"capabilities":{"firstMatch":[{"appium:app":"E:\\jar_files_selenium\\Mobile Automation_appium\\EriBank.apk","appium:appActivity":".LoginActivity","appium:appPackage":"com.experitest.ExperiBank","appium:automationName":"UiAutomator2","appium:deviceName":"AndroidOnePlus","platformName":"android"}]}}
+[debug] [W3C] Calling AppiumDriver.createSession() with args: [{"app":"E:\\jar_files_selenium\\Mobile Automation_appium\\EriBank.apk","appActivity":".LoginActivity","appPackage":"com.experitest.ExperiBank","automationName":"UiAutomator2","platformName":"Android","deviceName":"AndroidOnePlus"},null,{"firstMatch":[{"appium:app":"E:\\jar_files_selenium\\Mobile Automation_appium\\EriBank.apk","appium:appActivity":".LoginActivity","appium:appPackage":"com.experitest.ExperiBank","appium:automationName":"UiAutomator2","appium:deviceName":"AndroidOnePlus","platformName":"android"}]}]
+[debug] [BaseDriver] Event 'newSessionRequested' logged at 1568655264253 (23:04:24 GMT+0530 (India Standard Time))
+[Appium] Appium v1.14.2 creating new AndroidUiautomator2Driver (v1.33.1) session
+[Appium] Capabilities:
+[Appium]   platformName: android
+[Appium]   app: E:\jar_files_selenium\Mobile Automation_appium\EriBank.apk
+[Appium]   appActivity: .LoginActivity
+[Appium]   appPackage: com.experitest.ExperiBank
+[Appium]   automationName: UiAutomator2
+[Appium]   deviceName: AndroidOnePlus
+[debug] [BaseDriver] W3C capabilities {"alwaysMatch":{"platformNa... and MJSONWP desired capabilities {"app":"E:\\jar_files_selen... were provided
+[debug] [BaseDriver] Creating session with W3C capabilities: {"alwaysMatch":{"platformNa...
+[BaseDriver] Session created with session id: 82041a1c-d8ed-4bb5-b987-03c44cd88c39
+[BaseDriver] Using local app 'E:\jar_files_selenium\Mobile Automation_appium\EriBank.apk'
+[debug] [UiAutomator2] Checking whether app is actually present
+[ADB] Found 5 'build-tools' folders under 'E:\jar_files_selenium\Mobile Automation_Appium\android-sdk' (newest first):
+[ADB]     E:/jar_files_selenium/Mobile Automation_Appium/android-sdk/build-tools/28.0.3
+[ADB]     E:/jar_files_selenium/Mobile Automation_Appium/android-sdk/build-tools/28.0.2
+[ADB]     E:/jar_files_selenium/Mobile Automation_Appium/android-sdk/build-tools/28.0.1
+[ADB]     E:/jar_files_selenium/Mobile Automation_Appium/android-sdk/build-tools/28.0.0
+[ADB]     E:/jar_files_selenium/Mobile Automation_Appium/android-sdk/build-tools/19.1.0
+[ADB] Using 'adb.exe' from 'E:\jar_files_selenium\Mobile Automation_Appium\android-sdk\platform-tools\adb.exe'
+[AndroidDriver] Retrieving device list
+[debug] [ADB] Trying to find a connected android device
+[debug] [ADB] Getting connected devices...
+[debug] [ADB] 1 device(s) connected
+[AndroidDriver] Using device: c011a0d6
+[ADB] Using 'adb.exe' from 'E:\jar_files_selenium\Mobile Automation_Appium\android-sdk\platform-tools\adb.exe'
+[debug] [ADB] Setting device id to c011a0d6
+[debug] [ADB] Running 'E:\jar_files_selenium\Mobile Automation_Appium\android-sdk\platform-tools\adb.exe -P 5037 -s c011a0d6 shell getprop ro.build.version.sdk'
+[debug] [ADB] Current device property 'ro.build.version.sdk': 28
+[debug] [ADB] Running 'E:\jar_files_selenium\Mobile Automation_Appium\android-sdk\platform-tools\adb.exe -P 5037 -s c011a0d6 shell getprop ro.build.version.release'
+[debug] [ADB] Current device property 'ro.build.version.release': 9
+[debug] [ADB] Device API level: 28
+[UiAutomator2] Relaxing hidden api policy
+[debug] [ADB] Running 'E:\jar_files_selenium\Mobile Automation_Appium\android-sdk\platform-tools\adb.exe -P 5037 -s c011a0d6 shell settings put global hidden_api_policy_pre_p_apps 1'
+[debug] [ADB] Running 'E:\jar_files_selenium\Mobile Automation_Appium\android-sdk\platform-tools\adb.exe -P 5037 -s c011a0d6 shell settings put global hidden_api_policy_p_apps 1'
+[debug] [ADB] Running 'E:\jar_files_selenium\Mobile Automation_Appium\android-sdk\platform-tools\adb.exe -P 5037 -s c011a0d6 shell settings put global hidden_api_policy 1'
+[debug] [ADB] Running 'E:\jar_files_selenium\Mobile Automation_Appium\android-sdk\platform-tools\adb.exe -P 5037 -s c011a0d6 wait-for-device'
+[debug] [ADB] Running 'E:\jar_files_selenium\Mobile Automation_Appium\android-sdk\platform-tools\adb.exe -P 5037 -s c011a0d6 shell echo ping'
+[debug] [AndroidDriver] Pushing settings apk to device...
+[debug] [ADB] Getting install status for io.appium.settings
+[debug] [ADB] Running 'E:\jar_files_selenium\Mobile Automation_Appium\android-sdk\platform-tools\adb.exe -P 5037 -s c011a0d6 shell dumpsys package io.appium.settings'
+[debug] [ADB] 'io.appium.settings' is installed
+[debug] [ADB] Getting package info for 'io.appium.settings'
+[debug] [ADB] Running 'E:\jar_files_selenium\Mobile Automation_Appium\android-sdk\platform-tools\adb.exe -P 5037 -s c011a0d6 shell dumpsys package io.appium.settings'
+[ADB] Using 'aapt.exe' from 'E:\jar_files_selenium\Mobile Automation_Appium\android-sdk\build-tools\28.0.3\aapt.exe'
+[debug] [ADB] The version name of the installed 'io.appium.settings' is greater or equal to the application version name ('2.14.1' >= '2.14.1')
+[debug] [ADB] There is no need to install/upgrade 'C:\Users\ACER\AppData\Roaming\npm\node_modules\appium\node_modules\io.appium.settings\apks\settings_apk-debug.apk'
+[debug] [ADB] Getting IDs of all 'io.appium.settings' processes
+[debug] [ADB] Running 'E:\jar_files_selenium\Mobile Automation_Appium\android-sdk\platform-tools\adb.exe -P 5037 -s c011a0d6 shell 'pgrep --help; echo $?''
+[debug] [ADB] Running 'E:\jar_files_selenium\Mobile Automation_Appium\android-sdk\platform-tools\adb.exe -P 5037 -s c011a0d6 shell pgrep -f io\\.appium\\.settings'
+[debug] [AndroidDriver] io.appium.settings is already running. There is no need to reset its permissions.
+[debug] [ADB] Running 'E:\jar_files_selenium\Mobile Automation_Appium\android-sdk\platform-tools\adb.exe -P 5037 -s c011a0d6 shell appops set io.appium.settings android\:mock_location allow'
+[debug] [Logcat] Starting logcat capture
+[debug] [ADB] Getting install status for io.appium.uiautomator2.server
+[debug] [ADB] Running 'E:\jar_files_selenium\Mobile Automation_Appium\android-sdk\platform-tools\adb.exe -P 5037 -s c011a0d6 shell dumpsys package io.appium.uiautomator2.server'
+[debug] [ADB] 'io.appium.uiautomator2.server' is installed
+[debug] [ADB] Getting package info for 'io.appium.uiautomator2.server'
+[debug] [ADB] Running 'E:\jar_files_selenium\Mobile Automation_Appium\android-sdk\platform-tools\adb.exe -P 5037 -s c011a0d6 shell dumpsys package io.appium.uiautomator2.server'
+[debug] [ADB] The version name of the installed 'io.appium.uiautomator2.server' is greater or equal to the application version name ('3.7.0' >= '3.7.0')
+[debug] [UiAutomator2] io.appium.uiautomator2.server installation state: sameVersionInstalled
+[debug] [ADB] Checking app cert for C:\Users\ACER\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v3.7.0.apk
+[ADB] Using 'apksigner.bat' from 'E:\jar_files_selenium\Mobile Automation_Appium\android-sdk\build-tools\28.0.3\apksigner.bat'
+[debug] [ADB] Starting 'E:\jar_files_selenium\Mobile Automation_Appium\android-sdk\build-tools\28.0.3\apksigner.bat' with args '["verify","--print-certs","C:\\Users\\ACER\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\appium-uiautomator2-server\\apks\\appium-uiautomator2-server-v3.7.0.apk"]'
+[debug] [ADB] apksigner stdout: Signer #1 certificate DN: EMAILADDRESS=android@android.com, CN=Android, OU=Android, O=Android, L=Mountain View, ST=California, C=US
+[debug] [ADB] Signer #1 certificate SHA-256 digest: a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc
+[debug] [ADB] Signer #1 certificate SHA-1 digest: 61ed377e85d386a8dfee6b864bd85b0bfaa5af81
+[debug] [ADB] Signer #1 certificate MD5 digest: e89b158e4bcf988ebd09eb83f5378e87
+[debug] [ADB]
+[debug] [ADB] 'C:\Users\ACER\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v3.7.0.apk' is already signed.
+[debug] [ADB] Getting install status for io.appium.uiautomator2.server.test
+[debug] [ADB] Running 'E:\jar_files_selenium\Mobile Automation_Appium\android-sdk\platform-tools\adb.exe -P 5037 -s c011a0d6 shell dumpsys package io.appium.uiautomator2.server.test'
+[debug] [ADB] 'io.appium.uiautomator2.server.test' is installed
+[debug] [ADB] Checking app cert for C:\Users\ACER\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk
+[debug] [ADB] Starting 'E:\jar_files_selenium\Mobile Automation_Appium\android-sdk\build-tools\28.0.3\apksigner.bat' with args '["verify","--print-certs","C:\\Users\\ACER\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\appium-uiautomator2-server\\apks\\appium-uiautomator2-server-debug-androidTest.apk"]'
+[debug] [ADB] apksigner stdout: Signer #1 certificate DN: EMAILADDRESS=android@android.com, CN=Android, OU=Android, O=Android, L=Mountain View, ST=California, C=US
+[debug] [ADB] Signer #1 certificate SHA-256 digest: a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc
+[debug] [ADB] Signer #1 certificate SHA-1 digest: 61ed377e85d386a8dfee6b864bd85b0bfaa5af81
+[debug] [ADB] Signer #1 certificate MD5 digest: e89b158e4bcf988ebd09eb83f5378e87
+[debug] [ADB]
+[debug] [ADB] 'C:\Users\ACER\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk' is already signed.
+[UiAutomator2] Server packages are not going to be (re)installed
+[debug] [UiAutomator2] Waiting up to 30000ms for services to be available
+[debug] [ADB] Running 'E:\jar_files_selenium\Mobile Automation_Appium\android-sdk\platform-tools\adb.exe -P 5037 -s c011a0d6 shell pm list instrumentation'
+[debug] [UiAutomator2] Instrumentation target 'io.appium.uiautomator2.server.test/androidx.test.runner.AndroidJUnitRunner' is available
+[debug] [UiAutomator2] Forwarding UiAutomator2 Server port 6790 to 8200
+[debug] [ADB] Forwarding system: 8200 to device: 6790
+[debug] [ADB] Running 'E:\jar_files_selenium\Mobile Automation_Appium\android-sdk\platform-tools\adb.exe -P 5037 -s c011a0d6 forward tcp\:8200 tcp\:6790'
+[debug] [ADB] Checking app cert for E:\jar_files_selenium\Mobile Automation_appium\EriBank.apk
+[debug] [ADB] Starting 'E:\jar_files_selenium\Mobile Automation_Appium\android-sdk\build-tools\28.0.3\apksigner.bat' with args '["verify","--print-certs","E:\\jar_files_selenium\\Mobile Automation_appium\\EriBank.apk"]'
+[debug] [ADB] apksigner stdout: Signer #1 certificate DN: EMAILADDRESS=android@android.com, CN=Android, OU=Android, O=Android, L=Mountain View, ST=California, C=US
+[debug] [ADB] Signer #1 certificate SHA-256 digest: a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc
+[debug] [ADB] Signer #1 certificate SHA-1 digest: 61ed377e85d386a8dfee6b864bd85b0bfaa5af81
+[debug] [ADB] Signer #1 certificate MD5 digest: e89b158e4bcf988ebd09eb83f5378e87
+[debug] [ADB]
+[debug] [ADB] 'E:\jar_files_selenium\Mobile Automation_appium\EriBank.apk' is already signed.
+[debug] [ADB] Getting install status for com.experitest.ExperiBank
+[debug] [ADB] Running 'E:\jar_files_selenium\Mobile Automation_Appium\android-sdk\platform-tools\adb.exe -P 5037 -s c011a0d6 shell dumpsys package com.experitest.ExperiBank'
+[debug] [ADB] 'com.experitest.ExperiBank' is installed
+[debug] [ADB] Getting install status for com.experitest.ExperiBank
+[debug] [ADB] Running 'E:\jar_files_selenium\Mobile Automation_Appium\android-sdk\platform-tools\adb.exe -P 5037 -s c011a0d6 shell dumpsys package com.experitest.ExperiBank'
+[debug] [ADB] 'com.experitest.ExperiBank' is installed
+[debug] [ADB] Getting package info for 'com.experitest.ExperiBank'
+[debug] [ADB] Running 'E:\jar_files_selenium\Mobile Automation_Appium\android-sdk\platform-tools\adb.exe -P 5037 -s c011a0d6 shell dumpsys package com.experitest.ExperiBank'
+[debug] [ADB] The version name of the installed 'com.experitest.ExperiBank' is greater or equal to the application version name ('1.0.0' >= '1.0.0')
+[debug] [ADB] There is no need to install/upgrade 'E:\jar_files_selenium\Mobile Automation_appium\EriBank.apk'
+[AndroidDriver] Performing fast reset on 'com.experitest.ExperiBank'
+[debug] [ADB] Getting install status for com.experitest.ExperiBank
+[debug] [ADB] Running 'E:\jar_files_selenium\Mobile Automation_Appium\android-sdk\platform-tools\adb.exe -P 5037 -s c011a0d6 shell dumpsys package com.experitest.ExperiBank'
+[debug] [ADB] 'com.experitest.ExperiBank' is installed
+[debug] [ADB] Running 'E:\jar_files_selenium\Mobile Automation_Appium\android-sdk\platform-tools\adb.exe -P 5037 -s c011a0d6 shell am force-stop com.experitest.ExperiBank'
+[debug] [ADB] Running 'E:\jar_files_selenium\Mobile Automation_Appium\android-sdk\platform-tools\adb.exe -P 5037 -s c011a0d6 shell pm clear com.experitest.ExperiBank'
+[debug] [AndroidDriver] Performed fast reset on the installed 'com.experitest.ExperiBank' application (stop and clear)
+[debug] [UiAutomator2] Performing shallow cleanup of automation leftovers
+[debug] [UiAutomator2] No obsolete sessions have been detected (Error: socket hang up)
+[debug] [ADB] Running 'E:\jar_files_selenium\Mobile Automation_Appium\android-sdk\platform-tools\adb.exe -P 5037 -s c011a0d6 shell am force-stop io.appium.uiautomator2.server.test'
+[UiAutomator2] Starting UIAutomator2 server 3.7.0
+[UiAutomator2] Using UIAutomator2 server from 'C:\Users\ACER\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v3.7.0.apk' and test from 'C:\Users\ACER\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk'
+[UiAutomator2] Waiting up to 30000ms for UiAutomator2 to be online...
+[debug] [ADB] Creating ADB subprocess with args: ["-P",5037,"-s","c011a0d6","shell","am","instrument","-w","io.appium.uiautomator2.server.test/androidx.test.runner.AndroidJUnitRunner"]
+[debug] [WD Proxy] Matched '/status' to command name 'getStatus'
+[debug] [WD Proxy] Proxying [GET /status] to [GET http://localhost:8200/wd/hub/status] with no body
+[WD Proxy] Got an unexpected response: {"code":"ECONNRESET"}
+[debug] [Instrumentation] io.appium.uiautomator2.server.test.AppiumUiAutomator2Server:
+[debug] [WD Proxy] Matched '/status' to command name 'getStatus'
+[debug] [WD Proxy] Proxying [GET /status] to [GET http://localhost:8200/wd/hub/status] with no body
+[WD Proxy] Got an unexpected response: {"code":"ECONNRESET"}
+[debug] [WD Proxy] Matched '/status' to command name 'getStatus'
+[debug] [WD Proxy] Proxying [GET /status] to [GET http://localhost:8200/wd/hub/status] with no body
+[debug] [WD Proxy] Got response with status 200: "{\"sessionId\":\"None\",\"status\":0,\"value\":\"Status Invoked\"}"
+[debug] [WD Proxy] Determined that the downstream protocol for proxy is MJSONWP
+[debug] [UiAutomator2] The initialization of the instrumentation process took 3138ms
+[debug] [WD Proxy] Matched '/session' to command name 'createSession'
+[debug] [WD Proxy] Proxying [POST /session] to [POST http://localhost:8200/wd/hub/session] with body: {"desiredCapabilities":{"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","app":"E:\\jar_files_selenium\\Mobile Automation_appium\\EriBank.apk","appActivity":".LoginActivity","appPackage":"com.experitest.ExperiBank","automationName":"UiAutomator2","deviceName":"AndroidOnePlus"},"platformName":"android","app":"E:\\jar_files_selenium\\Mobile Automation_appium\\EriBank.apk","appActivity":".LoginActivity","appPackage":"com.experitest.ExperiBank","automationName":"UiAutomator2","deviceName":"c011a0d6","deviceUDID":"c011a0d6"}}
+[debug] [WD Proxy] Got response with status 200: {"sessionId":"bff3f464-e618-440d-9b24-8f6fbf14984c","status":0,"value":"Created Session"}
+[debug] [WD Proxy] Proxying [GET /appium/device/info] to [GET http://localhost:8200/wd/hub/session/bff3f464-e618-440d-9b24-8f6fbf14984c/appium/device/info] with no body
+[debug] [WD Proxy] Got response with status 200: "{\"sessionId\":\"bff3f464-e618-440d-9b24-8f6fbf14984c\",\"status\":0,\"value\":{\"androidId\":\"04309afb79f25af7\",\"manufacturer\":\"OnePlus\",\"model\":\"GM1901\",\"brand\":\"OnePlus\",\"apiVersion\":\"28\",\"platformVersion\":\"9\",\"carrierName\":\"IDEA\",\"realDisplaySize\":\"1080x2340\",\"displayDensity\":420,\"networks\":[{\"type\":0,\"typeName\":\"MOBILE\",\"subtype\":13,\"subtypeName\":\"LTE\",\"isConnected\":true,\"detailedState\":\"CONNECTED\",\"state\":\"CONNECTED\",\"extraInfo\":\"www\",\"isAvailable\":true,\"isFailover\":false,\"isRoaming\":false,\"capabilities\":{\"transportTypes\":\"NET_CAPABILITY_MMS\",\"networkCapabilities\":\"\",\"linkUpstreamBandwidthKbps\":28,\"linkDownBandwidthKbps\":8480,\"signalStrength\":-2147483648,\"networkSpecifier\":\"1\",\"SSID\":null}}]}}"
+[debug] [ADB] Running 'E:\jar_files_selenium\Mobile Automation_Appium\android-sdk\platform-tools\adb.exe -P 5037 -s c011a0d6 shell dumpsys window'
+[AndroidDriver] Screen already unlocked, doing nothing
+[UiAutomator2] UiAutomator2 did not start the activity we were waiting for, 'com.experitest.ExperiBank/.LoginActivity'. Starting it ourselves
+[debug] [ADB] Running 'E:\jar_files_selenium\Mobile Automation_Appium\android-sdk\platform-tools\adb.exe -P 5037 -s c011a0d6 shell am start -W -n com.experitest.ExperiBank/.LoginActivity -S -a android.intent.action.MAIN -c android.intent.category.LAUNCHER -f 0x10200000'
+[debug] [WD Proxy] Proxying [GET /appium/device/pixel_ratio] to [GET http://localhost:8200/wd/hub/session/bff3f464-e618-440d-9b24-8f6fbf14984c/appium/device/pixel_ratio] with body: {}
+[debug] [WD Proxy] Got response with status 200: "{\"sessionId\":\"bff3f464-e618-440d-9b24-8f6fbf14984c\",\"status\":0,\"value\":2.625}"
+[debug] [WD Proxy] Matched '/appium/device/system_bars' to command name 'getSystemBars'
+[debug] [WD Proxy] Proxying [GET /appium/device/system_bars] to [GET http://localhost:8200/wd/hub/session/bff3f464-e618-440d-9b24-8f6fbf14984c/appium/device/system_bars] with body: {}
+[debug] [WD Proxy] Got response with status 200: "{\"sessionId\":\"bff3f464-e618-440d-9b24-8f6fbf14984c\",\"status\":0,\"value\":{\"statusBar\":80}}"
+[debug] [WD Proxy] Matched '/window/current/size' to command name 'getWindowSize'
+[debug] [WD Proxy] Proxying [GET /window/current/size] to [GET http://localhost:8200/wd/hub/session/bff3f464-e618-440d-9b24-8f6fbf14984c/window/current/size] with body: {}
+[debug] [WD Proxy] Got response with status 200: "{\"sessionId\":\"bff3f464-e618-440d-9b24-8f6fbf14984c\",\"status\":0,\"value\":{\"height\":2134,\"width\":1080}}"
+[Appium] New AndroidUiautomator2Driver session created successfully, session 82041a1c-d8ed-4bb5-b987-03c44cd88c39 added to master session list
+[debug] [BaseDriver] Event 'newSessionStarted' logged at 1568655278914 (23:04:38 GMT+0530 (India Standard Time))
+[debug] [W3C (82041a1c)] Cached the protocol value 'W3C' for the new session 82041a1c-d8ed-4bb5-b987-03c44cd88c39
+[debug] [W3C (82041a1c)] Responding to client with driver.createSession() result: {"capabilities":{"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","app":"E:\\jar_files_selenium\\Mobile Automation_appium\\EriBank.apk","appActivity":".LoginActivity","appPackage":"com.experitest.ExperiBank","automationName":"UiAutomator2","deviceName":"AndroidOnePlus"},"platformName":"android","app":"E:\\jar_files_selenium\\Mobile Automation_appium\\EriBank.apk","appActivity":".LoginActivity","appPackage":"com.experitest.ExperiBank","automationName":"UiAutomator2","deviceName":"c011a0d6","deviceUDID":"c011a0d6","deviceApiLevel":28,"platformVersion":"9","deviceScreenSize":"1080x2340","deviceScreenDensity":420,"deviceModel":"GM1901","deviceManufacturer":"OnePlus","pixelRatio":2.625,"statBarHeight":80,"viewportRect":{"left":0,"top":80,"width":1080,"height":2054}}}
+[HTTP] <-- POST /wd/hub/session 200 14679 ms - 1014
+[HTTP]
+[HTTP] --> GET /wd/hub/session/82041a1c-d8ed-4bb5-b987-03c44cd88c39
+[HTTP] {}
+[debug] [W3C (82041a1c)] Calling AppiumDriver.getSession() with args: ["82041a1c-d8ed-4bb5-b987-03c44cd88c39"]
+[debug] [UiAutomator2] Getting session details from server to mix in
+[debug] [WD Proxy] Matched '/' to command name 'getSession'
+[debug] [WD Proxy] Proxying [GET /] to [GET http://localhost:8200/wd/hub/session/bff3f464-e618-440d-9b24-8f6fbf14984c] with body: {}
+[debug] [WD Proxy] Got response with status 200: "{\"sessionId\":\"bff3f464-e618-440d-9b24-8f6fbf14984c\",\"status\":0,\"value\":{}}"
+[debug] [W3C (82041a1c)] Responding to client with driver.getSession() result: {"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","app":"E:\\jar_files_selenium\\Mobile Automation_appium\\EriBank.apk","appActivity":".LoginActivity","appPackage":"com.experitest.ExperiBank","automationName":"UiAutomator2","deviceName":"AndroidOnePlus"},"platformName":"android","app":"E:\\jar_files_selenium\\Mobile Automation_appium\\EriBank.apk","appActivity":".LoginActivity","appPackage":"com.experitest.ExperiBank","automationName":"UiAutomator2","deviceName":"c011a0d6","deviceUDID":"c011a0d6","deviceApiLevel":28,"platformVersion":"9","deviceScreenSize":"1080x2340","deviceScreenDensity":420,"deviceModel":"GM1901","deviceManufacturer":"OnePlus","pixelRatio":2.625,"statBarHeight":80,"viewportRect":{"left":0,"top":80,"width":1080,"height":2054}}
+[HTTP] <-- GET /wd/hub/session/82041a1c-d8ed-4bb5-b987-03c44cd88c39 200 94 ms - 946
+[HTTP]
+[HTTP] --> GET /wd/hub/session/82041a1c-d8ed-4bb5-b987-03c44cd88c39
+[HTTP] {}
+[debug] [W3C (82041a1c)] Calling AppiumDriver.getSession() with args: ["82041a1c-d8ed-4bb5-b987-03c44cd88c39"]
+[debug] [UiAutomator2] Getting session details from server to mix in
+[debug] [WD Proxy] Matched '/' to command name 'getSession'
+[debug] [WD Proxy] Proxying [GET /] to [GET http://localhost:8200/wd/hub/session/bff3f464-e618-440d-9b24-8f6fbf14984c] with body: {}
+[debug] [WD Proxy] Got response with status 200: "{\"sessionId\":\"bff3f464-e618-440d-9b24-8f6fbf14984c\",\"status\":0,\"value\":{}}"
+[debug] [W3C (82041a1c)] Responding to client with driver.getSession() result: {"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","app":"E:\\jar_files_selenium\\Mobile Automation_appium\\EriBank.apk","appActivity":".LoginActivity","appPackage":"com.experitest.ExperiBank","automationName":"UiAutomator2","deviceName":"AndroidOnePlus"},"platformName":"android","app":"E:\\jar_files_selenium\\Mobile Automation_appium\\EriBank.apk","appActivity":".LoginActivity","appPackage":"com.experitest.ExperiBank","automationName":"UiAutomator2","deviceName":"c011a0d6","deviceUDID":"c011a0d6","deviceApiLevel":28,"platformVersion":"9","deviceScreenSize":"1080x2340","deviceScreenDensity":420,"deviceModel":"GM1901","deviceManufacturer":"OnePlus","pixelRatio":2.625,"statBarHeight":80,"viewportRect":{"left":0,"top":80,"width":1080,"height":2054}}
+[HTTP] <-- GET /wd/hub/session/82041a1c-d8ed-4bb5-b987-03c44cd88c39 200 80 ms - 946
+[HTTP]
+[HTTP] --> POST /wd/hub/session/82041a1c-d8ed-4bb5-b987-03c44cd88c39/timeouts
+[HTTP] {"implicit":10000}
+[debug] [W3C (82041a1c)] Calling AppiumDriver.timeouts() with args: [null,null,null,null,10000,"82041a1c-d8ed-4bb5-b987-03c44cd88c39"]
+[debug] [BaseDriver] W3C timeout argument: {"implicit":10000}}
+[debug] [BaseDriver] Set implicit wait to 10000ms
+[debug] [W3C (82041a1c)] Responding to client with driver.timeouts() result: null
+[HTTP] <-- POST /wd/hub/session/82041a1c-d8ed-4bb5-b987-03c44cd88c39/timeouts 200 26 ms - 14
+[HTTP]
+[HTTP] --> POST /wd/hub/session/82041a1c-d8ed-4bb5-b987-03c44cd88c39/element
+[HTTP] {"using":"id","value":"android:id/button1"}
+[debug] [W3C (82041a1c)] Calling AppiumDriver.findElement() with args: ["id","android:id/button1","82041a1c-d8ed-4bb5-b987-03c44cd88c39"]
+[debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+[debug] [BaseDriver] Waiting up to 10000 ms for condition
+[debug] [WD Proxy] Matched '/element' to command name 'findElement'
+[debug] [WD Proxy] Proxying [POST /element] to [POST http://localhost:8200/wd/hub/session/bff3f464-e618-440d-9b24-8f6fbf14984c/element] with body: {"strategy":"id","selector":"android:id/button1","context":"","multiple":false}
+[debug] [WD Proxy] Got response with status 200: {"sessionId":"bff3f464-e618-440d-9b24-8f6fbf14984c","status":0,"value":{"ELEMENT":"bb6f421e-81e6-45d2-b880-28abd5ed797a"}}
+[debug] [W3C (82041a1c)] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"bb6f421e-81e6-45d2-b880-28abd5ed797a","ELEMENT":"bb6f421e-81e6-45d2-b880-28abd5ed797a"}
+[HTTP] <-- POST /wd/hub/session/82041a1c-d8ed-4bb5-b987-03c44cd88c39/element 200 1440 ms - 137
+[HTTP]
+[HTTP] --> POST /wd/hub/session/82041a1c-d8ed-4bb5-b987-03c44cd88c39/element/bb6f421e-81e6-45d2-b880-28abd5ed797a/click
+[HTTP] {"id":"bb6f421e-81e6-45d2-b880-28abd5ed797a"}
+[debug] [W3C (82041a1c)] Calling AppiumDriver.click() with args: ["bb6f421e-81e6-45d2-b880-28abd5ed797a","82041a1c-d8ed-4bb5-b987-03c44cd88c39"]
+[debug] [WD Proxy] Matched '/element/bb6f421e-81e6-45d2-b880-28abd5ed797a/click' to command name 'click'
+[debug] [WD Proxy] Proxying [POST /element/bb6f421e-81e6-45d2-b880-28abd5ed797a/click] to [POST http://localhost:8200/wd/hub/session/bff3f464-e618-440d-9b24-8f6fbf14984c/element/bb6f421e-81e6-45d2-b880-28abd5ed797a/click] with body: {"element":"bb6f421e-81e6-45d2-b880-28abd5ed797a"}
+[debug] [WD Proxy] Got response with status 200: {"sessionId":"bff3f464-e618-440d-9b24-8f6fbf14984c","status":0,"value":true}
+[debug] [W3C (82041a1c)] Responding to client with driver.click() result: true
+[HTTP] <-- POST /wd/hub/session/82041a1c-d8ed-4bb5-b987-03c44cd88c39/element/bb6f421e-81e6-45d2-b880-28abd5ed797a/click 200 466 ms - 14
+[HTTP]
+[HTTP] --> POST /wd/hub/session/82041a1c-d8ed-4bb5-b987-03c44cd88c39/elements
+[HTTP] {"using":"id","value":"android:id/button1"}
+[debug] [W3C (82041a1c)] Calling AppiumDriver.findElements() with args: ["id","android:id/button1","82041a1c-d8ed-4bb5-b987-03c44cd88c39"]
+[debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+[debug] [BaseDriver] Waiting up to 10000 ms for condition
+[debug] [WD Proxy] Matched '/elements' to command name 'findElements'
+[debug] [WD Proxy] Proxying [POST /elements] to [POST http://localhost:8200/wd/hub/session/bff3f464-e618-440d-9b24-8f6fbf14984c/elements] with body: {"strategy":"id","selector":"android:id/button1","context":"","multiple":true}
+[debug] [WD Proxy] Got response with status 200: {"sessionId":"bff3f464-e618-440d-9b24-8f6fbf14984c","status":0,"value":[]}
+[debug] [BaseDriver] Waited for 1763 ms so far
+[debug] [WD Proxy] Matched '/elements' to command name 'findElements'
+[debug] [WD Proxy] Proxying [POST /elements] to [POST http://localhost:8200/wd/hub/session/bff3f464-e618-440d-9b24-8f6fbf14984c/elements] with body: {"strategy":"id","selector":"android:id/button1","context":"","multiple":true}
+[debug] [WD Proxy] Got response with status 200: {"sessionId":"bff3f464-e618-440d-9b24-8f6fbf14984c","status":0,"value":[]}
+[debug] [BaseDriver] Waited for 2348 ms so far
+[debug] [WD Proxy] Matched '/elements' to command name 'findElements'
+[debug] [WD Proxy] Proxying [POST /elements] to [POST http://localhost:8200/wd/hub/session/bff3f464-e618-440d-9b24-8f6fbf14984c/elements] with body: {"strategy":"id","selector":"android:id/button1","context":"","multiple":true}
+[debug] [WD Proxy] Got response with status 200: {"sessionId":"bff3f464-e618-440d-9b24-8f6fbf14984c","status":0,"value":[]}
+[debug] [BaseDriver] Waited for 2926 ms so far
+[debug] [WD Proxy] Matched '/elements' to command name 'findElements'
+[debug] [WD Proxy] Proxying [POST /elements] to [POST http://localhost:8200/wd/hub/session/bff3f464-e618-440d-9b24-8f6fbf14984c/elements] with body: {"strategy":"id","selector":"android:id/button1","context":"","multiple":true}
+[debug] [WD Proxy] Got response with status 200: {"sessionId":"bff3f464-e618-440d-9b24-8f6fbf14984c","status":0,"value":[]}
+[debug] [BaseDriver] Waited for 3509 ms so far
+[debug] [WD Proxy] Matched '/elements' to command name 'findElements'
+[debug] [WD Proxy] Proxying [POST /elements] to [POST http://localhost:8200/wd/hub/session/bff3f464-e618-440d-9b24-8f6fbf14984c/elements] with body: {"strategy":"id","selector":"android:id/button1","context":"","multiple":true}
+[debug] [WD Proxy] Got response with status 200: {"sessionId":"bff3f464-e618-440d-9b24-8f6fbf14984c","status":0,"value":[]}
+[debug] [BaseDriver] Waited for 4118 ms so far
+[debug] [WD Proxy] Matched '/elements' to command name 'findElements'
+[debug] [WD Proxy] Proxying [POST /elements] to [POST http://localhost:8200/wd/hub/session/bff3f464-e618-440d-9b24-8f6fbf14984c/elements] with body: {"strategy":"id","selector":"android:id/button1","context":"","multiple":true}
+[debug] [WD Proxy] Got response with status 200: {"sessionId":"bff3f464-e618-440d-9b24-8f6fbf14984c","status":0,"value":[]}
+[debug] [BaseDriver] Waited for 4706 ms so far
+[debug] [WD Proxy] Matched '/elements' to command name 'findElements'
+[debug] [WD Proxy] Proxying [POST /elements] to [POST http://localhost:8200/wd/hub/session/bff3f464-e618-440d-9b24-8f6fbf14984c/elements] with body: {"strategy":"id","selector":"android:id/button1","context":"","multiple":true}
+[debug] [WD Proxy] Got response with status 200: {"sessionId":"bff3f464-e618-440d-9b24-8f6fbf14984c","status":0,"value":[]}
+[debug] [BaseDriver] Waited for 5303 ms so far
+[debug] [WD Proxy] Matched '/elements' to command name 'findElements'
+[debug] [WD Proxy] Proxying [POST /elements] to [POST http://localhost:8200/wd/hub/session/bff3f464-e618-440d-9b24-8f6fbf14984c/elements] with body: {"strategy":"id","selector":"android:id/button1","context":"","multiple":true}
+[debug] [WD Proxy] Got response with status 200: {"sessionId":"bff3f464-e618-440d-9b24-8f6fbf14984c","status":0,"value":[]}
+[debug] [BaseDriver] Waited for 7209 ms so far
+[debug] [WD Proxy] Matched '/elements' to command name 'findElements'
+[debug] [WD Proxy] Proxying [POST /elements] to [POST http://localhost:8200/wd/hub/session/bff3f464-e618-440d-9b24-8f6fbf14984c/elements] with body: {"strategy":"id","selector":"android:id/button1","context":"","multiple":true}
+[debug] [WD Proxy] Got response with status 200: {"sessionId":"bff3f464-e618-440d-9b24-8f6fbf14984c","status":0,"value":[]}
+[debug] [BaseDriver] Waited for 7805 ms so far
+[debug] [WD Proxy] Matched '/elements' to command name 'findElements'
+[debug] [WD Proxy] Proxying [POST /elements] to [POST http://localhost:8200/wd/hub/session/bff3f464-e618-440d-9b24-8f6fbf14984c/elements] with body: {"strategy":"id","selector":"android:id/button1","context":"","multiple":true}
+[debug] [WD Proxy] Got response with status 200: {"sessionId":"bff3f464-e618-440d-9b24-8f6fbf14984c","status":0,"value":[]}
+[debug] [BaseDriver] Waited for 8395 ms so far
+[debug] [WD Proxy] Matched '/elements' to command name 'findElements'
+[debug] [WD Proxy] Proxying [POST /elements] to [POST http://localhost:8200/wd/hub/session/bff3f464-e618-440d-9b24-8f6fbf14984c/elements] with body: {"strategy":"id","selector":"android:id/button1","context":"","multiple":true}
+[debug] [WD Proxy] Got response with status 200: {"sessionId":"bff3f464-e618-440d-9b24-8f6fbf14984c","status":0,"value":[]}
+[debug] [BaseDriver] Waited for 8991 ms so far
+[debug] [WD Proxy] Matched '/elements' to command name 'findElements'
+[debug] [WD Proxy] Proxying [POST /elements] to [POST http://localhost:8200/wd/hub/session/bff3f464-e618-440d-9b24-8f6fbf14984c/elements] with body: {"strategy":"id","selector":"android:id/button1","context":"","multiple":true}
+[debug] [WD Proxy] Got response with status 200: {"sessionId":"bff3f464-e618-440d-9b24-8f6fbf14984c","status":0,"value":[]}
+[debug] [BaseDriver] Waited for 9579 ms so far
+[debug] [WD Proxy] Matched '/elements' to command name 'findElements'
+[debug] [WD Proxy] Proxying [POST /elements] to [POST http://localhost:8200/wd/hub/session/bff3f464-e618-440d-9b24-8f6fbf14984c/elements] with body: {"strategy":"id","selector":"android:id/button1","context":"","multiple":true}
+[debug] [WD Proxy] Got response with status 200: {"sessionId":"bff3f464-e618-440d-9b24-8f6fbf14984c","status":0,"value":[]}
+[debug] [W3C (82041a1c)] Responding to client with driver.findElements() result: []
+[HTTP] <-- POST /wd/hub/session/82041a1c-d8ed-4bb5-b987-03c44cd88c39/elements 200 10186 ms - 12
+[HTTP]
+[HTTP] --> POST /wd/hub/session/82041a1c-d8ed-4bb5-b987-03c44cd88c39/element
+[HTTP] {"using":"id","value":"logoutButton"}
+[debug] [W3C (82041a1c)] Calling AppiumDriver.findElement() with args: ["id","logoutButton","82041a1c-d8ed-4bb5-b987-03c44cd88c39"]
+[debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+[debug] [BaseDriver] Waiting up to 10000 ms for condition
+[debug] [WD Proxy] Matched '/element' to command name 'findElement'
+[debug] [WD Proxy] Proxying [POST /element] to [POST http://localhost:8200/wd/hub/session/bff3f464-e618-440d-9b24-8f6fbf14984c/element] with body: {"strategy":"id","selector":"logoutButton","context":"","multiple":false}
+[WD Proxy] Got an unexpected response: {"sessionId":"bff3f464-e618-440d-9b24-8f6fbf14984c","status":7,"value":"An element could not be located on the page using the given search parameters."}
+[debug] [MJSONWP] Matched JSONWP error code 7 to NoSuchElementError
+[debug] [BaseDriver] Waited for 84 ms so far
+[debug] [WD Proxy] Matched '/element' to command name 'findElement'
+[debug] [WD Proxy] Proxying [POST /element] to [POST http://localhost:8200/wd/hub/session/bff3f464-e618-440d-9b24-8f6fbf14984c/element] with body: {"strategy":"id","selector":"logoutButton","context":"","multiple":false}
+[WD Proxy] Got an unexpected response: {"sessionId":"bff3f464-e618-440d-9b24-8f6fbf14984c","status":7,"value":"An element could not be located on the page using the given search parameters."}
+[debug] [MJSONWP] Matched JSONWP error code 7 to NoSuchElementError
+[debug] [BaseDriver] Waited for 691 ms so far
+[debug] [WD Proxy] Matched '/element' to command name 'findElement'
+[debug] [WD Proxy] Proxying [POST /element] to [POST http://localhost:8200/wd/hub/session/bff3f464-e618-440d-9b24-8f6fbf14984c/element] with body: {"strategy":"id","selector":"logoutButton","context":"","multiple":false}
+[WD Proxy] Got an unexpected response: {"sessionId":"bff3f464-e618-440d-9b24-8f6fbf14984c","status":7,"value":"An element could not be located on the page using the given search parameters."}
+[debug] [MJSONWP] Matched JSONWP error code 7 to NoSuchElementError
+[debug] [BaseDriver] Waited for 1290 ms so far
+[debug] [WD Proxy] Matched '/element' to command name 'findElement'
+[debug] [WD Proxy] Proxying [POST /element] to [POST http://localhost:8200/wd/hub/session/bff3f464-e618-440d-9b24-8f6fbf14984c/element] with body: {"strategy":"id","selector":"logoutButton","context":"","multiple":false}
+[WD Proxy] Got an unexpected response: {"sessionId":"bff3f464-e618-440d-9b24-8f6fbf14984c","status":7,"value":"An element could not be located on the page using the given search parameters."}
+[debug] [MJSONWP] Matched JSONWP error code 7 to NoSuchElementError
+[debug] [BaseDriver] Waited for 1889 ms so far
+[debug] [WD Proxy] Matched '/element' to command name 'findElement'
+[debug] [WD Proxy] Proxying [POST /element] to [POST http://localhost:8200/wd/hub/session/bff3f464-e618-440d-9b24-8f6fbf14984c/element] with body: {"strategy":"id","selector":"logoutButton","context":"","multiple":false}
+[WD Proxy] Got an unexpected response: {"sessionId":"bff3f464-e618-440d-9b24-8f6fbf14984c","status":7,"value":"An element could not be located on the page using the given search parameters."}
+[debug] [MJSONWP] Matched JSONWP error code 7 to NoSuchElementError
+[debug] [BaseDriver] Waited for 2547 ms so far
+[debug] [WD Proxy] Matched '/element' to command name 'findElement'
+[debug] [WD Proxy] Proxying [POST /element] to [POST http://localhost:8200/wd/hub/session/bff3f464-e618-440d-9b24-8f6fbf14984c/element] with body: {"strategy":"id","selector":"logoutButton","context":"","multiple":false}
+[WD Proxy] Got an unexpected response: {"sessionId":"bff3f464-e618-440d-9b24-8f6fbf14984c","status":7,"value":"An element could not be located on the page using the given search parameters."}
+[debug] [MJSONWP] Matched JSONWP error code 7 to NoSuchElementError
+[debug] [BaseDriver] Waited for 3135 ms so far
+[debug] [WD Proxy] Matched '/element' to command name 'findElement'
+[debug] [WD Proxy] Proxying [POST /element] to [POST http://localhost:8200/wd/hub/session/bff3f464-e618-440d-9b24-8f6fbf14984c/element] with body: {"strategy":"id","selector":"logoutButton","context":"","multiple":false}
+[WD Proxy] Got an unexpected response: {"sessionId":"bff3f464-e618-440d-9b24-8f6fbf14984c","status":7,"value":"An element could not be located on the page using the given search parameters."}
+[debug] [MJSONWP] Matched JSONWP error code 7 to NoSuchElementError
+[debug] [BaseDriver] Waited for 3724 ms so far
+[debug] [WD Proxy] Matched '/element' to command name 'findElement'
+[debug] [WD Proxy] Proxying [POST /element] to [POST http://localhost:8200/wd/hub/session/bff3f464-e618-440d-9b24-8f6fbf14984c/element] with body: {"strategy":"id","selector":"logoutButton","context":"","multiple":false}
+[WD Proxy] Got an unexpected response: {"sessionId":"bff3f464-e618-440d-9b24-8f6fbf14984c","status":7,"value":"An element could not be located on the page using the given search parameters."}
+[debug] [MJSONWP] Matched JSONWP error code 7 to NoSuchElementError
+[debug] [BaseDriver] Waited for 4308 ms so far
+[debug] [WD Proxy] Matched '/element' to command name 'findElement'
+[debug] [WD Proxy] Proxying [POST /element] to [POST http://localhost:8200/wd/hub/session/bff3f464-e618-440d-9b24-8f6fbf14984c/element] with body: {"strategy":"id","selector":"logoutButton","context":"","multiple":false}
+[WD Proxy] Got an unexpected response: {"sessionId":"bff3f464-e618-440d-9b24-8f6fbf14984c","status":7,"value":"An element could not be located on the page using the given search parameters."}
+[debug] [MJSONWP] Matched JSONWP error code 7 to NoSuchElementError
+[debug] [BaseDriver] Waited for 4893 ms so far
+[debug] [WD Proxy] Matched '/element' to command name 'findElement'
+[debug] [WD Proxy] Proxying [POST /element] to [POST http://localhost:8200/wd/hub/session/bff3f464-e618-440d-9b24-8f6fbf14984c/element] with body: {"strategy":"id","selector":"logoutButton","context":"","multiple":false}
+[WD Proxy] Got an unexpected response: {"sessionId":"bff3f464-e618-440d-9b24-8f6fbf14984c","status":7,"value":"An element could not be located on the page using the given search parameters."}
+[debug] [MJSONWP] Matched JSONWP error code 7 to NoSuchElementError
+[debug] [BaseDriver] Waited for 5480 ms so far
+[debug] [WD Proxy] Matched '/element' to command name 'findElement'
+[debug] [WD Proxy] Proxying [POST /element] to [POST http://localhost:8200/wd/hub/session/bff3f464-e618-440d-9b24-8f6fbf14984c/element] with body: {"strategy":"id","selector":"logoutButton","context":"","multiple":false}
+[WD Proxy] Got an unexpected response: {"sessionId":"bff3f464-e618-440d-9b24-8f6fbf14984c","status":7,"value":"An element could not be located on the page using the given search parameters."}
+[debug] [MJSONWP] Matched JSONWP error code 7 to NoSuchElementError
+[debug] [BaseDriver] Waited for 6061 ms so far
+[debug] [WD Proxy] Matched '/element' to command name 'findElement'
+[debug] [WD Proxy] Proxying [POST /element] to [POST http://localhost:8200/wd/hub/session/bff3f464-e618-440d-9b24-8f6fbf14984c/element] with body: {"strategy":"id","selector":"logoutButton","context":"","multiple":false}
+[WD Proxy] Got an unexpected response: {"sessionId":"bff3f464-e618-440d-9b24-8f6fbf14984c","status":7,"value":"An element could not be located on the page using the given search parameters."}
+[debug] [MJSONWP] Matched JSONWP error code 7 to NoSuchElementError
+[debug] [BaseDriver] Waited for 6643 ms so far
+[debug] [WD Proxy] Matched '/element' to command name 'findElement'
+[debug] [WD Proxy] Proxying [POST /element] to [POST http://localhost:8200/wd/hub/session/bff3f464-e618-440d-9b24-8f6fbf14984c/element] with body: {"strategy":"id","selector":"logoutButton","context":"","multiple":false}
+[WD Proxy] Got an unexpected response: {"sessionId":"bff3f464-e618-440d-9b24-8f6fbf14984c","status":7,"value":"An element could not be located on the page using the given search parameters."}
+[debug] [MJSONWP] Matched JSONWP error code 7 to NoSuchElementError
+[debug] [BaseDriver] Waited for 7229 ms so far
+[debug] [WD Proxy] Matched '/element' to command name 'findElement'
+[debug] [WD Proxy] Proxying [POST /element] to [POST http://localhost:8200/wd/hub/session/bff3f464-e618-440d-9b24-8f6fbf14984c/element] with body: {"strategy":"id","selector":"logoutButton","context":"","multiple":false}
+[WD Proxy] Got an unexpected response: {"sessionId":"bff3f464-e618-440d-9b24-8f6fbf14984c","status":7,"value":"An element could not be located on the page using the given search parameters."}
+[debug] [MJSONWP] Matched JSONWP error code 7 to NoSuchElementError
+[debug] [BaseDriver] Waited for 7808 ms so far
+[debug] [WD Proxy] Matched '/element' to command name 'findElement'
+[debug] [WD Proxy] Proxying [POST /element] to [POST http://localhost:8200/wd/hub/session/bff3f464-e618-440d-9b24-8f6fbf14984c/element] with body: {"strategy":"id","selector":"logoutButton","context":"","multiple":false}
+[WD Proxy] Got an unexpected response: {"sessionId":"bff3f464-e618-440d-9b24-8f6fbf14984c","status":7,"value":"An element could not be located on the page using the given search parameters."}
+[debug] [MJSONWP] Matched JSONWP error code 7 to NoSuchElementError
+[debug] [BaseDriver] Waited for 8400 ms so far
+[debug] [WD Proxy] Matched '/element' to command name 'findElement'
+[debug] [WD Proxy] Proxying [POST /element] to [POST http://localhost:8200/wd/hub/session/bff3f464-e618-440d-9b24-8f6fbf14984c/element] with body: {"strategy":"id","selector":"logoutButton","context":"","multiple":false}
+[WD Proxy] Got an unexpected response: {"sessionId":"bff3f464-e618-440d-9b24-8f6fbf14984c","status":7,"value":"An element could not be located on the page using the given search parameters."}
+[debug] [MJSONWP] Matched JSONWP error code 7 to NoSuchElementError
+[debug] [BaseDriver] Waited for 8990 ms so far
+[debug] [WD Proxy] Matched '/element' to command name 'findElement'
+[debug] [WD Proxy] Proxying [POST /element] to [POST http://localhost:8200/wd/hub/session/bff3f464-e618-440d-9b24-8f6fbf14984c/element] with body: {"strategy":"id","selector":"logoutButton","context":"","multiple":false}
+[WD Proxy] Got an unexpected response: {"sessionId":"bff3f464-e618-440d-9b24-8f6fbf14984c","status":7,"value":"An element could not be located on the page using the given search parameters."}
+[debug] [MJSONWP] Matched JSONWP error code 7 to NoSuchElementError
+[debug] [BaseDriver] Waited for 9587 ms so far
+[debug] [WD Proxy] Matched '/element' to command name 'findElement'
+[debug] [WD Proxy] Proxying [POST /element] to [POST http://localhost:8200/wd/hub/session/bff3f464-e618-440d-9b24-8f6fbf14984c/element] with body: {"strategy":"id","selector":"logoutButton","context":"","multiple":false}
+[WD Proxy] Got an unexpected response: {"sessionId":"bff3f464-e618-440d-9b24-8f6fbf14984c","status":7,"value":"An element could not be located on the page using the given search parameters."}
+[debug] [MJSONWP] Matched JSONWP error code 7 to NoSuchElementError
+[debug] [W3C (82041a1c)] Encountered internal error running command: NoSuchElementError: An element could not be located on the page using the given search parameters.
+[debug] [W3C (82041a1c)]     at AndroidUiautomator2Driver.findElOrEls (C:\Users\ACER\AppData\Roaming\npm\node_modules\appium\node_modules\appium-android-driver\lib\commands\find.js:75:11)
+[HTTP] <-- POST /wd/hub/session/82041a1c-d8ed-4bb5-b987-03c44cd88c39/element 404 10193 ms - 418
+[HTTP]
+[HTTP] --> POST /wd/hub/session
+[HTTP] {"desiredCapabilities":{"app":"E:\\jar_files_selenium\\Mobile Automation_appium\\EriBank.apk","appActivity":".LoginActivity","appPackage":"com.experitest.ExperiBank","automationName":"UiAutomator2","platformName":"Android","deviceName":"AndroidOnePlus"},"capabilities":{"firstMatch":[{"appium:app":"E:\\jar_files_selenium\\Mobile Automation_appium\\EriBank.apk","appium:appActivity":".LoginActivity","appium:appPackage":"com.experitest.ExperiBank","appium:automationName":"UiAutomator2","appium:deviceName":"AndroidOnePlus","platformName":"android"}]}}
+[debug] [W3C] Calling AppiumDriver.createSession() with args: [{"app":"E:\\jar_files_selenium\\Mobile Automation_appium\\EriBank.apk","appActivity":".LoginActivity","appPackage":"com.experitest.ExperiBank","automationName":"UiAutomator2","platformName":"Android","deviceName":"AndroidOnePlus"},null,{"firstMatch":[{"appium:app":"E:\\jar_files_selenium\\Mobile Automation_appium\\EriBank.apk","appium:appActivity":".LoginActivity","appium:appPackage":"com.experitest.ExperiBank","appium:automationName":"UiAutomator2","appium:deviceName":"AndroidOnePlus","platformName":"android"}]}]
+[debug] [BaseDriver] Event 'newSessionRequested' logged at 1568655747613 (23:12:27 GMT+0530 (India Standard Time))
+[Appium] Appium v1.14.2 creating new AndroidUiautomator2Driver (v1.33.1) session
+[Appium] Capabilities:
+[Appium]   platformName: android
+[Appium]   app: E:\jar_files_selenium\Mobile Automation_appium\EriBank.apk
+[Appium]   appActivity: .LoginActivity
+[Appium]   appPackage: com.experitest.ExperiBank
+[Appium]   automationName: UiAutomator2
+[Appium]   deviceName: AndroidOnePlus
+[debug] [BaseDriver] W3C capabilities {"alwaysMatch":{"platformNa... and MJSONWP desired capabilities {"app":"E:\\jar_files_selen... were provided
+[debug] [BaseDriver] Creating session with W3C capabilities: {"alwaysMatch":{"platformNa...
+[BaseDriver] Session created with session id: 5f689d71-eb19-46e5-8691-7313ed7720e0
+[BaseDriver] Using local app 'E:\jar_files_selenium\Mobile Automation_appium\EriBank.apk'
+[debug] [UiAutomator2] Checking whether app is actually present
+[ADB] Using 'adb.exe' from 'E:\jar_files_selenium\Mobile Automation_Appium\android-sdk\platform-tools\adb.exe'
+[AndroidDriver] Retrieving device list
+[debug] [ADB] Trying to find a connected android device
+[debug] [ADB] Getting connected devices...
+[debug] [ADB] 1 device(s) connected
+[AndroidDriver] Using device: c011a0d6
+[ADB] Using 'adb.exe' from 'E:\jar_files_selenium\Mobile Automation_Appium\android-sdk\platform-tools\adb.exe'
+[debug] [ADB] Setting device id to c011a0d6
+[debug] [ADB] Running 'E:\jar_files_selenium\Mobile Automation_Appium\android-sdk\platform-tools\adb.exe -P 5037 -s c011a0d6 shell getprop ro.build.version.sdk'
+[debug] [ADB] Current device property 'ro.build.version.sdk': 28
+[debug] [ADB] Running 'E:\jar_files_selenium\Mobile Automation_Appium\android-sdk\platform-tools\adb.exe -P 5037 -s c011a0d6 shell getprop ro.build.version.release'
+[debug] [ADB] Current device property 'ro.build.version.release': 9
+[debug] [ADB] Device API level: 28
+[UiAutomator2] Relaxing hidden api policy
+[debug] [ADB] Running 'E:\jar_files_selenium\Mobile Automation_Appium\android-sdk\platform-tools\adb.exe -P 5037 -s c011a0d6 shell settings put global hidden_api_policy_pre_p_apps 1'
+[debug] [ADB] Running 'E:\jar_files_selenium\Mobile Automation_Appium\android-sdk\platform-tools\adb.exe -P 5037 -s c011a0d6 shell settings put global hidden_api_policy_p_apps 1'
+[debug] [ADB] Running 'E:\jar_files_selenium\Mobile Automation_Appium\android-sdk\platform-tools\adb.exe -P 5037 -s c011a0d6 shell settings put global hidden_api_policy 1'
+[debug] [ADB] Running 'E:\jar_files_selenium\Mobile Automation_Appium\android-sdk\platform-tools\adb.exe -P 5037 -s c011a0d6 wait-for-device'
+[debug] [ADB] Running 'E:\jar_files_selenium\Mobile Automation_Appium\android-sdk\platform-tools\adb.exe -P 5037 -s c011a0d6 shell echo ping'
+[debug] [AndroidDriver] Pushing settings apk to device...
+[debug] [ADB] Getting install status for io.appium.settings
+[debug] [ADB] Running 'E:\jar_files_selenium\Mobile Automation_Appium\android-sdk\platform-tools\adb.exe -P 5037 -s c011a0d6 shell dumpsys package io.appium.settings'
+[debug] [ADB] 'io.appium.settings' is installed
+[debug] [ADB] Getting package info for 'io.appium.settings'
+[debug] [ADB] Running 'E:\jar_files_selenium\Mobile Automation_Appium\android-sdk\platform-tools\adb.exe -P 5037 -s c011a0d6 shell dumpsys package io.appium.settings'
+[ADB] Using 'aapt.exe' from 'E:\jar_files_selenium\Mobile Automation_Appium\android-sdk\build-tools\28.0.3\aapt.exe'
+[debug] [ADB] The version name of the installed 'io.appium.settings' is greater or equal to the application version name ('2.14.1' >= '2.14.1')
+[debug] [ADB] There is no need to install/upgrade 'C:\Users\ACER\AppData\Roaming\npm\node_modules\appium\node_modules\io.appium.settings\apks\settings_apk-debug.apk'
+[debug] [ADB] Getting IDs of all 'io.appium.settings' processes
+[debug] [ADB] Running 'E:\jar_files_selenium\Mobile Automation_Appium\android-sdk\platform-tools\adb.exe -P 5037 -s c011a0d6 shell 'pgrep --help; echo $?''
+[debug] [ADB] Running 'E:\jar_files_selenium\Mobile Automation_Appium\android-sdk\platform-tools\adb.exe -P 5037 -s c011a0d6 shell pgrep -f io\\.appium\\.settings'
+[debug] [AndroidDriver] io.appium.settings is already running. There is no need to reset its permissions.
+[debug] [ADB] Running 'E:\jar_files_selenium\Mobile Automation_Appium\android-sdk\platform-tools\adb.exe -P 5037 -s c011a0d6 shell appops set io.appium.settings android\:mock_location allow'
+[debug] [Logcat] Starting logcat capture
+[debug] [ADB] Getting install status for io.appium.uiautomator2.server
+[debug] [ADB] Running 'E:\jar_files_selenium\Mobile Automation_Appium\android-sdk\platform-tools\adb.exe -P 5037 -s c011a0d6 shell dumpsys package io.appium.uiautomator2.server'
+[debug] [ADB] 'io.appium.uiautomator2.server' is installed
+[debug] [ADB] Getting package info for 'io.appium.uiautomator2.server'
+[debug] [ADB] Running 'E:\jar_files_selenium\Mobile Automation_Appium\android-sdk\platform-tools\adb.exe -P 5037 -s c011a0d6 shell dumpsys package io.appium.uiautomator2.server'
+[debug] [ADB] The version name of the installed 'io.appium.uiautomator2.server' is greater or equal to the application version name ('3.7.0' >= '3.7.0')
+[debug] [UiAutomator2] io.appium.uiautomator2.server installation state: sameVersionInstalled
+[debug] [ADB] Checking app cert for C:\Users\ACER\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v3.7.0.apk
+[ADB] Using 'apksigner.bat' from 'E:\jar_files_selenium\Mobile Automation_Appium\android-sdk\build-tools\28.0.3\apksigner.bat'
+[debug] [ADB] Starting 'E:\jar_files_selenium\Mobile Automation_Appium\android-sdk\build-tools\28.0.3\apksigner.bat' with args '["verify","--print-certs","C:\\Users\\ACER\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\appium-uiautomator2-server\\apks\\appium-uiautomator2-server-v3.7.0.apk"]'
+[debug] [ADB] apksigner stdout: Signer #1 certificate DN: EMAILADDRESS=android@android.com, CN=Android, OU=Android, O=Android, L=Mountain View, ST=California, C=US
+[debug] [ADB] Signer #1 certificate SHA-256 digest: a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc
+[debug] [ADB] Signer #1 certificate SHA-1 digest: 61ed377e85d386a8dfee6b864bd85b0bfaa5af81
+[debug] [ADB] Signer #1 certificate MD5 digest: e89b158e4bcf988ebd09eb83f5378e87
+[debug] [ADB]
+[debug] [ADB] 'C:\Users\ACER\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v3.7.0.apk' is already signed.
+[debug] [ADB] Getting install status for io.appium.uiautomator2.server.test
+[debug] [ADB] Running 'E:\jar_files_selenium\Mobile Automation_Appium\android-sdk\platform-tools\adb.exe -P 5037 -s c011a0d6 shell dumpsys package io.appium.uiautomator2.server.test'
+[debug] [ADB] 'io.appium.uiautomator2.server.test' is installed
+[debug] [ADB] Checking app cert for C:\Users\ACER\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk
+[debug] [ADB] Starting 'E:\jar_files_selenium\Mobile Automation_Appium\android-sdk\build-tools\28.0.3\apksigner.bat' with args '["verify","--print-certs","C:\\Users\\ACER\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\appium-uiautomator2-server\\apks\\appium-uiautomator2-server-debug-androidTest.apk"]'
+[debug] [ADB] apksigner stdout: Signer #1 certificate DN: EMAILADDRESS=android@android.com, CN=Android, OU=Android, O=Android, L=Mountain View, ST=California, C=US
+[debug] [ADB] Signer #1 certificate SHA-256 digest: a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc
+[debug] [ADB] Signer #1 certificate SHA-1 digest: 61ed377e85d386a8dfee6b864bd85b0bfaa5af81
+[debug] [ADB] Signer #1 certificate MD5 digest: e89b158e4bcf988ebd09eb83f5378e87
+[debug] [ADB]
+[debug] [ADB] 'C:\Users\ACER\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk' is already signed.
+[UiAutomator2] Server packages are not going to be (re)installed
+[debug] [UiAutomator2] Waiting up to 30000ms for services to be available
+[debug] [ADB] Running 'E:\jar_files_selenium\Mobile Automation_Appium\android-sdk\platform-tools\adb.exe -P 5037 -s c011a0d6 shell pm list instrumentation'
+[debug] [UiAutomator2] Instrumentation target 'io.appium.uiautomator2.server.test/androidx.test.runner.AndroidJUnitRunner' is available
+[debug] [UiAutomator2] Forwarding UiAutomator2 Server port 6790 to 8201
+[debug] [ADB] Forwarding system: 8201 to device: 6790
+[debug] [ADB] Running 'E:\jar_files_selenium\Mobile Automation_Appium\android-sdk\platform-tools\adb.exe -P 5037 -s c011a0d6 forward tcp\:8201 tcp\:6790'
+[debug] [ADB] Checking app cert for E:\jar_files_selenium\Mobile Automation_appium\EriBank.apk
+[debug] [ADB] Starting 'E:\jar_files_selenium\Mobile Automation_Appium\android-sdk\build-tools\28.0.3\apksigner.bat' with args '["verify","--print-certs","E:\\jar_files_selenium\\Mobile Automation_appium\\EriBank.apk"]'
+[debug] [ADB] apksigner stdout: Signer #1 certificate DN: EMAILADDRESS=android@android.com, CN=Android, OU=Android, O=Android, L=Mountain View, ST=California, C=US
+[debug] [ADB] Signer #1 certificate SHA-256 digest: a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc
+[debug] [ADB] Signer #1 certificate SHA-1 digest: 61ed377e85d386a8dfee6b864bd85b0bfaa5af81
+[debug] [ADB] Signer #1 certificate MD5 digest: e89b158e4bcf988ebd09eb83f5378e87
+[debug] [ADB]
+[debug] [ADB] 'E:\jar_files_selenium\Mobile Automation_appium\EriBank.apk' is already signed.
+[debug] [ADB] Getting install status for com.experitest.ExperiBank
+[debug] [ADB] Running 'E:\jar_files_selenium\Mobile Automation_Appium\android-sdk\platform-tools\adb.exe -P 5037 -s c011a0d6 shell dumpsys package com.experitest.ExperiBank'
+[debug] [ADB] 'com.experitest.ExperiBank' is installed
+[debug] [ADB] Getting install status for com.experitest.ExperiBank
+[debug] [ADB] Running 'E:\jar_files_selenium\Mobile Automation_Appium\android-sdk\platform-tools\adb.exe -P 5037 -s c011a0d6 shell dumpsys package com.experitest.ExperiBank'
+[debug] [ADB] 'com.experitest.ExperiBank' is installed
+[debug] [ADB] Getting package info for 'com.experitest.ExperiBank'
+[debug] [ADB] Running 'E:\jar_files_selenium\Mobile Automation_Appium\android-sdk\platform-tools\adb.exe -P 5037 -s c011a0d6 shell dumpsys package com.experitest.ExperiBank'
+[debug] [ADB] The version name of the installed 'com.experitest.ExperiBank' is greater or equal to the application version name ('1.0.0' >= '1.0.0')
+[debug] [ADB] There is no need to install/upgrade 'E:\jar_files_selenium\Mobile Automation_appium\EriBank.apk'
+[AndroidDriver] Performing fast reset on 'com.experitest.ExperiBank'
+[debug] [ADB] Getting install status for com.experitest.ExperiBank
+[debug] [ADB] Running 'E:\jar_files_selenium\Mobile Automation_Appium\android-sdk\platform-tools\adb.exe -P 5037 -s c011a0d6 shell dumpsys package com.experitest.ExperiBank'
+[debug] [ADB] 'com.experitest.ExperiBank' is installed
+[debug] [ADB] Running 'E:\jar_files_selenium\Mobile Automation_Appium\android-sdk\platform-tools\adb.exe -P 5037 -s c011a0d6 shell am force-stop com.experitest.ExperiBank'
+[debug] [ADB] Running 'E:\jar_files_selenium\Mobile Automation_Appium\android-sdk\platform-tools\adb.exe -P 5037 -s c011a0d6 shell pm clear com.experitest.ExperiBank'
+[debug] [AndroidDriver] Performed fast reset on the installed 'com.experitest.ExperiBank' application (stop and clear)
+[debug] [UiAutomator2] Performing shallow cleanup of automation leftovers
+[debug] [UiAutomator2] No obsolete sessions have been detected (Error: ESOCKETTIMEDOUT)
+[debug] [ADB] Running 'E:\jar_files_selenium\Mobile Automation_Appium\android-sdk\platform-tools\adb.exe -P 5037 -s c011a0d6 shell am force-stop io.appium.uiautomator2.server.test'
+[UiAutomator2] Starting UIAutomator2 server 3.7.0
+[UiAutomator2] Using UIAutomator2 server from 'C:\Users\ACER\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v3.7.0.apk' and test from 'C:\Users\ACER\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk'
+[UiAutomator2] Waiting up to 30000ms for UiAutomator2 to be online...
+[debug] [ADB] Creating ADB subprocess with args: ["-P",5037,"-s","c011a0d6","shell","am","instrument","-w","io.appium.uiautomator2.server.test/androidx.test.runner.AndroidJUnitRunner"]
+[debug] [Instrumentation] INSTRUMENTATION_RESULT: shortMsg=Process crashed.
+[debug] [Instrumentation] INSTRUMENTATION_CODE: 0
+[debug] [Instrumentation] The process has exited with code 0
+[debug] [WD Proxy] Matched '/status' to command name 'getStatus'
+[debug] [WD Proxy] Proxying [GET /status] to [GET http://localhost:8201/wd/hub/status] with no body
+[WD Proxy] Got an unexpected response: {"code":"ECONNRESET"}
+[debug] [Instrumentation] io.appium.uiautomator2.server.test.AppiumUiAutomator2Server:
+[debug] [WD Proxy] Matched '/status' to command name 'getStatus'
+[debug] [WD Proxy] Proxying [GET /status] to [GET http://localhost:8201/wd/hub/status] with no body
+[WD Proxy] Got an unexpected response: {"code":"ECONNRESET"}
+[debug] [WD Proxy] Matched '/status' to command name 'getStatus'
+[debug] [WD Proxy] Proxying [GET /status] to [GET http://localhost:8201/wd/hub/status] with no body
+[debug] [WD Proxy] Got response with status 200: "{\"sessionId\":\"None\",\"status\":0,\"value\":\"Status Invoked\"}"
+[debug] [WD Proxy] Determined that the downstream protocol for proxy is MJSONWP
+[debug] [UiAutomator2] The initialization of the instrumentation process took 3173ms
+[debug] [WD Proxy] Matched '/session' to command name 'createSession'
+[debug] [WD Proxy] Proxying [POST /session] to [POST http://localhost:8201/wd/hub/session] with body: {"desiredCapabilities":{"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","app":"E:\\jar_files_selenium\\Mobile Automation_appium\\EriBank.apk","appActivity":".LoginActivity","appPackage":"com.experitest.ExperiBank","automationName":"UiAutomator2","deviceName":"AndroidOnePlus"},"platformName":"android","app":"E:\\jar_files_selenium\\Mobile Automation_appium\\EriBank.apk","appActivity":".LoginActivity","appPackage":"com.experitest.ExperiBank","automationName":"UiAutomator2","deviceName":"c011a0d6","deviceUDID":"c011a0d6"}}
+[debug] [WD Proxy] Got response with status 200: {"sessionId":"2d8790c3-cc51-4829-aaf8-317ab261cac8","status":0,"value":"Created Session"}
+[debug] [WD Proxy] Proxying [GET /appium/device/info] to [GET http://localhost:8201/wd/hub/session/2d8790c3-cc51-4829-aaf8-317ab261cac8/appium/device/info] with no body
+[debug] [WD Proxy] Got response with status 200: "{\"sessionId\":\"2d8790c3-cc51-4829-aaf8-317ab261cac8\",\"status\":0,\"value\":{\"androidId\":\"04309afb79f25af7\",\"manufacturer\":\"OnePlus\",\"model\":\"GM1901\",\"brand\":\"OnePlus\",\"apiVersion\":\"28\",\"platformVersion\":\"9\",\"carrierName\":\"IDEA\",\"realDisplaySize\":\"1080x2340\",\"displayDensity\":420,\"networks\":[{\"type\":0,\"typeName\":\"MOBILE\",\"subtype\":13,\"subtypeName\":\"LTE\",\"isConnected\":true,\"detailedState\":\"CONNECTED\",\"state\":\"CONNECTED\",\"extraInfo\":\"www\",\"isAvailable\":true,\"isFailover\":false,\"isRoaming\":false,\"capabilities\":{\"transportTypes\":\"NET_CAPABILITY_MMS\",\"networkCapabilities\":\"\",\"linkUpstreamBandwidthKbps\":28,\"linkDownBandwidthKbps\":14903,\"signalStrength\":-2147483648,\"networkSpecifier\":\"1\",\"SSID\":null}}]}}"
+[debug] [ADB] Running 'E:\jar_files_selenium\Mobile Automation_Appium\android-sdk\platform-tools\adb.exe -P 5037 -s c011a0d6 shell dumpsys window'
+[AndroidDriver] Screen already unlocked, doing nothing
+[UiAutomator2] UiAutomator2 did not start the activity we were waiting for, 'com.experitest.ExperiBank/.LoginActivity'. Starting it ourselves
+[debug] [ADB] Running 'E:\jar_files_selenium\Mobile Automation_Appium\android-sdk\platform-tools\adb.exe -P 5037 -s c011a0d6 shell am start -W -n com.experitest.ExperiBank/.LoginActivity -S -a android.intent.action.MAIN -c android.intent.category.LAUNCHER -f 0x10200000'
+[debug] [WD Proxy] Proxying [GET /appium/device/pixel_ratio] to [GET http://localhost:8201/wd/hub/session/2d8790c3-cc51-4829-aaf8-317ab261cac8/appium/device/pixel_ratio] with body: {}
+[debug] [WD Proxy] Got response with status 200: "{\"sessionId\":\"2d8790c3-cc51-4829-aaf8-317ab261cac8\",\"status\":0,\"value\":2.625}"
+[debug] [WD Proxy] Matched '/appium/device/system_bars' to command name 'getSystemBars'
+[debug] [WD Proxy] Proxying [GET /appium/device/system_bars] to [GET http://localhost:8201/wd/hub/session/2d8790c3-cc51-4829-aaf8-317ab261cac8/appium/device/system_bars] with body: {}
+[debug] [WD Proxy] Got response with status 200: "{\"sessionId\":\"2d8790c3-cc51-4829-aaf8-317ab261cac8\",\"status\":0,\"value\":{\"statusBar\":80}}"
+[debug] [WD Proxy] Matched '/window/current/size' to command name 'getWindowSize'
+[debug] [WD Proxy] Proxying [GET /window/current/size] to [GET http://localhost:8201/wd/hub/session/2d8790c3-cc51-4829-aaf8-317ab261cac8/window/current/size] with body: {}
+[debug] [WD Proxy] Got response with status 200: "{\"sessionId\":\"2d8790c3-cc51-4829-aaf8-317ab261cac8\",\"status\":0,\"value\":{\"height\":2134,\"width\":1080}}"
+[Appium] New AndroidUiautomator2Driver session created successfully, session 5f689d71-eb19-46e5-8691-7313ed7720e0 added to master session list
+[debug] [BaseDriver] Event 'newSessionStarted' logged at 1568655761205 (23:12:41 GMT+0530 (India Standard Time))
+[debug] [W3C (5f689d71)] Cached the protocol value 'W3C' for the new session 5f689d71-eb19-46e5-8691-7313ed7720e0
+[debug] [W3C (5f689d71)] Responding to client with driver.createSession() result: {"capabilities":{"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","app":"E:\\jar_files_selenium\\Mobile Automation_appium\\EriBank.apk","appActivity":".LoginActivity","appPackage":"com.experitest.ExperiBank","automationName":"UiAutomator2","deviceName":"AndroidOnePlus"},"platformName":"android","app":"E:\\jar_files_selenium\\Mobile Automation_appium\\EriBank.apk","appActivity":".LoginActivity","appPackage":"com.experitest.ExperiBank","automationName":"UiAutomator2","deviceName":"c011a0d6","deviceUDID":"c011a0d6","deviceApiLevel":28,"platformVersion":"9","deviceScreenSize":"1080x2340","deviceScreenDensity":420,"deviceModel":"GM1901","deviceManufacturer":"OnePlus","pixelRatio":2.625,"statBarHeight":80,"viewportRect":{"left":0,"top":80,"width":1080,"height":2054}}}
+[HTTP] <-- POST /wd/hub/session 200 13601 ms - 1014
+[HTTP]
+[HTTP] --> GET /wd/hub/session/5f689d71-eb19-46e5-8691-7313ed7720e0
+[HTTP] {}
+[debug] [W3C (5f689d71)] Calling AppiumDriver.getSession() with args: ["5f689d71-eb19-46e5-8691-7313ed7720e0"]
+[debug] [UiAutomator2] Getting session details from server to mix in
+[debug] [WD Proxy] Matched '/' to command name 'getSession'
+[debug] [WD Proxy] Proxying [GET /] to [GET http://localhost:8201/wd/hub/session/2d8790c3-cc51-4829-aaf8-317ab261cac8] with body: {}
+[debug] [WD Proxy] Got response with status 200: "{\"sessionId\":\"2d8790c3-cc51-4829-aaf8-317ab261cac8\",\"status\":0,\"value\":{}}"
+[debug] [W3C (5f689d71)] Responding to client with driver.getSession() result: {"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","app":"E:\\jar_files_selenium\\Mobile Automation_appium\\EriBank.apk","appActivity":".LoginActivity","appPackage":"com.experitest.ExperiBank","automationName":"UiAutomator2","deviceName":"AndroidOnePlus"},"platformName":"android","app":"E:\\jar_files_selenium\\Mobile Automation_appium\\EriBank.apk","appActivity":".LoginActivity","appPackage":"com.experitest.ExperiBank","automationName":"UiAutomator2","deviceName":"c011a0d6","deviceUDID":"c011a0d6","deviceApiLevel":28,"platformVersion":"9","deviceScreenSize":"1080x2340","deviceScreenDensity":420,"deviceModel":"GM1901","deviceManufacturer":"OnePlus","pixelRatio":2.625,"statBarHeight":80,"viewportRect":{"left":0,"top":80,"width":1080,"height":2054}}
+[HTTP] <-- GET /wd/hub/session/5f689d71-eb19-46e5-8691-7313ed7720e0 200 23 ms - 946
+[HTTP]
+[HTTP] --> GET /wd/hub/session/5f689d71-eb19-46e5-8691-7313ed7720e0
+[HTTP] {}
+[debug] [W3C (5f689d71)] Calling AppiumDriver.getSession() with args: ["5f689d71-eb19-46e5-8691-7313ed7720e0"]
+[debug] [UiAutomator2] Getting session details from server to mix in
+[debug] [WD Proxy] Matched '/' to command name 'getSession'
+[debug] [WD Proxy] Proxying [GET /] to [GET http://localhost:8201/wd/hub/session/2d8790c3-cc51-4829-aaf8-317ab261cac8] with body: {}
+[debug] [WD Proxy] Got response with status 200: "{\"sessionId\":\"2d8790c3-cc51-4829-aaf8-317ab261cac8\",\"status\":0,\"value\":{}}"
+[debug] [W3C (5f689d71)] Responding to client with driver.getSession() result: {"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","app":"E:\\jar_files_selenium\\Mobile Automation_appium\\EriBank.apk","appActivity":".LoginActivity","appPackage":"com.experitest.ExperiBank","automationName":"UiAutomator2","deviceName":"AndroidOnePlus"},"platformName":"android","app":"E:\\jar_files_selenium\\Mobile Automation_appium\\EriBank.apk","appActivity":".LoginActivity","appPackage":"com.experitest.ExperiBank","automationName":"UiAutomator2","deviceName":"c011a0d6","deviceUDID":"c011a0d6","deviceApiLevel":28,"platformVersion":"9","deviceScreenSize":"1080x2340","deviceScreenDensity":420,"deviceModel":"GM1901","deviceManufacturer":"OnePlus","pixelRatio":2.625,"statBarHeight":80,"viewportRect":{"left":0,"top":80,"width":1080,"height":2054}}
+[HTTP] <-- GET /wd/hub/session/5f689d71-eb19-46e5-8691-7313ed7720e0 200 27 ms - 946
+[HTTP]
+[HTTP] --> POST /wd/hub/session/5f689d71-eb19-46e5-8691-7313ed7720e0/timeouts
+[HTTP] {"implicit":10000}
+[debug] [W3C (5f689d71)] Calling AppiumDriver.timeouts() with args: [null,null,null,null,10000,"5f689d71-eb19-46e5-8691-7313ed7720e0"]
+[debug] [BaseDriver] W3C timeout argument: {"implicit":10000}}
+[debug] [BaseDriver] Set implicit wait to 10000ms
+[debug] [W3C (5f689d71)] Responding to client with driver.timeouts() result: null
+[HTTP] <-- POST /wd/hub/session/5f689d71-eb19-46e5-8691-7313ed7720e0/timeouts 200 11 ms - 14
+[HTTP]
+[HTTP] --> POST /wd/hub/session/5f689d71-eb19-46e5-8691-7313ed7720e0/elements
+[HTTP] {"using":"id","value":"android:id/button1"}
+[debug] [W3C (5f689d71)] Calling AppiumDriver.findElements() with args: ["id","android:id/button1","5f689d71-eb19-46e5-8691-7313ed7720e0"]
+[debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+[debug] [BaseDriver] Waiting up to 10000 ms for condition
+[debug] [WD Proxy] Matched '/elements' to command name 'findElements'
+[debug] [WD Proxy] Proxying [POST /elements] to [POST http://localhost:8201/wd/hub/session/2d8790c3-cc51-4829-aaf8-317ab261cac8/elements] with body: {"strategy":"id","selector":"android:id/button1","context":"","multiple":true}
+[debug] [WD Proxy] Got response with status 200: {"sessionId":"2d8790c3-cc51-4829-aaf8-317ab261cac8","status":0,"value":[{"ELEMENT":"e87b7670-5c05-4794-bd91-df306ac0dc2e"}]}
+[debug] [W3C (5f689d71)] Responding to client with driver.findElements() result: [{"element-6066-11e4-a52e-4f735466cecf":"e87b7670-5c05-4794-bd91-df306ac0dc2e","ELEMENT":"e87b7670-5c05-4794-bd91-df306ac0dc2e"}]
+[HTTP] <-- POST /wd/hub/session/5f689d71-eb19-46e5-8691-7313ed7720e0/elements 200 730 ms - 139
+[HTTP]
+[HTTP] --> POST /wd/hub/session/5f689d71-eb19-46e5-8691-7313ed7720e0/element
+[HTTP] {"using":"id","value":"android:id/button1"}
+[debug] [W3C (5f689d71)] Calling AppiumDriver.findElement() with args: ["id","android:id/button1","5f689d71-eb19-46e5-8691-7313ed7720e0"]
+[debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+[debug] [BaseDriver] Waiting up to 10000 ms for condition
+[debug] [WD Proxy] Matched '/element' to command name 'findElement'
+[debug] [WD Proxy] Proxying [POST /element] to [POST http://localhost:8201/wd/hub/session/2d8790c3-cc51-4829-aaf8-317ab261cac8/element] with body: {"strategy":"id","selector":"android:id/button1","context":"","multiple":false}
+[debug] [WD Proxy] Got response with status 200: {"sessionId":"2d8790c3-cc51-4829-aaf8-317ab261cac8","status":0,"value":{"ELEMENT":"fa20baeb-c188-4295-a929-79d22ed85403"}}
+[debug] [W3C (5f689d71)] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"fa20baeb-c188-4295-a929-79d22ed85403","ELEMENT":"fa20baeb-c188-4295-a929-79d22ed85403"}
+[HTTP] <-- POST /wd/hub/session/5f689d71-eb19-46e5-8691-7313ed7720e0/element 200 31 ms - 137
+[HTTP]
+[HTTP] --> POST /wd/hub/session/5f689d71-eb19-46e5-8691-7313ed7720e0/element/fa20baeb-c188-4295-a929-79d22ed85403/click
+[HTTP] {"id":"fa20baeb-c188-4295-a929-79d22ed85403"}
+[debug] [W3C (5f689d71)] Calling AppiumDriver.click() with args: ["fa20baeb-c188-4295-a929-79d22ed85403","5f689d71-eb19-46e5-8691-7313ed7720e0"]
+[debug] [WD Proxy] Matched '/element/fa20baeb-c188-4295-a929-79d22ed85403/click' to command name 'click'
+[debug] [WD Proxy] Proxying [POST /element/fa20baeb-c188-4295-a929-79d22ed85403/click] to [POST http://localhost:8201/wd/hub/session/2d8790c3-cc51-4829-aaf8-317ab261cac8/element/fa20baeb-c188-4295-a929-79d22ed85403/click] with body: {"element":"fa20baeb-c188-4295-a929-79d22ed85403"}
+[debug] [WD Proxy] Got response with status 200: {"sessionId":"2d8790c3-cc51-4829-aaf8-317ab261cac8","status":0,"value":true}
+[debug] [W3C (5f689d71)] Responding to client with driver.click() result: true
+[HTTP] <-- POST /wd/hub/session/5f689d71-eb19-46e5-8691-7313ed7720e0/element/fa20baeb-c188-4295-a929-79d22ed85403/click 200 30 ms - 14
+[HTTP]
+[HTTP] --> POST /wd/hub/session
+[HTTP] {"desiredCapabilities":{"app":"E:\\jar_files_selenium\\Mobile Automation_appium\\EriBank.apk","appActivity":".LoginActivity","appPackage":"com.experitest.ExperiBank","automationName":"UiAutomator2","platformName":"Android","deviceName":"AndroidOnePlus"},"capabilities":{"firstMatch":[{"appium:app":"E:\\jar_files_selenium\\Mobile Automation_appium\\EriBank.apk","appium:appActivity":".LoginActivity","appium:appPackage":"com.experitest.ExperiBank","appium:automationName":"UiAutomator2","appium:deviceName":"AndroidOnePlus","platformName":"android"}]}}
+[debug] [W3C] Calling AppiumDriver.createSession() with args: [{"app":"E:\\jar_files_selenium\\Mobile Automation_appium\\EriBank.apk","appActivity":".LoginActivity","appPackage":"com.experitest.ExperiBank","automationName":"UiAutomator2","platformName":"Android","deviceName":"AndroidOnePlus"},null,{"firstMatch":[{"appium:app":"E:\\jar_files_selenium\\Mobile Automation_appium\\EriBank.apk","appium:appActivity":".LoginActivity","appium:appPackage":"com.experitest.ExperiBank","appium:automationName":"UiAutomator2","appium:deviceName":"AndroidOnePlus","platformName":"android"}]}]
+[debug] [BaseDriver] Event 'newSessionRequested' logged at 1568655812126 (23:13:32 GMT+0530 (India Standard Time))
+[Appium] Appium v1.14.2 creating new AndroidUiautomator2Driver (v1.33.1) session
+[Appium] Capabilities:
+[Appium]   platformName: android
+[Appium]   app: E:\jar_files_selenium\Mobile Automation_appium\EriBank.apk
+[Appium]   appActivity: .LoginActivity
+[Appium]   appPackage: com.experitest.ExperiBank
+[Appium]   automationName: UiAutomator2
+[Appium]   deviceName: AndroidOnePlus
+[debug] [BaseDriver] W3C capabilities {"alwaysMatch":{"platformNa... and MJSONWP desired capabilities {"app":"E:\\jar_files_selen... were provided
+[debug] [BaseDriver] Creating session with W3C capabilities: {"alwaysMatch":{"platformNa...
+[BaseDriver] Session created with session id: 31fe84d3-190a-4eac-b05f-64d21a96f918
+[BaseDriver] Using local app 'E:\jar_files_selenium\Mobile Automation_appium\EriBank.apk'
+[debug] [UiAutomator2] Checking whether app is actually present
+[ADB] Using 'adb.exe' from 'E:\jar_files_selenium\Mobile Automation_Appium\android-sdk\platform-tools\adb.exe'
+[AndroidDriver] Retrieving device list
+[debug] [ADB] Trying to find a connected android device
+[debug] [ADB] Getting connected devices...
+[debug] [ADB] 1 device(s) connected
+[AndroidDriver] Using device: c011a0d6
+[ADB] Using 'adb.exe' from 'E:\jar_files_selenium\Mobile Automation_Appium\android-sdk\platform-tools\adb.exe'
+[debug] [ADB] Setting device id to c011a0d6
+[debug] [ADB] Running 'E:\jar_files_selenium\Mobile Automation_Appium\android-sdk\platform-tools\adb.exe -P 5037 -s c011a0d6 shell getprop ro.build.version.sdk'
+[debug] [ADB] Current device property 'ro.build.version.sdk': 28
+[debug] [ADB] Running 'E:\jar_files_selenium\Mobile Automation_Appium\android-sdk\platform-tools\adb.exe -P 5037 -s c011a0d6 shell getprop ro.build.version.release'
+[debug] [ADB] Current device property 'ro.build.version.release': 9
+[debug] [ADB] Device API level: 28
+[UiAutomator2] Relaxing hidden api policy
+[debug] [ADB] Running 'E:\jar_files_selenium\Mobile Automation_Appium\android-sdk\platform-tools\adb.exe -P 5037 -s c011a0d6 shell settings put global hidden_api_policy_pre_p_apps 1'
+[debug] [ADB] Running 'E:\jar_files_selenium\Mobile Automation_Appium\android-sdk\platform-tools\adb.exe -P 5037 -s c011a0d6 shell settings put global hidden_api_policy_p_apps 1'
+[debug] [ADB] Running 'E:\jar_files_selenium\Mobile Automation_Appium\android-sdk\platform-tools\adb.exe -P 5037 -s c011a0d6 shell settings put global hidden_api_policy 1'
+[debug] [ADB] Running 'E:\jar_files_selenium\Mobile Automation_Appium\android-sdk\platform-tools\adb.exe -P 5037 -s c011a0d6 wait-for-device'
+[debug] [ADB] Running 'E:\jar_files_selenium\Mobile Automation_Appium\android-sdk\platform-tools\adb.exe -P 5037 -s c011a0d6 shell echo ping'
+[debug] [AndroidDriver] Pushing settings apk to device...
+[debug] [ADB] Getting install status for io.appium.settings
+[debug] [ADB] Running 'E:\jar_files_selenium\Mobile Automation_Appium\android-sdk\platform-tools\adb.exe -P 5037 -s c011a0d6 shell dumpsys package io.appium.settings'
+[debug] [ADB] 'io.appium.settings' is installed
+[debug] [ADB] Getting package info for 'io.appium.settings'
+[debug] [ADB] Running 'E:\jar_files_selenium\Mobile Automation_Appium\android-sdk\platform-tools\adb.exe -P 5037 -s c011a0d6 shell dumpsys package io.appium.settings'
+[ADB] Using 'aapt.exe' from 'E:\jar_files_selenium\Mobile Automation_Appium\android-sdk\build-tools\28.0.3\aapt.exe'
+[debug] [ADB] The version name of the installed 'io.appium.settings' is greater or equal to the application version name ('2.14.1' >= '2.14.1')
+[debug] [ADB] There is no need to install/upgrade 'C:\Users\ACER\AppData\Roaming\npm\node_modules\appium\node_modules\io.appium.settings\apks\settings_apk-debug.apk'
+[debug] [ADB] Getting IDs of all 'io.appium.settings' processes
+[debug] [ADB] Running 'E:\jar_files_selenium\Mobile Automation_Appium\android-sdk\platform-tools\adb.exe -P 5037 -s c011a0d6 shell 'pgrep --help; echo $?''
+[debug] [ADB] Running 'E:\jar_files_selenium\Mobile Automation_Appium\android-sdk\platform-tools\adb.exe -P 5037 -s c011a0d6 shell pgrep -f io\\.appium\\.settings'
+[debug] [AndroidDriver] io.appium.settings is already running. There is no need to reset its permissions.
+[debug] [ADB] Running 'E:\jar_files_selenium\Mobile Automation_Appium\android-sdk\platform-tools\adb.exe -P 5037 -s c011a0d6 shell appops set io.appium.settings android\:mock_location allow'
+[debug] [Logcat] Starting logcat capture
+[debug] [ADB] Getting install status for io.appium.uiautomator2.server
+[debug] [ADB] Running 'E:\jar_files_selenium\Mobile Automation_Appium\android-sdk\platform-tools\adb.exe -P 5037 -s c011a0d6 shell dumpsys package io.appium.uiautomator2.server'
+[debug] [ADB] 'io.appium.uiautomator2.server' is installed
+[debug] [ADB] Getting package info for 'io.appium.uiautomator2.server'
+[debug] [ADB] Running 'E:\jar_files_selenium\Mobile Automation_Appium\android-sdk\platform-tools\adb.exe -P 5037 -s c011a0d6 shell dumpsys package io.appium.uiautomator2.server'
+[debug] [ADB] The version name of the installed 'io.appium.uiautomator2.server' is greater or equal to the application version name ('3.7.0' >= '3.7.0')
+[debug] [UiAutomator2] io.appium.uiautomator2.server installation state: sameVersionInstalled
+[debug] [ADB] Checking app cert for C:\Users\ACER\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v3.7.0.apk
+[ADB] Using 'apksigner.bat' from 'E:\jar_files_selenium\Mobile Automation_Appium\android-sdk\build-tools\28.0.3\apksigner.bat'
+[debug] [ADB] Starting 'E:\jar_files_selenium\Mobile Automation_Appium\android-sdk\build-tools\28.0.3\apksigner.bat' with args '["verify","--print-certs","C:\\Users\\ACER\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\appium-uiautomator2-server\\apks\\appium-uiautomator2-server-v3.7.0.apk"]'
+[debug] [ADB] apksigner stdout: Signer #1 certificate DN: EMAILADDRESS=android@android.com, CN=Android, OU=Android, O=Android, L=Mountain View, ST=California, C=US
+[debug] [ADB] Signer #1 certificate SHA-256 digest: a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc
+[debug] [ADB] Signer #1 certificate SHA-1 digest: 61ed377e85d386a8dfee6b864bd85b0bfaa5af81
+[debug] [ADB] Signer #1 certificate MD5 digest: e89b158e4bcf988ebd09eb83f5378e87
+[debug] [ADB]
+[debug] [ADB] 'C:\Users\ACER\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v3.7.0.apk' is already signed.
+[debug] [ADB] Getting install status for io.appium.uiautomator2.server.test
+[debug] [ADB] Running 'E:\jar_files_selenium\Mobile Automation_Appium\android-sdk\platform-tools\adb.exe -P 5037 -s c011a0d6 shell dumpsys package io.appium.uiautomator2.server.test'
+[debug] [ADB] 'io.appium.uiautomator2.server.test' is installed
+[debug] [ADB] Checking app cert for C:\Users\ACER\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk
+[debug] [ADB] Starting 'E:\jar_files_selenium\Mobile Automation_Appium\android-sdk\build-tools\28.0.3\apksigner.bat' with args '["verify","--print-certs","C:\\Users\\ACER\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\appium-uiautomator2-server\\apks\\appium-uiautomator2-server-debug-androidTest.apk"]'
+[debug] [ADB] apksigner stdout: Signer #1 certificate DN: EMAILADDRESS=android@android.com, CN=Android, OU=Android, O=Android, L=Mountain View, ST=California, C=US
+[debug] [ADB] Signer #1 certificate SHA-256 digest: a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc
+[debug] [ADB] Signer #1 certificate SHA-1 digest: 61ed377e85d386a8dfee6b864bd85b0bfaa5af81
+[debug] [ADB] Signer #1 certificate MD5 digest: e89b158e4bcf988ebd09eb83f5378e87
+[debug] [ADB]
+[debug] [ADB] 'C:\Users\ACER\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk' is already signed.
+[UiAutomator2] Server packages are not going to be (re)installed
+[debug] [UiAutomator2] Waiting up to 30000ms for services to be available
+[debug] [ADB] Running 'E:\jar_files_selenium\Mobile Automation_Appium\android-sdk\platform-tools\adb.exe -P 5037 -s c011a0d6 shell pm list instrumentation'
+[debug] [UiAutomator2] Instrumentation target 'io.appium.uiautomator2.server.test/androidx.test.runner.AndroidJUnitRunner' is available
+[debug] [UiAutomator2] Forwarding UiAutomator2 Server port 6790 to 8202
+[debug] [ADB] Forwarding system: 8202 to device: 6790
+[debug] [ADB] Running 'E:\jar_files_selenium\Mobile Automation_Appium\android-sdk\platform-tools\adb.exe -P 5037 -s c011a0d6 forward tcp\:8202 tcp\:6790'
+[debug] [ADB] Checking app cert for E:\jar_files_selenium\Mobile Automation_appium\EriBank.apk
+[debug] [ADB] Starting 'E:\jar_files_selenium\Mobile Automation_Appium\android-sdk\build-tools\28.0.3\apksigner.bat' with args '["verify","--print-certs","E:\\jar_files_selenium\\Mobile Automation_appium\\EriBank.apk"]'
+[debug] [ADB] apksigner stdout: Signer #1 certificate DN: EMAILADDRESS=android@android.com, CN=Android, OU=Android, O=Android, L=Mountain View, ST=California, C=US
+[debug] [ADB] Signer #1 certificate SHA-256 digest: a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc
+[debug] [ADB] Signer #1 certificate SHA-1 digest: 61ed377e85d386a8dfee6b864bd85b0bfaa5af81
+[debug] [ADB] Signer #1 certificate MD5 digest: e89b158e4bcf988ebd09eb83f5378e87
+[debug] [ADB]
+[debug] [ADB] 'E:\jar_files_selenium\Mobile Automation_appium\EriBank.apk' is already signed.
+[debug] [ADB] Getting install status for com.experitest.ExperiBank
+[debug] [ADB] Running 'E:\jar_files_selenium\Mobile Automation_Appium\android-sdk\platform-tools\adb.exe -P 5037 -s c011a0d6 shell dumpsys package com.experitest.ExperiBank'
+[debug] [ADB] 'com.experitest.ExperiBank' is installed
+[debug] [ADB] Getting install status for com.experitest.ExperiBank
+[debug] [ADB] Running 'E:\jar_files_selenium\Mobile Automation_Appium\android-sdk\platform-tools\adb.exe -P 5037 -s c011a0d6 shell dumpsys package com.experitest.ExperiBank'
+[debug] [ADB] 'com.experitest.ExperiBank' is installed
+[debug] [ADB] Getting package info for 'com.experitest.ExperiBank'
+[debug] [ADB] Running 'E:\jar_files_selenium\Mobile Automation_Appium\android-sdk\platform-tools\adb.exe -P 5037 -s c011a0d6 shell dumpsys package com.experitest.ExperiBank'
+[debug] [ADB] The version name of the installed 'com.experitest.ExperiBank' is greater or equal to the application version name ('1.0.0' >= '1.0.0')
+[debug] [ADB] There is no need to install/upgrade 'E:\jar_files_selenium\Mobile Automation_appium\EriBank.apk'
+[AndroidDriver] Performing fast reset on 'com.experitest.ExperiBank'
+[debug] [ADB] Getting install status for com.experitest.ExperiBank
+[debug] [ADB] Running 'E:\jar_files_selenium\Mobile Automation_Appium\android-sdk\platform-tools\adb.exe -P 5037 -s c011a0d6 shell dumpsys package com.experitest.ExperiBank'
+[debug] [ADB] 'com.experitest.ExperiBank' is installed
+[debug] [ADB] Running 'E:\jar_files_selenium\Mobile Automation_Appium\android-sdk\platform-tools\adb.exe -P 5037 -s c011a0d6 shell am force-stop com.experitest.ExperiBank'
+[debug] [ADB] Running 'E:\jar_files_selenium\Mobile Automation_Appium\android-sdk\platform-tools\adb.exe -P 5037 -s c011a0d6 shell pm clear com.experitest.ExperiBank'
+[debug] [AndroidDriver] Performed fast reset on the installed 'com.experitest.ExperiBank' application (stop and clear)
+[debug] [UiAutomator2] Performing shallow cleanup of automation leftovers
+[debug] [UiAutomator2] The following obsolete sessions are still running: ["2d8790c3-cc51-4829-aaf8-317ab261cac8"]
+[debug] [UiAutomator2] Cleaning up the obsolete sessions
+[debug] [Instrumentation] .
+[debug] [ADB] Running 'E:\jar_files_selenium\Mobile Automation_Appium\android-sdk\platform-tools\adb.exe -P 5037 -s c011a0d6 shell am force-stop io.appium.uiautomator2.server.test'
+[UiAutomator2] Starting UIAutomator2 server 3.7.0
+[UiAutomator2] Using UIAutomator2 server from 'C:\Users\ACER\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v3.7.0.apk' and test from 'C:\Users\ACER\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk'
+[UiAutomator2] Waiting up to 30000ms for UiAutomator2 to be online...
+[debug] [ADB] Creating ADB subprocess with args: ["-P",5037,"-s","c011a0d6","shell","am","instrument","-w","io.appium.uiautomator2.server.test/androidx.test.runner.AndroidJUnitRunner"]
+[debug] [Instrumentation] Time: 63.065
+[debug] [Instrumentation]
+[debug] [Instrumentation] OK (1 test)
+[BaseDriver] Shutting down because we waited 60 seconds for a command
+[debug] [UiAutomator2] Deleting UiAutomator2 session
+[Appium] Closing session, cause was 'New Command Timeout of 60 seconds expired. Try customizing the timeout using the 'newCommandTimeout' desired capability'
+[Appium] Removing session 5f689d71-eb19-46e5-8691-7313ed7720e0 from our master session list
+[debug] [UiAutomator2] Deleting UiAutomator2 server session
+[debug] [WD Proxy] Matched '/' to command name 'deleteSession'
+[debug] [WD Proxy] Proxying [DELETE /] to [DELETE http://localhost:8201/wd/hub/session/2d8790c3-cc51-4829-aaf8-317ab261cac8] with no body
+[WD Proxy] Got an unexpected response: {"code":"ECONNRESET"}
+[UiAutomator2] Did not get confirmation UiAutomator2 deleteSession worked; Error was: UnknownError: An unknown server-side error occurred while processing the command. Original error: Could not proxy command to remote server. Original error: Error: socket hang up
+[debug] [ADB] Running 'E:\jar_files_selenium\Mobile Automation_Appium\android-sdk\platform-tools\adb.exe -P 5037 -s c011a0d6 shell am force-stop com.experitest.ExperiBank'
+[debug] [Instrumentation] The process has exited with code 0
+[debug] [Logcat] Stopping logcat capture
+[debug] [ADB] Removing forwarded port socket connection: 8201
+[debug] [ADB] Running 'E:\jar_files_selenium\Mobile Automation_Appium\android-sdk\platform-tools\adb.exe -P 5037 -s c011a0d6 forward --remove tcp\:8201'
+[UiAutomator2] Restoring hidden api policy to the device default configuration
+[debug] [ADB] Running 'E:\jar_files_selenium\Mobile Automation_Appium\android-sdk\platform-tools\adb.exe -P 5037 -s c011a0d6 shell settings delete global hidden_api_policy_pre_p_apps'
+[debug] [ADB] Running 'E:\jar_files_selenium\Mobile Automation_Appium\android-sdk\platform-tools\adb.exe -P 5037 -s c011a0d6 shell settings delete global hidden_api_policy_p_apps'
+[debug] [ADB] Running 'E:\jar_files_selenium\Mobile Automation_Appium\android-sdk\platform-tools\adb.exe -P 5037 -s c011a0d6 shell settings delete global hidden_api_policy'
+[debug] [WD Proxy] Matched '/status' to command name 'getStatus'
+[debug] [WD Proxy] Proxying [GET /status] to [GET http://localhost:8202/wd/hub/status] with no body
+[debug] [Instrumentation] io.appium.uiautomator2.server.test.AppiumUiAutomator2Server:
+[WD Proxy] Got an unexpected response: {"code":"ECONNRESET"}
+[debug] [WD Proxy] Matched '/status' to command name 'getStatus'
+[debug] [WD Proxy] Proxying [GET /status] to [GET http://localhost:8202/wd/hub/status] with no body
+[WD Proxy] Got an unexpected response: {"code":"ECONNRESET"}
+[debug] [WD Proxy] Matched '/status' to command name 'getStatus'
+[debug] [WD Proxy] Proxying [GET /status] to [GET http://localhost:8202/wd/hub/status] with no body
+[debug] [WD Proxy] Got response with status 200: "{\"sessionId\":\"None\",\"status\":0,\"value\":\"Status Invoked\"}"
+[debug] [WD Proxy] Determined that the downstream protocol for proxy is MJSONWP
+[debug] [UiAutomator2] The initialization of the instrumentation process took 3186ms
+[debug] [WD Proxy] Matched '/session' to command name 'createSession'
+[debug] [WD Proxy] Proxying [POST /session] to [POST http://localhost:8202/wd/hub/session] with body: {"desiredCapabilities":{"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","app":"E:\\jar_files_selenium\\Mobile Automation_appium\\EriBank.apk","appActivity":".LoginActivity","appPackage":"com.experitest.ExperiBank","automationName":"UiAutomator2","deviceName":"AndroidOnePlus"},"platformName":"android","app":"E:\\jar_files_selenium\\Mobile Automation_appium\\EriBank.apk","appActivity":".LoginActivity","appPackage":"com.experitest.ExperiBank","automationName":"UiAutomator2","deviceName":"c011a0d6","deviceUDID":"c011a0d6"}}
+[debug] [WD Proxy] Got response with status 200: {"sessionId":"bbbb2521-195a-4f52-adff-16fc85f50144","status":0,"value":"Created Session"}
+[debug] [WD Proxy] Proxying [GET /appium/device/info] to [GET http://localhost:8202/wd/hub/session/bbbb2521-195a-4f52-adff-16fc85f50144/appium/device/info] with no body
+[debug] [WD Proxy] Got response with status 200: "{\"sessionId\":\"bbbb2521-195a-4f52-adff-16fc85f50144\",\"status\":0,\"value\":{\"androidId\":\"04309afb79f25af7\",\"manufacturer\":\"OnePlus\",\"model\":\"GM1901\",\"brand\":\"OnePlus\",\"apiVersion\":\"28\",\"platformVersion\":\"9\",\"carrierName\":\"IDEA\",\"realDisplaySize\":\"1080x2340\",\"displayDensity\":420,\"networks\":[{\"type\":0,\"typeName\":\"MOBILE\",\"subtype\":13,\"subtypeName\":\"LTE\",\"isConnected\":true,\"detailedState\":\"CONNECTED\",\"state\":\"CONNECTED\",\"extraInfo\":\"www\",\"isAvailable\":true,\"isFailover\":false,\"isRoaming\":false,\"capabilities\":{\"transportTypes\":\"NET_CAPABILITY_MMS\",\"networkCapabilities\":\"\",\"linkUpstreamBandwidthKbps\":28,\"linkDownBandwidthKbps\":17661,\"signalStrength\":-2147483648,\"networkSpecifier\":\"1\",\"SSID\":null}}]}}"
+[debug] [ADB] Running 'E:\jar_files_selenium\Mobile Automation_Appium\android-sdk\platform-tools\adb.exe -P 5037 -s c011a0d6 shell dumpsys window'
+[AndroidDriver] Screen already unlocked, doing nothing
+[UiAutomator2] UiAutomator2 did not start the activity we were waiting for, 'com.experitest.ExperiBank/.LoginActivity'. Starting it ourselves
+[debug] [ADB] Running 'E:\jar_files_selenium\Mobile Automation_Appium\android-sdk\platform-tools\adb.exe -P 5037 -s c011a0d6 shell am start -W -n com.experitest.ExperiBank/.LoginActivity -S -a android.intent.action.MAIN -c android.intent.category.LAUNCHER -f 0x10200000'
+[debug] [WD Proxy] Proxying [GET /appium/device/pixel_ratio] to [GET http://localhost:8202/wd/hub/session/bbbb2521-195a-4f52-adff-16fc85f50144/appium/device/pixel_ratio] with body: {}
+[debug] [WD Proxy] Got response with status 200: "{\"sessionId\":\"bbbb2521-195a-4f52-adff-16fc85f50144\",\"status\":0,\"value\":2.625}"
+[debug] [WD Proxy] Matched '/appium/device/system_bars' to command name 'getSystemBars'
+[debug] [WD Proxy] Proxying [GET /appium/device/system_bars] to [GET http://localhost:8202/wd/hub/session/bbbb2521-195a-4f52-adff-16fc85f50144/appium/device/system_bars] with body: {}
+[debug] [WD Proxy] Got response with status 200: "{\"sessionId\":\"bbbb2521-195a-4f52-adff-16fc85f50144\",\"status\":0,\"value\":{\"statusBar\":80}}"
+[debug] [WD Proxy] Matched '/window/current/size' to command name 'getWindowSize'
+[debug] [WD Proxy] Proxying [GET /window/current/size] to [GET http://localhost:8202/wd/hub/session/bbbb2521-195a-4f52-adff-16fc85f50144/window/current/size] with body: {}
+[debug] [WD Proxy] Got response with status 200: "{\"sessionId\":\"bbbb2521-195a-4f52-adff-16fc85f50144\",\"status\":0,\"value\":{\"height\":2134,\"width\":1080}}"
+[Appium] New AndroidUiautomator2Driver session created successfully, session 31fe84d3-190a-4eac-b05f-64d21a96f918 added to master session list
+[debug] [BaseDriver] Event 'newSessionStarted' logged at 1568655826234 (23:13:46 GMT+0530 (India Standard Time))
+[debug] [W3C (31fe84d3)] Cached the protocol value 'W3C' for the new session 31fe84d3-190a-4eac-b05f-64d21a96f918
+[debug] [W3C (31fe84d3)] Responding to client with driver.createSession() result: {"capabilities":{"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","app":"E:\\jar_files_selenium\\Mobile Automation_appium\\EriBank.apk","appActivity":".LoginActivity","appPackage":"com.experitest.ExperiBank","automationName":"UiAutomator2","deviceName":"AndroidOnePlus"},"platformName":"android","app":"E:\\jar_files_selenium\\Mobile Automation_appium\\EriBank.apk","appActivity":".LoginActivity","appPackage":"com.experitest.ExperiBank","automationName":"UiAutomator2","deviceName":"c011a0d6","deviceUDID":"c011a0d6","deviceApiLevel":28,"platformVersion":"9","deviceScreenSize":"1080x2340","deviceScreenDensity":420,"deviceModel":"GM1901","deviceManufacturer":"OnePlus","pixelRatio":2.625,"statBarHeight":80,"viewportRect":{"left":0,"top":80,"width":1080,"height":2054}}}
+[HTTP] <-- POST /wd/hub/session 200 14117 ms - 1014
+[HTTP]
+[HTTP] --> GET /wd/hub/session/31fe84d3-190a-4eac-b05f-64d21a96f918
+[HTTP] {}
+[debug] [W3C (31fe84d3)] Calling AppiumDriver.getSession() with args: ["31fe84d3-190a-4eac-b05f-64d21a96f918"]
+[debug] [UiAutomator2] Getting session details from server to mix in
+[debug] [WD Proxy] Matched '/' to command name 'getSession'
+[debug] [WD Proxy] Proxying [GET /] to [GET http://localhost:8202/wd/hub/session/bbbb2521-195a-4f52-adff-16fc85f50144] with body: {}
+[debug] [WD Proxy] Got response with status 200: "{\"sessionId\":\"bbbb2521-195a-4f52-adff-16fc85f50144\",\"status\":0,\"value\":{}}"
+[debug] [W3C (31fe84d3)] Responding to client with driver.getSession() result: {"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","app":"E:\\jar_files_selenium\\Mobile Automation_appium\\EriBank.apk","appActivity":".LoginActivity","appPackage":"com.experitest.ExperiBank","automationName":"UiAutomator2","deviceName":"AndroidOnePlus"},"platformName":"android","app":"E:\\jar_files_selenium\\Mobile Automation_appium\\EriBank.apk","appActivity":".LoginActivity","appPackage":"com.experitest.ExperiBank","automationName":"UiAutomator2","deviceName":"c011a0d6","deviceUDID":"c011a0d6","deviceApiLevel":28,"platformVersion":"9","deviceScreenSize":"1080x2340","deviceScreenDensity":420,"deviceModel":"GM1901","deviceManufacturer":"OnePlus","pixelRatio":2.625,"statBarHeight":80,"viewportRect":{"left":0,"top":80,"width":1080,"height":2054}}
+[HTTP] <-- GET /wd/hub/session/31fe84d3-190a-4eac-b05f-64d21a96f918 200 29 ms - 946
+[HTTP]
+[HTTP] --> GET /wd/hub/session/31fe84d3-190a-4eac-b05f-64d21a96f918
+[HTTP] {}
+[debug] [W3C (31fe84d3)] Calling AppiumDriver.getSession() with args: ["31fe84d3-190a-4eac-b05f-64d21a96f918"]
+[debug] [UiAutomator2] Getting session details from server to mix in
+[debug] [WD Proxy] Matched '/' to command name 'getSession'
+[debug] [WD Proxy] Proxying [GET /] to [GET http://localhost:8202/wd/hub/session/bbbb2521-195a-4f52-adff-16fc85f50144] with body: {}
+[debug] [WD Proxy] Got response with status 200: "{\"sessionId\":\"bbbb2521-195a-4f52-adff-16fc85f50144\",\"status\":0,\"value\":{}}"
+[debug] [W3C (31fe84d3)] Responding to client with driver.getSession() result: {"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","app":"E:\\jar_files_selenium\\Mobile Automation_appium\\EriBank.apk","appActivity":".LoginActivity","appPackage":"com.experitest.ExperiBank","automationName":"UiAutomator2","deviceName":"AndroidOnePlus"},"platformName":"android","app":"E:\\jar_files_selenium\\Mobile Automation_appium\\EriBank.apk","appActivity":".LoginActivity","appPackage":"com.experitest.ExperiBank","automationName":"UiAutomator2","deviceName":"c011a0d6","deviceUDID":"c011a0d6","deviceApiLevel":28,"platformVersion":"9","deviceScreenSize":"1080x2340","deviceScreenDensity":420,"deviceModel":"GM1901","deviceManufacturer":"OnePlus","pixelRatio":2.625,"statBarHeight":80,"viewportRect":{"left":0,"top":80,"width":1080,"height":2054}}
+[HTTP] <-- GET /wd/hub/session/31fe84d3-190a-4eac-b05f-64d21a96f918 200 24 ms - 946
+[HTTP]
+[HTTP] --> POST /wd/hub/session/31fe84d3-190a-4eac-b05f-64d21a96f918/timeouts
+[HTTP] {"implicit":10000}
+[debug] [W3C (31fe84d3)] Calling AppiumDriver.timeouts() with args: [null,null,null,null,10000,"31fe84d3-190a-4eac-b05f-64d21a96f918"]
+[debug] [BaseDriver] W3C timeout argument: {"implicit":10000}}
+[debug] [BaseDriver] Set implicit wait to 10000ms
+[debug] [W3C (31fe84d3)] Responding to client with driver.timeouts() result: null
+[HTTP] <-- POST /wd/hub/session/31fe84d3-190a-4eac-b05f-64d21a96f918/timeouts 200 11 ms - 14
+[HTTP]
+[HTTP] --> POST /wd/hub/session/31fe84d3-190a-4eac-b05f-64d21a96f918/elements
+[HTTP] {"using":"id","value":"android:id/button1"}
+[debug] [W3C (31fe84d3)] Calling AppiumDriver.findElements() with args: ["id","android:id/button1","31fe84d3-190a-4eac-b05f-64d21a96f918"]
+[debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+[debug] [BaseDriver] Waiting up to 10000 ms for condition
+[debug] [WD Proxy] Matched '/elements' to command name 'findElements'
+[debug] [WD Proxy] Proxying [POST /elements] to [POST http://localhost:8202/wd/hub/session/bbbb2521-195a-4f52-adff-16fc85f50144/elements] with body: {"strategy":"id","selector":"android:id/button1","context":"","multiple":true}
+[debug] [WD Proxy] Got response with status 200: {"sessionId":"bbbb2521-195a-4f52-adff-16fc85f50144","status":0,"value":[{"ELEMENT":"5feaafd7-b8c6-43a8-bb30-ea809be08e58"}]}
+[debug] [W3C (31fe84d3)] Responding to client with driver.findElements() result: [{"element-6066-11e4-a52e-4f735466cecf":"5feaafd7-b8c6-43a8-bb30-ea809be08e58","ELEMENT":"5feaafd7-b8c6-43a8-bb30-ea809be08e58"}]
+[HTTP] <-- POST /wd/hub/session/31fe84d3-190a-4eac-b05f-64d21a96f918/elements 200 693 ms - 139
+[HTTP]
+[HTTP] --> POST /wd/hub/session/31fe84d3-190a-4eac-b05f-64d21a96f918/element
+[HTTP] {"using":"id","value":"android:id/button1"}
+[debug] [W3C (31fe84d3)] Calling AppiumDriver.findElement() with args: ["id","android:id/button1","31fe84d3-190a-4eac-b05f-64d21a96f918"]
+[debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+[debug] [BaseDriver] Waiting up to 10000 ms for condition
+[debug] [WD Proxy] Matched '/element' to command name 'findElement'
+[debug] [WD Proxy] Proxying [POST /element] to [POST http://localhost:8202/wd/hub/session/bbbb2521-195a-4f52-adff-16fc85f50144/element] with body: {"strategy":"id","selector":"android:id/button1","context":"","multiple":false}
+[debug] [WD Proxy] Got response with status 200: {"sessionId":"bbbb2521-195a-4f52-adff-16fc85f50144","status":0,"value":{"ELEMENT":"cac6c587-31c0-4fca-889f-68fd08420d6a"}}
+[debug] [W3C (31fe84d3)] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"cac6c587-31c0-4fca-889f-68fd08420d6a","ELEMENT":"cac6c587-31c0-4fca-889f-68fd08420d6a"}
+[HTTP] <-- POST /wd/hub/session/31fe84d3-190a-4eac-b05f-64d21a96f918/element 200 29 ms - 137
+[HTTP]
+[HTTP] --> POST /wd/hub/session/31fe84d3-190a-4eac-b05f-64d21a96f918/element/cac6c587-31c0-4fca-889f-68fd08420d6a/click
+[HTTP] {"id":"cac6c587-31c0-4fca-889f-68fd08420d6a"}
+[debug] [W3C (31fe84d3)] Calling AppiumDriver.click() with args: ["cac6c587-31c0-4fca-889f-68fd08420d6a","31fe84d3-190a-4eac-b05f-64d21a96f918"]
+[debug] [WD Proxy] Matched '/element/cac6c587-31c0-4fca-889f-68fd08420d6a/click' to command name 'click'
+[debug] [WD Proxy] Proxying [POST /element/cac6c587-31c0-4fca-889f-68fd08420d6a/click] to [POST http://localhost:8202/wd/hub/session/bbbb2521-195a-4f52-adff-16fc85f50144/element/cac6c587-31c0-4fca-889f-68fd08420d6a/click] with body: {"element":"cac6c587-31c0-4fca-889f-68fd08420d6a"}
+[debug] [WD Proxy] Got response with status 200: {"sessionId":"bbbb2521-195a-4f52-adff-16fc85f50144","status":0,"value":true}
+[debug] [W3C (31fe84d3)] Responding to client with driver.click() result: true
+[HTTP] <-- POST /wd/hub/session/31fe84d3-190a-4eac-b05f-64d21a96f918/element/cac6c587-31c0-4fca-889f-68fd08420d6a/click 200 32 ms - 14
+[HTTP]
+[BaseDriver] Shutting down because we waited 60 seconds for a command
+[debug] [UiAutomator2] Deleting UiAutomator2 session
+[Appium] Closing session, cause was 'New Command Timeout of 60 seconds expired. Try customizing the timeout using the 'newCommandTimeout' desired capability'
+[Appium] Removing session 31fe84d3-190a-4eac-b05f-64d21a96f918 from our master session list
+[debug] [UiAutomator2] Deleting UiAutomator2 server session
+[debug] [WD Proxy] Matched '/' to command name 'deleteSession'
+[debug] [WD Proxy] Proxying [DELETE /] to [DELETE http://localhost:8202/wd/hub/session/bbbb2521-195a-4f52-adff-16fc85f50144] with no body
+[debug] [WD Proxy] Got response with status 200: "{\"sessionId\":\"bbbb2521-195a-4f52-adff-16fc85f50144\",\"status\":0,\"value\":\"Session deleted\"}"
+[debug] [ADB] Running 'E:\jar_files_selenium\Mobile Automation_Appium\android-sdk\platform-tools\adb.exe -P 5037 -s c011a0d6 shell am force-stop com.experitest.ExperiBank'
+[debug] [Logcat] Stopping logcat capture
+[debug] [ADB] Removing forwarded port socket connection: 8202
+[debug] [ADB] Running 'E:\jar_files_selenium\Mobile Automation_Appium\android-sdk\platform-tools\adb.exe -P 5037 -s c011a0d6 forward --remove tcp\:8202'
+[UiAutomator2] Restoring hidden api policy to the device default configuration
+[debug] [ADB] Running 'E:\jar_files_selenium\Mobile Automation_Appium\android-sdk\platform-tools\adb.exe -P 5037 -s c011a0d6 shell settings delete global hidden_api_policy_pre_p_apps'
+[debug] [ADB] Running 'E:\jar_files_selenium\Mobile Automation_Appium\android-sdk\platform-tools\adb.exe -P 5037 -s c011a0d6 shell settings delete global hidden_api_policy_p_apps'
+[debug] [Instrumentation] .
+[debug] [ADB] Running 'E:\jar_files_selenium\Mobile Automation_Appium\android-sdk\platform-tools\adb.exe -P 5037 -s c011a0d6 shell settings delete global hidden_api_policy'
+[debug] [Instrumentation] Time: 65.059
+[debug] [Instrumentation]
+[debug] [Instrumentation] OK (1 test)
+[debug] [Instrumentation] The process has exited with code 0
+[HTTP] --> POST /wd/hub/session
+[HTTP] {"desiredCapabilities":{"app":"E:\\jar_files_selenium\\Mobile Automation_appium\\EriBank.apk","appActivity":".LoginActivity","appPackage":"com.experitest.ExperiBank","automationName":"UiAutomator2","platformName":"Android","deviceName":"AndroidOnePlus"},"capabilities":{"firstMatch":[{"appium:app":"E:\\jar_files_selenium\\Mobile Automation_appium\\EriBank.apk","appium:appActivity":".LoginActivity","appium:appPackage":"com.experitest.ExperiBank","appium:automationName":"UiAutomator2","appium:deviceName":"AndroidOnePlus","platformName":"android"}]}}
+[debug] [W3C] Calling AppiumDriver.createSession() with args: [{"app":"E:\\jar_files_selenium\\Mobile Automation_appium\\EriBank.apk","appActivity":".LoginActivity","appPackage":"com.experitest.ExperiBank","automationName":"UiAutomator2","platformName":"Android","deviceName":"AndroidOnePlus"},null,{"firstMatch":[{"appium:app":"E:\\jar_files_selenium\\Mobile Automation_appium\\EriBank.apk","appium:appActivity":".LoginActivity","appium:appPackage":"com.experitest.ExperiBank","appium:automationName":"UiAutomator2","appium:deviceName":"AndroidOnePlus","platformName":"android"}]}]
+[debug] [BaseDriver] Event 'newSessionRequested' logged at 1568656033421 (23:17:13 GMT+0530 (India Standard Time))
+[Appium] Appium v1.14.2 creating new AndroidUiautomator2Driver (v1.33.1) session
+[Appium] Capabilities:
+[Appium]   platformName: android
+[Appium]   app: E:\jar_files_selenium\Mobile Automation_appium\EriBank.apk
+[Appium]   appActivity: .LoginActivity
+[Appium]   appPackage: com.experitest.ExperiBank
+[Appium]   automationName: UiAutomator2
+[Appium]   deviceName: AndroidOnePlus
+[debug] [BaseDriver] W3C capabilities {"alwaysMatch":{"platformNa... and MJSONWP desired capabilities {"app":"E:\\jar_files_selen... were provided
+[debug] [BaseDriver] Creating session with W3C capabilities: {"alwaysMatch":{"platformNa...
+[BaseDriver] Session created with session id: 1b964440-1ec0-4583-b19a-72eafa1806f8
+[BaseDriver] Using local app 'E:\jar_files_selenium\Mobile Automation_appium\EriBank.apk'
+[debug] [UiAutomator2] Checking whether app is actually present
+[ADB] Using 'adb.exe' from 'E:\jar_files_selenium\Mobile Automation_Appium\android-sdk\platform-tools\adb.exe'
+[AndroidDriver] Retrieving device list
+[debug] [ADB] Trying to find a connected android device
+[debug] [ADB] Getting connected devices...
+[debug] [ADB] 1 device(s) connected
+[AndroidDriver] Using device: c011a0d6
+[ADB] Using 'adb.exe' from 'E:\jar_files_selenium\Mobile Automation_Appium\android-sdk\platform-tools\adb.exe'
+[debug] [ADB] Setting device id to c011a0d6
+[debug] [ADB] Running 'E:\jar_files_selenium\Mobile Automation_Appium\android-sdk\platform-tools\adb.exe -P 5037 -s c011a0d6 shell getprop ro.build.version.sdk'
+[debug] [ADB] Current device property 'ro.build.version.sdk': 28
+[debug] [ADB] Running 'E:\jar_files_selenium\Mobile Automation_Appium\android-sdk\platform-tools\adb.exe -P 5037 -s c011a0d6 shell getprop ro.build.version.release'
+[debug] [ADB] Current device property 'ro.build.version.release': 9
+[debug] [ADB] Device API level: 28
+[UiAutomator2] Relaxing hidden api policy
+[debug] [ADB] Running 'E:\jar_files_selenium\Mobile Automation_Appium\android-sdk\platform-tools\adb.exe -P 5037 -s c011a0d6 shell settings put global hidden_api_policy_pre_p_apps 1'
+[debug] [ADB] Running 'E:\jar_files_selenium\Mobile Automation_Appium\android-sdk\platform-tools\adb.exe -P 5037 -s c011a0d6 shell settings put global hidden_api_policy_p_apps 1'
+[debug] [ADB] Running 'E:\jar_files_selenium\Mobile Automation_Appium\android-sdk\platform-tools\adb.exe -P 5037 -s c011a0d6 shell settings put global hidden_api_policy 1'
+[debug] [ADB] Running 'E:\jar_files_selenium\Mobile Automation_Appium\android-sdk\platform-tools\adb.exe -P 5037 -s c011a0d6 wait-for-device'
+[debug] [ADB] Running 'E:\jar_files_selenium\Mobile Automation_Appium\android-sdk\platform-tools\adb.exe -P 5037 -s c011a0d6 shell echo ping'
+[debug] [AndroidDriver] Pushing settings apk to device...
+[debug] [ADB] Getting install status for io.appium.settings
+[debug] [ADB] Running 'E:\jar_files_selenium\Mobile Automation_Appium\android-sdk\platform-tools\adb.exe -P 5037 -s c011a0d6 shell dumpsys package io.appium.settings'
+[debug] [ADB] 'io.appium.settings' is installed
+[debug] [ADB] Getting package info for 'io.appium.settings'
+[debug] [ADB] Running 'E:\jar_files_selenium\Mobile Automation_Appium\android-sdk\platform-tools\adb.exe -P 5037 -s c011a0d6 shell dumpsys package io.appium.settings'
+[ADB] Using 'aapt.exe' from 'E:\jar_files_selenium\Mobile Automation_Appium\android-sdk\build-tools\28.0.3\aapt.exe'
+[debug] [ADB] The version name of the installed 'io.appium.settings' is greater or equal to the application version name ('2.14.1' >= '2.14.1')
+[debug] [ADB] There is no need to install/upgrade 'C:\Users\ACER\AppData\Roaming\npm\node_modules\appium\node_modules\io.appium.settings\apks\settings_apk-debug.apk'
+[debug] [ADB] Getting IDs of all 'io.appium.settings' processes
+[debug] [ADB] Running 'E:\jar_files_selenium\Mobile Automation_Appium\android-sdk\platform-tools\adb.exe -P 5037 -s c011a0d6 shell 'pgrep --help; echo $?''
+[debug] [ADB] Running 'E:\jar_files_selenium\Mobile Automation_Appium\android-sdk\platform-tools\adb.exe -P 5037 -s c011a0d6 shell pgrep -f io\\.appium\\.settings'
+[debug] [AndroidDriver] io.appium.settings is already running. There is no need to reset its permissions.
+[debug] [ADB] Running 'E:\jar_files_selenium\Mobile Automation_Appium\android-sdk\platform-tools\adb.exe -P 5037 -s c011a0d6 shell appops set io.appium.settings android\:mock_location allow'
+[debug] [Logcat] Starting logcat capture
+[debug] [ADB] Getting install status for io.appium.uiautomator2.server
+[debug] [ADB] Running 'E:\jar_files_selenium\Mobile Automation_Appium\android-sdk\platform-tools\adb.exe -P 5037 -s c011a0d6 shell dumpsys package io.appium.uiautomator2.server'
+[debug] [ADB] 'io.appium.uiautomator2.server' is installed
+[debug] [ADB] Getting package info for 'io.appium.uiautomator2.server'
+[debug] [ADB] Running 'E:\jar_files_selenium\Mobile Automation_Appium\android-sdk\platform-tools\adb.exe -P 5037 -s c011a0d6 shell dumpsys package io.appium.uiautomator2.server'
+[debug] [ADB] The version name of the installed 'io.appium.uiautomator2.server' is greater or equal to the application version name ('3.7.0' >= '3.7.0')
+[debug] [UiAutomator2] io.appium.uiautomator2.server installation state: sameVersionInstalled
+[debug] [ADB] Checking app cert for C:\Users\ACER\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v3.7.0.apk
+[ADB] Using 'apksigner.bat' from 'E:\jar_files_selenium\Mobile Automation_Appium\android-sdk\build-tools\28.0.3\apksigner.bat'
+[debug] [ADB] Starting 'E:\jar_files_selenium\Mobile Automation_Appium\android-sdk\build-tools\28.0.3\apksigner.bat' with args '["verify","--print-certs","C:\\Users\\ACER\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\appium-uiautomator2-server\\apks\\appium-uiautomator2-server-v3.7.0.apk"]'
+[debug] [ADB] apksigner stdout: Signer #1 certificate DN: EMAILADDRESS=android@android.com, CN=Android, OU=Android, O=Android, L=Mountain View, ST=California, C=US
+[debug] [ADB] Signer #1 certificate SHA-256 digest: a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc
+[debug] [ADB] Signer #1 certificate SHA-1 digest: 61ed377e85d386a8dfee6b864bd85b0bfaa5af81
+[debug] [ADB] Signer #1 certificate MD5 digest: e89b158e4bcf988ebd09eb83f5378e87
+[debug] [ADB]
+[debug] [ADB] 'C:\Users\ACER\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v3.7.0.apk' is already signed.
+[debug] [ADB] Getting install status for io.appium.uiautomator2.server.test
+[debug] [ADB] Running 'E:\jar_files_selenium\Mobile Automation_Appium\android-sdk\platform-tools\adb.exe -P 5037 -s c011a0d6 shell dumpsys package io.appium.uiautomator2.server.test'
+[debug] [ADB] 'io.appium.uiautomator2.server.test' is installed
+[debug] [ADB] Checking app cert for C:\Users\ACER\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk
+[debug] [ADB] Starting 'E:\jar_files_selenium\Mobile Automation_Appium\android-sdk\build-tools\28.0.3\apksigner.bat' with args '["verify","--print-certs","C:\\Users\\ACER\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\appium-uiautomator2-server\\apks\\appium-uiautomator2-server-debug-androidTest.apk"]'
+[debug] [ADB] apksigner stdout: Signer #1 certificate DN: EMAILADDRESS=android@android.com, CN=Android, OU=Android, O=Android, L=Mountain View, ST=California, C=US
+[debug] [ADB] Signer #1 certificate SHA-256 digest: a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc
+[debug] [ADB] Signer #1 certificate SHA-1 digest: 61ed377e85d386a8dfee6b864bd85b0bfaa5af81
+[debug] [ADB] Signer #1 certificate MD5 digest: e89b158e4bcf988ebd09eb83f5378e87
+[debug] [ADB]
+[debug] [ADB] 'C:\Users\ACER\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk' is already signed.
+[UiAutomator2] Server packages are not going to be (re)installed
+[debug] [UiAutomator2] Waiting up to 30000ms for services to be available
+[debug] [ADB] Running 'E:\jar_files_selenium\Mobile Automation_Appium\android-sdk\platform-tools\adb.exe -P 5037 -s c011a0d6 shell pm list instrumentation'
+[debug] [UiAutomator2] Instrumentation target 'io.appium.uiautomator2.server.test/androidx.test.runner.AndroidJUnitRunner' is available
+[debug] [UiAutomator2] Forwarding UiAutomator2 Server port 6790 to 8201
+[debug] [ADB] Forwarding system: 8201 to device: 6790
+[debug] [ADB] Running 'E:\jar_files_selenium\Mobile Automation_Appium\android-sdk\platform-tools\adb.exe -P 5037 -s c011a0d6 forward tcp\:8201 tcp\:6790'
+[debug] [ADB] Checking app cert for E:\jar_files_selenium\Mobile Automation_appium\EriBank.apk
+[debug] [ADB] Starting 'E:\jar_files_selenium\Mobile Automation_Appium\android-sdk\build-tools\28.0.3\apksigner.bat' with args '["verify","--print-certs","E:\\jar_files_selenium\\Mobile Automation_appium\\EriBank.apk"]'
+[debug] [ADB] apksigner stdout: Signer #1 certificate DN: EMAILADDRESS=android@android.com, CN=Android, OU=Android, O=Android, L=Mountain View, ST=California, C=US
+[debug] [ADB] Signer #1 certificate SHA-256 digest: a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc
+[debug] [ADB] Signer #1 certificate SHA-1 digest: 61ed377e85d386a8dfee6b864bd85b0bfaa5af81
+[debug] [ADB] Signer #1 certificate MD5 digest: e89b158e4bcf988ebd09eb83f5378e87
+[debug] [ADB]
+[debug] [ADB] 'E:\jar_files_selenium\Mobile Automation_appium\EriBank.apk' is already signed.
+[debug] [ADB] Getting install status for com.experitest.ExperiBank
+[debug] [ADB] Running 'E:\jar_files_selenium\Mobile Automation_Appium\android-sdk\platform-tools\adb.exe -P 5037 -s c011a0d6 shell dumpsys package com.experitest.ExperiBank'
+[debug] [ADB] 'com.experitest.ExperiBank' is installed
+[debug] [ADB] Getting install status for com.experitest.ExperiBank
+[debug] [ADB] Running 'E:\jar_files_selenium\Mobile Automation_Appium\android-sdk\platform-tools\adb.exe -P 5037 -s c011a0d6 shell dumpsys package com.experitest.ExperiBank'
+[debug] [ADB] 'com.experitest.ExperiBank' is installed
+[debug] [ADB] Getting package info for 'com.experitest.ExperiBank'
+[debug] [ADB] Running 'E:\jar_files_selenium\Mobile Automation_Appium\android-sdk\platform-tools\adb.exe -P 5037 -s c011a0d6 shell dumpsys package com.experitest.ExperiBank'
+[debug] [ADB] The version name of the installed 'com.experitest.ExperiBank' is greater or equal to the application version name ('1.0.0' >= '1.0.0')
+[debug] [ADB] There is no need to install/upgrade 'E:\jar_files_selenium\Mobile Automation_appium\EriBank.apk'
+[AndroidDriver] Performing fast reset on 'com.experitest.ExperiBank'
+[debug] [ADB] Getting install status for com.experitest.ExperiBank
+[debug] [ADB] Running 'E:\jar_files_selenium\Mobile Automation_Appium\android-sdk\platform-tools\adb.exe -P 5037 -s c011a0d6 shell dumpsys package com.experitest.ExperiBank'
+[debug] [ADB] 'com.experitest.ExperiBank' is installed
+[debug] [ADB] Running 'E:\jar_files_selenium\Mobile Automation_Appium\android-sdk\platform-tools\adb.exe -P 5037 -s c011a0d6 shell am force-stop com.experitest.ExperiBank'
+[debug] [ADB] Running 'E:\jar_files_selenium\Mobile Automation_Appium\android-sdk\platform-tools\adb.exe -P 5037 -s c011a0d6 shell pm clear com.experitest.ExperiBank'
+[debug] [AndroidDriver] Performed fast reset on the installed 'com.experitest.ExperiBank' application (stop and clear)
+[debug] [UiAutomator2] Performing shallow cleanup of automation leftovers
+[debug] [UiAutomator2] No obsolete sessions have been detected (Error: socket hang up)
+[debug] [ADB] Running 'E:\jar_files_selenium\Mobile Automation_Appium\android-sdk\platform-tools\adb.exe -P 5037 -s c011a0d6 shell am force-stop io.appium.uiautomator2.server.test'
+[UiAutomator2] Starting UIAutomator2 server 3.7.0
+[UiAutomator2] Using UIAutomator2 server from 'C:\Users\ACER\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v3.7.0.apk' and test from 'C:\Users\ACER\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk'
+[UiAutomator2] Waiting up to 30000ms for UiAutomator2 to be online...
+[debug] [ADB] Creating ADB subprocess with args: ["-P",5037,"-s","c011a0d6","shell","am","instrument","-w","io.appium.uiautomator2.server.test/androidx.test.runner.AndroidJUnitRunner"]
+[debug] [Instrumentation] io.appium.uiautomator2.server.test.AppiumUiAutomator2Server:
+[debug] [WD Proxy] Matched '/status' to command name 'getStatus'
+[debug] [WD Proxy] Proxying [GET /status] to [GET http://localhost:8201/wd/hub/status] with no body
+[WD Proxy] Got an unexpected response: {"code":"ECONNRESET"}
+[debug] [WD Proxy] Matched '/status' to command name 'getStatus'
+[debug] [WD Proxy] Proxying [GET /status] to [GET http://localhost:8201/wd/hub/status] with no body
+[WD Proxy] Got an unexpected response: {"code":"ECONNRESET"}
+[debug] [WD Proxy] Matched '/status' to command name 'getStatus'
+[debug] [WD Proxy] Proxying [GET /status] to [GET http://localhost:8201/wd/hub/status] with no body
+[debug] [WD Proxy] Got response with status 200: "{\"sessionId\":\"None\",\"status\":0,\"value\":\"Status Invoked\"}"
+[debug] [WD Proxy] Determined that the downstream protocol for proxy is MJSONWP
+[debug] [UiAutomator2] The initialization of the instrumentation process took 3144ms
+[debug] [WD Proxy] Matched '/session' to command name 'createSession'
+[debug] [WD Proxy] Proxying [POST /session] to [POST http://localhost:8201/wd/hub/session] with body: {"desiredCapabilities":{"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","app":"E:\\jar_files_selenium\\Mobile Automation_appium\\EriBank.apk","appActivity":".LoginActivity","appPackage":"com.experitest.ExperiBank","automationName":"UiAutomator2","deviceName":"AndroidOnePlus"},"platformName":"android","app":"E:\\jar_files_selenium\\Mobile Automation_appium\\EriBank.apk","appActivity":".LoginActivity","appPackage":"com.experitest.ExperiBank","automationName":"UiAutomator2","deviceName":"c011a0d6","deviceUDID":"c011a0d6"}}
+[debug] [WD Proxy] Got response with status 200: {"sessionId":"03f3667d-68ae-4f5b-8373-2d1105b14898","status":0,"value":"Created Session"}
+[debug] [WD Proxy] Proxying [GET /appium/device/info] to [GET http://localhost:8201/wd/hub/session/03f3667d-68ae-4f5b-8373-2d1105b14898/appium/device/info] with no body
+[debug] [WD Proxy] Got response with status 200: "{\"sessionId\":\"03f3667d-68ae-4f5b-8373-2d1105b14898\",\"status\":0,\"value\":{\"androidId\":\"04309afb79f25af7\",\"manufacturer\":\"OnePlus\",\"model\":\"GM1901\",\"brand\":\"OnePlus\",\"apiVersion\":\"28\",\"platformVersion\":\"9\",\"carrierName\":\"IDEA\",\"realDisplaySize\":\"1080x2340\",\"displayDensity\":420,\"networks\":[{\"type\":0,\"typeName\":\"MOBILE\",\"subtype\":13,\"subtypeName\":\"LTE\",\"isConnected\":true,\"detailedState\":\"CONNECTED\",\"state\":\"CONNECTED\",\"extraInfo\":\"www\",\"isAvailable\":true,\"isFailover\":false,\"isRoaming\":false,\"capabilities\":{\"transportTypes\":\"NET_CAPABILITY_MMS\",\"networkCapabilities\":\"\",\"linkUpstreamBandwidthKbps\":28,\"linkDownBandwidthKbps\":17270,\"signalStrength\":-2147483648,\"networkSpecifier\":\"1\",\"SSID\":null}}]}}"
+[debug] [ADB] Running 'E:\jar_files_selenium\Mobile Automation_Appium\android-sdk\platform-tools\adb.exe -P 5037 -s c011a0d6 shell dumpsys window'
+[AndroidDriver] Screen already unlocked, doing nothing
+[UiAutomator2] UiAutomator2 did not start the activity we were waiting for, 'com.experitest.ExperiBank/.LoginActivity'. Starting it ourselves
+[debug] [ADB] Running 'E:\jar_files_selenium\Mobile Automation_Appium\android-sdk\platform-tools\adb.exe -P 5037 -s c011a0d6 shell am start -W -n com.experitest.ExperiBank/.LoginActivity -S -a android.intent.action.MAIN -c android.intent.category.LAUNCHER -f 0x10200000'
+[debug] [WD Proxy] Proxying [GET /appium/device/pixel_ratio] to [GET http://localhost:8201/wd/hub/session/03f3667d-68ae-4f5b-8373-2d1105b14898/appium/device/pixel_ratio] with body: {}
+[debug] [WD Proxy] Got response with status 200: "{\"sessionId\":\"03f3667d-68ae-4f5b-8373-2d1105b14898\",\"status\":0,\"value\":2.625}"
+[debug] [WD Proxy] Matched '/appium/device/system_bars' to command name 'getSystemBars'
+[debug] [WD Proxy] Proxying [GET /appium/device/system_bars] to [GET http://localhost:8201/wd/hub/session/03f3667d-68ae-4f5b-8373-2d1105b14898/appium/device/system_bars] with body: {}
+[debug] [WD Proxy] Got response with status 200: "{\"sessionId\":\"03f3667d-68ae-4f5b-8373-2d1105b14898\",\"status\":0,\"value\":{\"statusBar\":80}}"
+[debug] [WD Proxy] Matched '/window/current/size' to command name 'getWindowSize'
+[debug] [WD Proxy] Proxying [GET /window/current/size] to [GET http://localhost:8201/wd/hub/session/03f3667d-68ae-4f5b-8373-2d1105b14898/window/current/size] with body: {}
+[debug] [WD Proxy] Got response with status 200: "{\"sessionId\":\"03f3667d-68ae-4f5b-8373-2d1105b14898\",\"status\":0,\"value\":{\"height\":2134,\"width\":1080}}"
+[Appium] New AndroidUiautomator2Driver session created successfully, session 1b964440-1ec0-4583-b19a-72eafa1806f8 added to master session list
+[debug] [BaseDriver] Event 'newSessionStarted' logged at 1568656045485 (23:17:25 GMT+0530 (India Standard Time))
+[debug] [W3C (1b964440)] Cached the protocol value 'W3C' for the new session 1b964440-1ec0-4583-b19a-72eafa1806f8
+[debug] [W3C (1b964440)] Responding to client with driver.createSession() result: {"capabilities":{"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","app":"E:\\jar_files_selenium\\Mobile Automation_appium\\EriBank.apk","appActivity":".LoginActivity","appPackage":"com.experitest.ExperiBank","automationName":"UiAutomator2","deviceName":"AndroidOnePlus"},"platformName":"android","app":"E:\\jar_files_selenium\\Mobile Automation_appium\\EriBank.apk","appActivity":".LoginActivity","appPackage":"com.experitest.ExperiBank","automationName":"UiAutomator2","deviceName":"c011a0d6","deviceUDID":"c011a0d6","deviceApiLevel":28,"platformVersion":"9","deviceScreenSize":"1080x2340","deviceScreenDensity":420,"deviceModel":"GM1901","deviceManufacturer":"OnePlus","pixelRatio":2.625,"statBarHeight":80,"viewportRect":{"left":0,"top":80,"width":1080,"height":2054}}}
+[HTTP] <-- POST /wd/hub/session 200 12071 ms - 1014
+[HTTP]
+[HTTP] --> GET /wd/hub/session/1b964440-1ec0-4583-b19a-72eafa1806f8
+[HTTP] {}
+[debug] [W3C (1b964440)] Calling AppiumDriver.getSession() with args: ["1b964440-1ec0-4583-b19a-72eafa1806f8"]
+[debug] [UiAutomator2] Getting session details from server to mix in
+[debug] [WD Proxy] Matched '/' to command name 'getSession'
+[debug] [WD Proxy] Proxying [GET /] to [GET http://localhost:8201/wd/hub/session/03f3667d-68ae-4f5b-8373-2d1105b14898] with body: {}
+[debug] [WD Proxy] Got response with status 200: "{\"sessionId\":\"03f3667d-68ae-4f5b-8373-2d1105b14898\",\"status\":0,\"value\":{}}"
+[debug] [W3C (1b964440)] Responding to client with driver.getSession() result: {"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","app":"E:\\jar_files_selenium\\Mobile Automation_appium\\EriBank.apk","appActivity":".LoginActivity","appPackage":"com.experitest.ExperiBank","automationName":"UiAutomator2","deviceName":"AndroidOnePlus"},"platformName":"android","app":"E:\\jar_files_selenium\\Mobile Automation_appium\\EriBank.apk","appActivity":".LoginActivity","appPackage":"com.experitest.ExperiBank","automationName":"UiAutomator2","deviceName":"c011a0d6","deviceUDID":"c011a0d6","deviceApiLevel":28,"platformVersion":"9","deviceScreenSize":"1080x2340","deviceScreenDensity":420,"deviceModel":"GM1901","deviceManufacturer":"OnePlus","pixelRatio":2.625,"statBarHeight":80,"viewportRect":{"left":0,"top":80,"width":1080,"height":2054}}
+[HTTP] <-- GET /wd/hub/session/1b964440-1ec0-4583-b19a-72eafa1806f8 200 21 ms - 946
+[HTTP]
+[HTTP] --> GET /wd/hub/session/1b964440-1ec0-4583-b19a-72eafa1806f8
+[HTTP] {}
+[debug] [W3C (1b964440)] Calling AppiumDriver.getSession() with args: ["1b964440-1ec0-4583-b19a-72eafa1806f8"]
+[debug] [UiAutomator2] Getting session details from server to mix in
+[debug] [WD Proxy] Matched '/' to command name 'getSession'
+[debug] [WD Proxy] Proxying [GET /] to [GET http://localhost:8201/wd/hub/session/03f3667d-68ae-4f5b-8373-2d1105b14898] with body: {}
+[debug] [WD Proxy] Got response with status 200: "{\"sessionId\":\"03f3667d-68ae-4f5b-8373-2d1105b14898\",\"status\":0,\"value\":{}}"
+[debug] [W3C (1b964440)] Responding to client with driver.getSession() result: {"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","app":"E:\\jar_files_selenium\\Mobile Automation_appium\\EriBank.apk","appActivity":".LoginActivity","appPackage":"com.experitest.ExperiBank","automationName":"UiAutomator2","deviceName":"AndroidOnePlus"},"platformName":"android","app":"E:\\jar_files_selenium\\Mobile Automation_appium\\EriBank.apk","appActivity":".LoginActivity","appPackage":"com.experitest.ExperiBank","automationName":"UiAutomator2","deviceName":"c011a0d6","deviceUDID":"c011a0d6","deviceApiLevel":28,"platformVersion":"9","deviceScreenSize":"1080x2340","deviceScreenDensity":420,"deviceModel":"GM1901","deviceManufacturer":"OnePlus","pixelRatio":2.625,"statBarHeight":80,"viewportRect":{"left":0,"top":80,"width":1080,"height":2054}}
+[HTTP] <-- GET /wd/hub/session/1b964440-1ec0-4583-b19a-72eafa1806f8 200 23 ms - 946
+[HTTP]
+[HTTP] --> POST /wd/hub/session/1b964440-1ec0-4583-b19a-72eafa1806f8/timeouts
+[HTTP] {"implicit":10000}
+[debug] [W3C (1b964440)] Calling AppiumDriver.timeouts() with args: [null,null,null,null,10000,"1b964440-1ec0-4583-b19a-72eafa1806f8"]
+[debug] [BaseDriver] W3C timeout argument: {"implicit":10000}}
+[debug] [BaseDriver] Set implicit wait to 10000ms
+[debug] [W3C (1b964440)] Responding to client with driver.timeouts() result: null
+[HTTP] <-- POST /wd/hub/session/1b964440-1ec0-4583-b19a-72eafa1806f8/timeouts 200 9 ms - 14
+[HTTP]
+[HTTP] --> POST /wd/hub/session/1b964440-1ec0-4583-b19a-72eafa1806f8/elements
+[HTTP] {"using":"id","value":"android:id/button1"}
+[debug] [W3C (1b964440)] Calling AppiumDriver.findElements() with args: ["id","android:id/button1","1b964440-1ec0-4583-b19a-72eafa1806f8"]
+[debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+[debug] [BaseDriver] Waiting up to 10000 ms for condition
+[debug] [WD Proxy] Matched '/elements' to command name 'findElements'
+[debug] [WD Proxy] Proxying [POST /elements] to [POST http://localhost:8201/wd/hub/session/03f3667d-68ae-4f5b-8373-2d1105b14898/elements] with body: {"strategy":"id","selector":"android:id/button1","context":"","multiple":true}
+[debug] [WD Proxy] Got response with status 200: {"sessionId":"03f3667d-68ae-4f5b-8373-2d1105b14898","status":0,"value":[{"ELEMENT":"a0df9086-4136-4666-9f79-a0dd40d7bc1b"}]}
+[debug] [W3C (1b964440)] Responding to client with driver.findElements() result: [{"element-6066-11e4-a52e-4f735466cecf":"a0df9086-4136-4666-9f79-a0dd40d7bc1b","ELEMENT":"a0df9086-4136-4666-9f79-a0dd40d7bc1b"}]
+[HTTP] <-- POST /wd/hub/session/1b964440-1ec0-4583-b19a-72eafa1806f8/elements 200 727 ms - 139
+[HTTP]
+[HTTP] --> POST /wd/hub/session/1b964440-1ec0-4583-b19a-72eafa1806f8/element
+[HTTP] {"using":"id","value":"android:id/button1"}
+[debug] [W3C (1b964440)] Calling AppiumDriver.findElement() with args: ["id","android:id/button1","1b964440-1ec0-4583-b19a-72eafa1806f8"]
+[debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+[debug] [BaseDriver] Waiting up to 10000 ms for condition
+[debug] [WD Proxy] Matched '/element' to command name 'findElement'
+[debug] [WD Proxy] Proxying [POST /element] to [POST http://localhost:8201/wd/hub/session/03f3667d-68ae-4f5b-8373-2d1105b14898/element] with body: {"strategy":"id","selector":"android:id/button1","context":"","multiple":false}
+[debug] [WD Proxy] Got response with status 200: {"sessionId":"03f3667d-68ae-4f5b-8373-2d1105b14898","status":0,"value":{"ELEMENT":"409ec5af-67e4-45e6-8738-47dea27d0d6b"}}
+[debug] [W3C (1b964440)] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"409ec5af-67e4-45e6-8738-47dea27d0d6b","ELEMENT":"409ec5af-67e4-45e6-8738-47dea27d0d6b"}
+[HTTP] <-- POST /wd/hub/session/1b964440-1ec0-4583-b19a-72eafa1806f8/element 200 33 ms - 137
+[HTTP]
+[HTTP] --> POST /wd/hub/session/1b964440-1ec0-4583-b19a-72eafa1806f8/element/409ec5af-67e4-45e6-8738-47dea27d0d6b/click
+[HTTP] {"id":"409ec5af-67e4-45e6-8738-47dea27d0d6b"}
+[debug] [W3C (1b964440)] Calling AppiumDriver.click() with args: ["409ec5af-67e4-45e6-8738-47dea27d0d6b","1b964440-1ec0-4583-b19a-72eafa1806f8"]
+[debug] [WD Proxy] Matched '/element/409ec5af-67e4-45e6-8738-47dea27d0d6b/click' to command name 'click'
+[debug] [WD Proxy] Proxying [POST /element/409ec5af-67e4-45e6-8738-47dea27d0d6b/click] to [POST http://localhost:8201/wd/hub/session/03f3667d-68ae-4f5b-8373-2d1105b14898/element/409ec5af-67e4-45e6-8738-47dea27d0d6b/click] with body: {"element":"409ec5af-67e4-45e6-8738-47dea27d0d6b"}
+[debug] [WD Proxy] Got response with status 200: {"sessionId":"03f3667d-68ae-4f5b-8373-2d1105b14898","status":0,"value":true}
+[debug] [W3C (1b964440)] Responding to client with driver.click() result: true
+[HTTP] <-- POST /wd/hub/session/1b964440-1ec0-4583-b19a-72eafa1806f8/element/409ec5af-67e4-45e6-8738-47dea27d0d6b/click 200 29 ms - 14
+[HTTP]
+[HTTP] --> POST /wd/hub/session/1b964440-1ec0-4583-b19a-72eafa1806f8/element
+[HTTP] {"using":"id","value":"usernameTextField"}
+[debug] [W3C (1b964440)] Calling AppiumDriver.findElement() with args: ["id","usernameTextField","1b964440-1ec0-4583-b19a-72eafa1806f8"]
+[debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+[debug] [BaseDriver] Waiting up to 10000 ms for condition
+[debug] [WD Proxy] Matched '/element' to command name 'findElement'
+[debug] [WD Proxy] Proxying [POST /element] to [POST http://localhost:8201/wd/hub/session/03f3667d-68ae-4f5b-8373-2d1105b14898/element] with body: {"strategy":"id","selector":"usernameTextField","context":"","multiple":false}
+[debug] [WD Proxy] Got response with status 200: {"sessionId":"03f3667d-68ae-4f5b-8373-2d1105b14898","status":0,"value":{"ELEMENT":"0a468ce1-61ee-4683-9f0f-3e2e6dabc802"}}
+[debug] [W3C (1b964440)] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"0a468ce1-61ee-4683-9f0f-3e2e6dabc802","ELEMENT":"0a468ce1-61ee-4683-9f0f-3e2e6dabc802"}
+[HTTP] <-- POST /wd/hub/session/1b964440-1ec0-4583-b19a-72eafa1806f8/element 200 633 ms - 137
+[HTTP]
+[HTTP] --> POST /wd/hub/session/1b964440-1ec0-4583-b19a-72eafa1806f8/element/0a468ce1-61ee-4683-9f0f-3e2e6dabc802/value
+[HTTP] {"id":"0a468ce1-61ee-4683-9f0f-3e2e6dabc802","text":"company","value":["c","o","m","p","a","n","y"]}
+[debug] [W3C (1b964440)] Calling AppiumDriver.setValue() with args: [["c","o","m","p","a","n","y"],"0a468ce1-61ee-4683-9f0f-3e2e6dabc802","1b964440-1ec0-4583-b19a-72eafa1806f8"]
+[debug] [WD Proxy] Matched '/element/0a468ce1-61ee-4683-9f0f-3e2e6dabc802/value' to command name 'setValue'
+[debug] [Protocol Converter] Added 'value' property ["c","o","m","p","a","n","y"] to 'setValue' request body
+[debug] [WD Proxy] Proxying [POST /element/0a468ce1-61ee-4683-9f0f-3e2e6dabc802/value] to [POST http://localhost:8201/wd/hub/session/03f3667d-68ae-4f5b-8373-2d1105b14898/element/0a468ce1-61ee-4683-9f0f-3e2e6dabc802/value] with body: {"elementId":"0a468ce1-61ee-4683-9f0f-3e2e6dabc802","text":"company","replace":false,"value":["c","o","m","p","a","n","y"]}
+[debug] [WD Proxy] Got response with status 200: {"sessionId":"03f3667d-68ae-4f5b-8373-2d1105b14898","status":0,"value":""}
+[debug] [W3C (1b964440)] Responding to client with driver.setValue() result: ""
+[HTTP] <-- POST /wd/hub/session/1b964440-1ec0-4583-b19a-72eafa1806f8/element/0a468ce1-61ee-4683-9f0f-3e2e6dabc802/value 200 623 ms - 12
+[HTTP]
+[HTTP] --> POST /wd/hub/session/1b964440-1ec0-4583-b19a-72eafa1806f8/element
+[HTTP] {"using":"id","value":"passwordTextField"}
+[debug] [W3C (1b964440)] Calling AppiumDriver.findElement() with args: ["id","passwordTextField","1b964440-1ec0-4583-b19a-72eafa1806f8"]
+[debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+[debug] [BaseDriver] Waiting up to 10000 ms for condition
+[debug] [WD Proxy] Matched '/element' to command name 'findElement'
+[debug] [WD Proxy] Proxying [POST /element] to [POST http://localhost:8201/wd/hub/session/03f3667d-68ae-4f5b-8373-2d1105b14898/element] with body: {"strategy":"id","selector":"passwordTextField","context":"","multiple":false}
+[debug] [WD Proxy] Got response with status 200: {"sessionId":"03f3667d-68ae-4f5b-8373-2d1105b14898","status":0,"value":{"ELEMENT":"5dfff1cf-1cbf-4e99-9470-dd6b85f98ab8"}}
+[debug] [W3C (1b964440)] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"5dfff1cf-1cbf-4e99-9470-dd6b85f98ab8","ELEMENT":"5dfff1cf-1cbf-4e99-9470-dd6b85f98ab8"}
+[HTTP] <-- POST /wd/hub/session/1b964440-1ec0-4583-b19a-72eafa1806f8/element 200 519 ms - 137
+[HTTP]
+[HTTP] --> POST /wd/hub/session/1b964440-1ec0-4583-b19a-72eafa1806f8/element/5dfff1cf-1cbf-4e99-9470-dd6b85f98ab8/value
+[HTTP] {"id":"5dfff1cf-1cbf-4e99-9470-dd6b85f98ab8","text":"company","value":["c","o","m","p","a","n","y"]}
+[debug] [W3C (1b964440)] Calling AppiumDriver.setValue() with args: [["c","o","m","p","a","n","y"],"5dfff1cf-1cbf-4e99-9470-dd6b85f98ab8","1b964440-1ec0-4583-b19a-72eafa1806f8"]
+[debug] [WD Proxy] Matched '/element/5dfff1cf-1cbf-4e99-9470-dd6b85f98ab8/value' to command name 'setValue'
+[debug] [Protocol Converter] Added 'value' property ["c","o","m","p","a","n","y"] to 'setValue' request body
+[debug] [WD Proxy] Proxying [POST /element/5dfff1cf-1cbf-4e99-9470-dd6b85f98ab8/value] to [POST http://localhost:8201/wd/hub/session/03f3667d-68ae-4f5b-8373-2d1105b14898/element/5dfff1cf-1cbf-4e99-9470-dd6b85f98ab8/value] with body: {"elementId":"5dfff1cf-1cbf-4e99-9470-dd6b85f98ab8","text":"company","replace":false,"value":["c","o","m","p","a","n","y"]}
+[debug] [WD Proxy] Got response with status 200: {"sessionId":"03f3667d-68ae-4f5b-8373-2d1105b14898","status":0,"value":""}
+[debug] [W3C (1b964440)] Responding to client with driver.setValue() result: ""
+[HTTP] <-- POST /wd/hub/session/1b964440-1ec0-4583-b19a-72eafa1806f8/element/5dfff1cf-1cbf-4e99-9470-dd6b85f98ab8/value 200 964 ms - 12
+[HTTP]
+[HTTP] --> POST /wd/hub/session/1b964440-1ec0-4583-b19a-72eafa1806f8/element
+[HTTP] {"using":"id","value":"loginButton"}
+[debug] [W3C (1b964440)] Calling AppiumDriver.findElement() with args: ["id","loginButton","1b964440-1ec0-4583-b19a-72eafa1806f8"]
+[debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+[debug] [BaseDriver] Waiting up to 10000 ms for condition
+[debug] [WD Proxy] Matched '/element' to command name 'findElement'
+[debug] [WD Proxy] Proxying [POST /element] to [POST http://localhost:8201/wd/hub/session/03f3667d-68ae-4f5b-8373-2d1105b14898/element] with body: {"strategy":"id","selector":"loginButton","context":"","multiple":false}
+[debug] [WD Proxy] Got response with status 200: {"sessionId":"03f3667d-68ae-4f5b-8373-2d1105b14898","status":0,"value":{"ELEMENT":"fe9086a8-1314-4ee3-a9ef-b4ba92922760"}}
+[debug] [W3C (1b964440)] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"fe9086a8-1314-4ee3-a9ef-b4ba92922760","ELEMENT":"fe9086a8-1314-4ee3-a9ef-b4ba92922760"}
+[HTTP] <-- POST /wd/hub/session/1b964440-1ec0-4583-b19a-72eafa1806f8/element 200 523 ms - 137
+[HTTP]
+[HTTP] --> POST /wd/hub/session/1b964440-1ec0-4583-b19a-72eafa1806f8/element/fe9086a8-1314-4ee3-a9ef-b4ba92922760/click
+[HTTP] {"id":"fe9086a8-1314-4ee3-a9ef-b4ba92922760"}
+[debug] [W3C (1b964440)] Calling AppiumDriver.click() with args: ["fe9086a8-1314-4ee3-a9ef-b4ba92922760","1b964440-1ec0-4583-b19a-72eafa1806f8"]
+[debug] [WD Proxy] Matched '/element/fe9086a8-1314-4ee3-a9ef-b4ba92922760/click' to command name 'click'
+[debug] [WD Proxy] Proxying [POST /element/fe9086a8-1314-4ee3-a9ef-b4ba92922760/click] to [POST http://localhost:8201/wd/hub/session/03f3667d-68ae-4f5b-8373-2d1105b14898/element/fe9086a8-1314-4ee3-a9ef-b4ba92922760/click] with body: {"element":"fe9086a8-1314-4ee3-a9ef-b4ba92922760"}
+[debug] [WD Proxy] Got response with status 200: {"sessionId":"03f3667d-68ae-4f5b-8373-2d1105b14898","status":0,"value":true}
+[debug] [W3C (1b964440)] Responding to client with driver.click() result: true
+[HTTP] <-- POST /wd/hub/session/1b964440-1ec0-4583-b19a-72eafa1806f8/element/fe9086a8-1314-4ee3-a9ef-b4ba92922760/click 200 98 ms - 14
+[HTTP]
+[HTTP] --> POST /wd/hub/session/1b964440-1ec0-4583-b19a-72eafa1806f8/element
+[HTTP] {"using":"id","value":"logoutButton"}
+[debug] [W3C (1b964440)] Calling AppiumDriver.findElement() with args: ["id","logoutButton","1b964440-1ec0-4583-b19a-72eafa1806f8"]
+[debug] [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+[debug] [BaseDriver] Waiting up to 10000 ms for condition
+[debug] [WD Proxy] Matched '/element' to command name 'findElement'
+[debug] [WD Proxy] Proxying [POST /element] to [POST http://localhost:8201/wd/hub/session/03f3667d-68ae-4f5b-8373-2d1105b14898/element] with body: {"strategy":"id","selector":"logoutButton","context":"","multiple":false}
+[debug] [WD Proxy] Got response with status 200: {"sessionId":"03f3667d-68ae-4f5b-8373-2d1105b14898","status":0,"value":{"ELEMENT":"5a9a19c9-d826-45a1-bd92-12a41e29cb25"}}
+[debug] [W3C (1b964440)] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"5a9a19c9-d826-45a1-bd92-12a41e29cb25","ELEMENT":"5a9a19c9-d826-45a1-bd92-12a41e29cb25"}
+[HTTP] <-- POST /wd/hub/session/1b964440-1ec0-4583-b19a-72eafa1806f8/element 200 1131 ms - 137
+[HTTP]
+[HTTP] --> POST /wd/hub/session/1b964440-1ec0-4583-b19a-72eafa1806f8/element/5a9a19c9-d826-45a1-bd92-12a41e29cb25/click
+[HTTP] {"id":"5a9a19c9-d826-45a1-bd92-12a41e29cb25"}
+[debug] [W3C (1b964440)] Calling AppiumDriver.click() with args: ["5a9a19c9-d826-45a1-bd92-12a41e29cb25","1b964440-1ec0-4583-b19a-72eafa1806f8"]
+[debug] [WD Proxy] Matched '/element/5a9a19c9-d826-45a1-bd92-12a41e29cb25/click' to command name 'click'
+[debug] [WD Proxy] Proxying [POST /element/5a9a19c9-d826-45a1-bd92-12a41e29cb25/click] to [POST http://localhost:8201/wd/hub/session/03f3667d-68ae-4f5b-8373-2d1105b14898/element/5a9a19c9-d826-45a1-bd92-12a41e29cb25/click] with body: {"element":"5a9a19c9-d826-45a1-bd92-12a41e29cb25"}
+[debug] [WD Proxy] Got response with status 200: {"sessionId":"03f3667d-68ae-4f5b-8373-2d1105b14898","status":0,"value":true}
+[debug] [W3C (1b964440)] Responding to client with driver.click() result: true
+[HTTP] <-- POST /wd/hub/session/1b964440-1ec0-4583-b19a-72eafa1806f8/element/5a9a19c9-d826-45a1-bd92-12a41e29cb25/click 200 39 ms - 14
+[HTTP]
+[BaseDriver] Shutting down because we waited 60 seconds for a command
+[debug] [UiAutomator2] Deleting UiAutomator2 session
+[Appium] Closing session, cause was 'New Command Timeout of 60 seconds expired. Try customizing the timeout using the 'newCommandTimeout' desired capability'
+[Appium] Removing session 1b964440-1ec0-4583-b19a-72eafa1806f8 from our master session list
+[debug] [UiAutomator2] Deleting UiAutomator2 server session
+[debug] [WD Proxy] Matched '/' to command name 'deleteSession'
+[debug] [WD Proxy] Proxying [DELETE /] to [DELETE http://localhost:8201/wd/hub/session/03f3667d-68ae-4f5b-8373-2d1105b14898] with no body
+[debug] [WD Proxy] Got response with status 200: "{\"sessionId\":\"03f3667d-68ae-4f5b-8373-2d1105b14898\",\"status\":0,\"value\":\"Session deleted\"}"
+[debug] [ADB] Running 'E:\jar_files_selenium\Mobile Automation_Appium\android-sdk\platform-tools\adb.exe -P 5037 -s c011a0d6 shell am force-stop com.experitest.ExperiBank'
+[debug] [Logcat] Stopping logcat capture
+[debug] [ADB] Removing forwarded port socket connection: 8201
+[debug] [ADB] Running 'E:\jar_files_selenium\Mobile Automation_Appium\android-sdk\platform-tools\adb.exe -P 5037 -s c011a0d6 forward --remove tcp\:8201'
+[UiAutomator2] Restoring hidden api policy to the device default configuration
+[debug] [ADB] Running 'E:\jar_files_selenium\Mobile Automation_Appium\android-sdk\platform-tools\adb.exe -P 5037 -s c011a0d6 shell settings delete global hidden_api_policy_pre_p_apps'
+[debug] [ADB] Running 'E:\jar_files_selenium\Mobile Automation_Appium\android-sdk\platform-tools\adb.exe -P 5037 -s c011a0d6 shell settings delete global hidden_api_policy_p_apps'
+[debug] [ADB] Running 'E:\jar_files_selenium\Mobile Automation_Appium\android-sdk\platform-tools\adb.exe -P 5037 -s c011a0d6 shell settings delete global hidden_api_policy'
+[debug] [Instrumentation] .
+[debug] [Instrumentation] Time: 70.057
+[debug] [Instrumentation]
+[debug] [Instrumentation] OK (1 test)
+[debug] [Instrumentation] The process has exited with code 0

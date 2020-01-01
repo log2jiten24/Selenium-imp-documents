@@ -1,0 +1,19 @@
+
+SSH keys is used to establish connection between the local repository and the remote repository.
+
+
+Steps for generating ssh key from eclipse 
+
+a) go to windows > preference > ssh > Click on generate SSH key > click on save private key 
+
+b)Public key and private key will be generated under the "C:\Users\ACER\.ssh" path folder .
+
+c) copy the public key 
+
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAAAgQCtLTVDMS6N+i2SIkTj8KgMIAcnHokbHsnopNMtJfdqSszBpe0tT8AMj1zJzgKgn9dFASMfJUsjBaHbG4CifNhrEF0lCdoQO8Hz/hi9d9LNSfET7iueA9dt62xYjWN4YC8ERpJRO7drRx3IhJ82GOR7lJ4W3Z5hq/6pRMqWZn40Kw== RSA-1024
+
+d) we have to add the public key at the github account .
+
+e) login to github account and go to settings > ssh AND pbg keys >and copy paste the SSH keys there .
+
+f) open git bash and commit the changes to the git hub account.

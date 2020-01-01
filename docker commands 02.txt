@@ -1,0 +1,155 @@
+
+
+
+                        ##         .
+                  ## ## ##        ==
+               ## ## ## ## ##    ===
+           /"""""""""""""""""\___/ ===
+      ~~~ {~~ ~~~~ ~~~ ~~~~ ~~~ ~ /  ===- ~~~
+           \______ o           __/
+             \    \         __/
+              \____\_______/
+
+docker is configured to use the default machine with IP 192.168.99.100
+For help getting started, check out the docs at https://docs.docker.com
+
+
+Start interactive shell
+
+ACER@DESKTOP-E1E9EHH MINGW64 /c/Program Files/Docker Toolbox
+$ docker ps -a                                                                                                                                                                                                     CONTAINER ID        IMAGE                        COMMAND                  CREATED             STATUS                     PORTS                     NAMES
+2c764a8c2c76        selenium/standalone-chrome   "/opt/bin/entry_poin…"   3 minutes ago       Up 3 minutes               4444/tcp                  nostalgic_archimedes
+3390c37476b3        selenium/hub                 "/opt/bin/entry_poin…"   6 weeks ago         Created                                              selenium-hub
+e61cab506419        selenium/node-chrome-debug   "/opt/bin/entry_poin…"   6 weeks ago         Exited (255) 2 hours ago   0.0.0.0:32768->5900/tcp   dreamy_pascal
+78a62ed35e71        selenium/hub                 "/opt/bin/entry_poin…"   6 weeks ago         Exited (255) 2 hours ago   0.0.0.0:4545->4444/tcp    seleniumjitu-hub
+23ba11524927        hello-world                  "/hello"                 7 weeks ago         Exited (0) 7 weeks ago                               friendly_euclid
+
+ACER@DESKTOP-E1E9EHH MINGW64 /c/Program Files/Docker Toolbox
+$  docker images
+REPOSITORY                   TAG                 IMAGE ID            CREATED             SIZE
+selenium/standalone-chrome   latest              da74f3fdcfe2        24 hours ago        852MB
+selenium/node-chrome-debug   latest              1a195a0706de        2 months ago        871MB
+selenium/hub                 latest              4d13e18756fe        2 months ago        263MB
+hello-world                  latest              fce289e99eb9        9 months ago        1.84kB
+
+ACER@DESKTOP-E1E9EHH MINGW64 /c/Program Files/Docker Toolbox
+$ docker ps
+CONTAINER ID        IMAGE                        COMMAND                  CREATED             STATUS              PORTS               NAMES
+2c764a8c2c76        selenium/standalone-chrome   "/opt/bin/entry_poin…"   6 minutes ago       Up 6 minutes        4444/tcp            nostalgic_archimedes
+
+ACER@DESKTOP-E1E9EHH MINGW64 /c/Program Files/Docker Toolbox
+$ docker pull selenium/base
+Using default tag: latest
+latest: Pulling from selenium/base
+5b7339215d1d: Already exists                                                                                                                                                                                       14ca88e9f672: Already exists                                                                                                                                                                                       a31c3b1caad4: Already exists                                                                                                                                                                                       b054a26005b7: Already exists                                                                                                                                                                                       f4ee793585d1: Already exists                                                                                                                                                                                       f88156d53957: Already exists                                                                                                                                                                                       90667e71acb1: Already exists                                                                                                                                                                                       21fff62cdce8: Already exists                                                                                                                                                                                       20283162a476: Already exists                                                                                                                                                                                       73314505cc4f: Already exists                                                                                                                                                                                       f55a6b51dfad: Already exists                                                                                                                                                                                       Digest: sha256:a454d6658cc19b0d3333a946d371c495f1bdcb57571b16f8321121875bec2121
+Status: Downloaded newer image for selenium/base:latest
+docker.io/selenium/base:latest
+
+ACER@DESKTOP-E1E9EHH MINGW64 /c/Program Files/Docker Toolbox
+$ docker images
+REPOSITORY                   TAG                 IMAGE ID            CREATED             SIZE
+selenium/standalone-chrome   latest              da74f3fdcfe2        24 hours ago        852MB
+selenium/base                latest              4880906d525b        24 hours ago        263MB
+selenium/node-chrome-debug   latest              1a195a0706de        2 months ago        871MB
+selenium/hub                 latest              4d13e18756fe        2 months ago        263MB
+hello-world                  latest              fce289e99eb9        9 months ago        1.84kB
+
+ACER@DESKTOP-E1E9EHH MINGW64 /c/Program Files/Docker Toolbox
+$ docker pull selenium/node-base
+Using default tag: latest
+latest: Pulling from selenium/node-base
+5b7339215d1d: Already exists                                                                                                                                                                                       14ca88e9f672: Already exists                                                                                                                                                                                       a31c3b1caad4: Already exists                                                                                                                                                                                       b054a26005b7: Already exists                                                                                                                                                                                       f4ee793585d1: Already exists                                                                                                                                                                                       f88156d53957: Already exists                                                                                                                                                                                       90667e71acb1: Already exists                                                                                                                                                                                       21fff62cdce8: Already exists                                                                                                                                                                                       20283162a476: Already exists                                                                                                                                                                                       73314505cc4f: Already exists                                                                                                                                                                                       f55a6b51dfad: Already exists                                                                                                                                                                                       6f0e7652e1df: Already exists                                                                                                                                                                                       4463719e9917: Already exists                                                                                                                                                                                       1e559f5c4736: Already exists                                                                                                                                                                                       358596d15fa4: Already exists                                                                                                                                                                                       4903af95b352: Already exists                                                                                                                                                                                       424941093c20: Already exists                                                                                                                                                                                       Digest: sha256:377b8845f32bb45af4917dd6577307a4c3738743d510f2d3e0316f914cf83be5
+Status: Downloaded newer image for selenium/node-base:latest
+docker.io/selenium/node-base:latest
+
+ACER@DESKTOP-E1E9EHH MINGW64 /c/Program Files/Docker Toolbox
+$ docker images
+REPOSITORY                   TAG                 IMAGE ID            CREATED             SIZE
+selenium/standalone-chrome   latest              da74f3fdcfe2        24 hours ago        852MB
+selenium/node-base           latest              f2e38c88f855        24 hours ago        431MB
+selenium/base                latest              4880906d525b        24 hours ago        263MB
+selenium/node-chrome-debug   latest              1a195a0706de        2 months ago        871MB
+selenium/hub                 latest              4d13e18756fe        2 months ago        263MB
+hello-world                  latest              fce289e99eb9        9 months ago        1.84kB
+
+ACER@DESKTOP-E1E9EHH MINGW64 /c/Program Files/Docker Toolbox
+$ docker pull jenkins
+Using default tag: latest
+latest: Pulling from library/jenkins
+55cbf04beb70: Pull complete                                                                                                                                                                                        1607093a898c: Pull complete                                                                                                                                                                                        9a8ea045c926: Pull complete                                                                                                                                                                                        d4eee24d4dac: Pull complete                                                                                                                                                                                        c58988e753d7: Pull complete                                                                                                                                                                                        794a04897db9: Pull complete                                                                                                                                                                                        70fcfa476f73: Pull complete                                                                                                                                                                                        0539c80a02be: Pull complete                                                                                                                                                                                        54fefc6dcf80: Pull complete                                                                                                                                                                                        911bc90e47a8: Pull complete                                                                                                                                                                                        38430d93efed: Pull complete                                                                                                                                                                                        7e46ccda148a: Pull complete                                                                                                                                                                                        c0cbcb5ac747: Pull complete                                                                                                                                                                                        35ade7a86a8e: Pull complete                                                                                                                                                                                        aa433a6a56b1: Pull complete                                                                                                                                                                                        841c1dd38d62: Pull complete                                                                                                                                                                                        b865dcb08714: Pull complete                                                                                                                                                                                        5a3779030005: Pull complete                                                                                                                                                                                        12b47c68955c: Pull complete                                                                                                                                                                                        1322ea3e7bfd: Pull complete                                                                                                                                                                                        Digest: sha256:eeb4850eb65f2d92500e421b430ed1ec58a7ac909e91f518926e02473904f668
+Status: Downloaded newer image for jenkins:latest
+docker.io/library/jenkins:latest
+
+ACER@DESKTOP-E1E9EHH MINGW64 /c/Program Files/Docker Toolbox
+$ docker images
+REPOSITORY                   TAG                 IMAGE ID            CREATED             SIZE
+selenium/standalone-chrome   latest              da74f3fdcfe2        24 hours ago        852MB
+selenium/node-base           latest              f2e38c88f855        24 hours ago        431MB
+selenium/base                latest              4880906d525b        24 hours ago        263MB
+selenium/node-chrome-debug   latest              1a195a0706de        2 months ago        871MB
+selenium/hub                 latest              4d13e18756fe        2 months ago        263MB
+hello-world                  latest              fce289e99eb9        9 months ago        1.84kB
+jenkins                      latest              cd14cecfdb3a        15 months ago       696MB
+
+ACER@DESKTOP-E1E9EHH MINGW64 /c/Program Files/Docker Toolbox
+$ docker ps -a
+CONTAINER ID        IMAGE                        COMMAND                  CREATED             STATUS                     PORTS                     NAMES
+2c764a8c2c76        selenium/standalone-chrome   "/opt/bin/entry_poin…"   29 minutes ago      Up 28 minutes              4444/tcp                  nostalgic_archimedes
+3390c37476b3        selenium/hub                 "/opt/bin/entry_poin…"   6 weeks ago         Created                                              selenium-hub
+e61cab506419        selenium/node-chrome-debug   "/opt/bin/entry_poin…"   6 weeks ago         Exited (255) 2 hours ago   0.0.0.0:32768->5900/tcp   dreamy_pascal
+78a62ed35e71        selenium/hub                 "/opt/bin/entry_poin…"   6 weeks ago         Exited (255) 2 hours ago   0.0.0.0:4545->4444/tcp    seleniumjitu-hub
+23ba11524927        hello-world                  "/hello"                 7 weeks ago         Exited (0) 7 weeks ago                               friendly_euclid
+
+ACER@DESKTOP-E1E9EHH MINGW64 /c/Program Files/Docker Toolbox
+$ docker run -d -p 4545:4444 -name selenium-demo selenium/hub
+unknown shorthand flag: 'n' in -name
+See 'docker run --help'.
+
+ACER@DESKTOP-E1E9EHH MINGW64 /c/Program Files/Docker Toolbox
+$ docker run -d -p 4545:4444 -name selenium-hub selenium/hub
+unknown shorthand flag: 'n' in -name
+See 'docker run --help'.
+
+ACER@DESKTOP-E1E9EHH MINGW64 /c/Program Files/Docker Toolbox
+$ docker ps -a
+CONTAINER ID        IMAGE                        COMMAND                  CREATED             STATUS                     PORTS                     NAMES
+2c764a8c2c76        selenium/standalone-chrome   "/opt/bin/entry_poin…"   31 minutes ago      Up 31 minutes              4444/tcp                  nostalgic_archimedes
+3390c37476b3        selenium/hub                 "/opt/bin/entry_poin…"   6 weeks ago         Created                                              selenium-hub
+e61cab506419        selenium/node-chrome-debug   "/opt/bin/entry_poin…"   6 weeks ago         Exited (255) 2 hours ago   0.0.0.0:32768->5900/tcp   dreamy_pascal
+78a62ed35e71        selenium/hub                 "/opt/bin/entry_poin…"   6 weeks ago         Exited (255) 2 hours ago   0.0.0.0:4545->4444/tcp    seleniumjitu-hub
+23ba11524927        hello-world                  "/hello"                 7 weeks ago         Exited (0) 7 weeks ago                               friendly_euclid
+
+ACER@DESKTOP-E1E9EHH MINGW64 /c/Program Files/Docker Toolbox
+$ docker rm 3390c37476b3
+3390c37476b3
+
+ACER@DESKTOP-E1E9EHH MINGW64 /c/Program Files/Docker Toolbox
+$ docker run -d -p 4546:4444 -name selenium-hub selenium/hub
+unknown shorthand flag: 'n' in -name
+See 'docker run --help'.
+
+ACER@DESKTOP-E1E9EHH MINGW64 /c/Program Files/Docker Toolbox
+$ docker run -d -p 4546:4444 -name selenium-hub selenium/hub
+unknown shorthand flag: 'n' in -name
+See 'docker run --help'.
+
+ACER@DESKTOP-E1E9EHH MINGW64 /c/Program Files/Docker Toolbox
+$ docker run -d -p 4546:4444 --name selenium-demohub selenium/hub
+3e2c1803d8cf67c0e7162013db2ac52b3143bf7b819f2a6ca8523254731681a8
+
+ACER@DESKTOP-E1E9EHH MINGW64 /c/Program Files/Docker Toolbox
+$ docker run -d -P --link  selenium-demohub:hub selenium/node-chrome-debug
+1ad3632894b3557e65d59b97f2c4c13b2e2e671de6f56db1721ed1d71cad3143
+
+ACER@DESKTOP-E1E9EHH MINGW64 /c/Program Files/Docker Toolbox
+$ docker ps -a
+CONTAINER ID        IMAGE                        COMMAND                  CREATED             STATUS                     PORTS                     NAMES
+1ad3632894b3        selenium/node-chrome-debug   "/opt/bin/entry_poin…"   2 minutes ago       Up 2 minutes               0.0.0.0:32768->5900/tcp   quizzical_leakey
+3e2c1803d8cf        selenium/hub                 "/opt/bin/entry_poin…"   10 minutes ago      Up 10 minutes              0.0.0.0:4546->4444/tcp    selenium-demohub
+2c764a8c2c76        selenium/standalone-chrome   "/opt/bin/entry_poin…"   47 minutes ago      Up About an hour           4444/tcp                  nostalgic_archimedes
+e61cab506419        selenium/node-chrome-debug   "/opt/bin/entry_poin…"   6 weeks ago         Exited (255) 3 hours ago   0.0.0.0:32768->5900/tcp   dreamy_pascal
+78a62ed35e71        selenium/hub                 "/opt/bin/entry_poin…"   6 weeks ago         Exited (255) 3 hours ago   0.0.0.0:4545->4444/tcp    seleniumjitu-hub
+23ba11524927        hello-world                  "/hello"                 7 weeks ago         Exited (0) 7 weeks ago                               friendly_euclid
+
+ACER@DESKTOP-E1E9EHH MINGW64 /c/Program Files/Docker Toolbox
+$ localhost:32769localhost:32769
